@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Bibliothèque Discogs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root{
+      --bg:#0b0d12;
+      --text:#e9edf5;
+      --muted:#9aa4b2;
+      --stroke:rgba(255,255,255,.08);
+      --radius: 18px;
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background:radial-gradient(1200px 600px at 20% 0%, #121a2e 0%, var(--bg) 45%), var(--bg);
+      color:var(--text);
+    }
+    header{
+      position:sticky; top:0; z-index:10;
+      padding:18px 16px 12px;
+      background:linear-gradient(to bottom, rgba(11,13,18,.92), rgba(11,13,18,.75));
+      backdrop-filter: blur(8px);
+      border-bottom:1px solid var(--stroke);
+    }
+    .topline{ display:flex; align-items:center; gap:12px; margin-bottom:12px; }
+    .brand{ font-weight:800; letter-spacing:.2px; }
+    .badge{ font-size:12px; color:var(--muted); padding:6px 10px; border:1px solid var(--stroke); border-radius:999px; background:rgba(255,255,255,.03); }
+    input{
+      width:100%; padding:12px 14px;
+      border-radius:14px; border:1px solid var(--stroke);
+      background:rgba(255,255,255,.03);
+      color:var(--text);
+      outline:none;
+    }
+    input:focus{ border-color:rgba(255,255,255,.18); }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+      gap:14px;
+      padding:16px;
+      max-width:1200px;
+      margin:0 auto;
+    }
+    .card {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 2px solid #ffffff; /* liseré blanc permanent */
+      transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 25px rgba(255, 211, 107, 0.6); /* surbrillance dorée */
+      border-color: #ffd36b; /* bordure dorée au survol */
+    }
+
+    .coverWrap{ position:relative; }
+    .cover{
+      width:100%;
+      aspect-ratio:1/1;
+      object-fit:cover;
+      display:block;
+      background: #0e1220;
+    }
+    .shine{
+      position:absolute; inset:0;
+      background: radial-gradient(600px 260px at 20% 0%, rgba(255,255,255,.10), transparent 55%);
+      pointer-events:none;
+    }
+    .meta{ padding:12px 12px 14px; text-align:center; }
+    .artist {
+      display: block;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--text);
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.6); /* effet léger 3D */
+    }
+    .separator {
+      width: 70px; /* plus long */
+      height: 1px; /* plus fin */
+      background: #ffd36b; /* doré */
+      margin: 8px auto;
+      border-radius: 2px;
+    }
+    .title{
+      font-weight:800; font-size:15px; line-height:1.2;
+      margin:0 0 6px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.6); /* effet léger 3D */
+    }
+    .year {
+      display: block;
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .empty{ color:var(--muted); padding:18px; text-align:center; }
+
+    .stars { font-size:20px; letter-spacing:2px; margin-top:8px; text-align:center; }
+    .stars .on { color:#ffd36b; text-shadow: 1px 1px 2px #000; }
+    .stars .off { color:rgba(255,255,255,.25); text-shadow: 1px 1px 2px #000; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="topline">
+    <div class="brand">Bibliothèque Discogs</div>
+    <div class="badge" id="count">…</div>
+  </div>
+  <input id="q" placeholder="Rechercher artiste, titre, année…" />
+</header>
+
+<div class="grid" id="grid"></div>
+
+<script>
+function starsHtml(n){
+  const v = Math.max(0, Math.min(5, Number(n) || 0));
+  let s = '';
+  for (let i=1;i<=5;i++){
+    s += i <= v ? `<span class="on">★</span>` : `<span class="off">☆</span>`;
+  }
+  return `<div class="stars">${s}</div>`;
+}
+
+fetch('data/export.json?v=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    const items = data.items || [];
+    const grid = document.getElementById('grid');
+    const q = document.getElementById('q');
+    const count = document.getElementById('count');
+    count.textContent = `${items.length} albums`;
+
+    function render(list){
+      grid.innerHTML = '';
+      if (!list.length){
+        grid.innerHTML = `<div class="empty">Aucun résultat.</div>`;
+        return;
+      }
+      list.forEach(a => {
+        const d = document.createElement('div');
+        d.className = 'card';
+        d.onclick = () => location.href = `album.html?slug=${encodeURIComponent(a.slug)}`;
+        d.innerHTML = `
+          <div class="coverWrap">
+            <img class="cover" src="${a.cover_image || ''}" alt="${a.titre || ''} - ${a.artiste || ''}">
+            <div class="shine"></div>
+          </div>
+          <div class="meta">
+            <span class="artist">${a.artiste || ''}</span>
+            <div class="separator"></div>
+            <p class="title">${a.titre || ''}</p>
+            <span class="year">${a.annee ?? ''}</span>
+            ${starsHtml(a.rating || 0)}
+          </div>`;
+        grid.appendChild(d);
+      });
+    }
+
+    render(items);
+
+    q.oninput = () => {
+      const s = q.value.trim().toLowerCase();
+      if (!s) return render(items);
+      render(items.filter(a =>
+        (a.artiste || '').toLowerCase().includes(s) ||
+        (a.titre || '').toLowerCase().includes(s) ||
+        String(a.annee ?? '').includes(s)
+      ));
+    };
+  });
+</script>
+</body>
+</html>
