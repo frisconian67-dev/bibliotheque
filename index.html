@@ -120,13 +120,18 @@
 
 <script>
 function starsHtml(n){
-  const v = Math.max(0, Math.min(5, Number(n) || 0));
+  if (n === null || n === undefined || n === "") return ""; // non noté → rien affiché
+
+  const v = Math.max(0, Math.min(5, Number(n)));
   let s = '';
-  for (let i=1;i<=5;i++){
-    s += i <= v ? `<span class="on">★</span>` : `<span class="off">☆</span>`;
+  for (let i = 1; i <= 5; i++){
+    s += i <= v
+      ? `<span class="on">★</span>`
+      : `<span class="off">☆</span>`;
   }
   return `<div class="stars">${s}</div>`;
 }
+
 
 fetch('data/export.json?v=' + Date.now())
   .then(r => r.json())
@@ -157,7 +162,8 @@ fetch('data/export.json?v=' + Date.now())
             <div class="separator"></div>
             <p class="title">${a.titre || ''}</p>
             <span class="year">${a.annee ?? ''}</span>
-            ${starsHtml(a.rating || 0)}
+            ${starsHtml(a.stars)}
+
           </div>`;
         grid.appendChild(d);
       });
