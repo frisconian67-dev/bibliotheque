@@ -64,7 +64,6 @@
       border-radius: 20px;
       padding: 1.5rem;
       box-shadow: 8px 8px 20px #000, -8px -8px 20px #333;
-      animation: floatBox 6s infinite alternate;
     }
     @keyframes floatBox {
       from { transform: perspective(600px) rotateX(2deg) translateY(0); }
@@ -204,14 +203,17 @@ ol.tracks {
         .replaceAll("'","&#039;");
     }
 
-    function stars(n){
-      n = Math.max(0, Math.min(5, Number(n) || 0));
-      let s = "";
-      for(let i=1;i<=5;i++){
-        s += `<span class="star">${i<=n ? "★" : "☆"}</span>`;
-      }
-      return `<div class="stars">${s}</div>`;
-    }
+   function stars(n){
+  if (n === null || n === undefined || n === "") return ""; // non noté → rien
+
+  const v = Math.max(0, Math.min(5, Number(n)));
+  let s = "";
+  for (let i = 1; i <= 5; i++){
+    s += `<span class="star">${i <= v ? "★" : "☆"}</span>`;
+  }
+  return `<div class="stars">${s}</div>`;
+}
+
 
     // Fonction de rendu de la tracklist
     function renderTracklist(tracklist) {

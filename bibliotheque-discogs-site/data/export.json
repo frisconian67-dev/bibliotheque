@@ -1,14 +1,13 @@
 {
-  "generatedAt": "2025-12-15T22:54:01.126Z",
-  "count": 216,
+  "generatedAt": "2025-12-16T09:46:49.476Z",
+  "count": 239,
   "items": [
     {
-      "slug": "dubee-aka-sugawolf-100-g-sh-t-2001",
+      "slug": "q-2-the-man-with-the-plan-1995",
       "artiste": "\"Q\" (2)",
       "titre": "The Man With The Plan",
       "annee": 1995,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -69,11 +68,285 @@
       "cover_image": "https://i.discogs.com/E5QT51me-xkyIvheAp0qbdPLFhGiU55YK0DZsPsqrR4/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzI5/MjItMTU2MTk4Nzg2/NS0xNDE3LmpwZWc.jpeg"
     },
     {
-      "slug": "2pac-strictly-4-my-n-i-g-g-a-z-1993",
+      "slug": "1-gud-cide-look-what-the-streets-made-1995",
+      "artiste": "1 Gud Cide",
+      "titre": "Look What The Streets Made",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Intro",
+          "dur": ""
+        },
+        {
+          "pos": "2",
+          "title": "Time To Be A Man",
+          "dur": ""
+        },
+        {
+          "pos": "3",
+          "title": "Convictin It",
+          "dur": ""
+        },
+        {
+          "pos": "4",
+          "title": "Makin It Right",
+          "dur": ""
+        },
+        {
+          "pos": "5",
+          "title": "Game Of Life",
+          "dur": ""
+        },
+        {
+          "pos": "6",
+          "title": "Mama Told Me",
+          "dur": ""
+        },
+        {
+          "pos": "7",
+          "title": "Remember Me",
+          "dur": ""
+        },
+        {
+          "pos": "8",
+          "title": "Skitt",
+          "dur": ""
+        },
+        {
+          "pos": "9",
+          "title": "Years Ago",
+          "dur": ""
+        },
+        {
+          "pos": "10",
+          "title": "Loco Vs State",
+          "dur": ""
+        },
+        {
+          "pos": "11",
+          "title": "Let Them Colors Go",
+          "dur": ""
+        },
+        {
+          "pos": "12",
+          "title": "Brothers",
+          "dur": ""
+        },
+        {
+          "pos": "13",
+          "title": "Going Crazy",
+          "dur": ""
+        },
+        {
+          "pos": "14",
+          "title": "Where Do I Go",
+          "dur": ""
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/3758096",
+      "release_id": "3758096",
+      "resource_url": "https://api.discogs.com/releases/3758096",
+      "cover_image": "https://i.discogs.com/1Dqlvn4yRsoZh936TjycVHrq3pKuCOab6LNLaVxggYA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTgw/OTYtMTQ5MTA3MDQ2/Ny04OTI4LmpwZWc.jpeg"
+    },
+    {
+      "slug": "1-gud-cide-look-what-the-streets-made-1996",
+      "artiste": "1 Gud Cide",
+      "titre": "Look What The Streets Made",
+      "annee": 1996,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Intro",
+          "dur": "2:03"
+        },
+        {
+          "pos": "2",
+          "title": "Time To Be A Man",
+          "dur": "4:31"
+        },
+        {
+          "pos": "3",
+          "title": "Convictin It",
+          "dur": "4:24"
+        },
+        {
+          "pos": "4",
+          "title": "Makin It Right",
+          "dur": "4:03"
+        },
+        {
+          "pos": "5",
+          "title": "Game Of Life",
+          "dur": "6:47"
+        },
+        {
+          "pos": "6",
+          "title": "Mama Told Me",
+          "dur": "3:31"
+        },
+        {
+          "pos": "7",
+          "title": "Remember Me",
+          "dur": "4:40"
+        },
+        {
+          "pos": "8",
+          "title": "Skitt",
+          "dur": "2:50"
+        },
+        {
+          "pos": "9",
+          "title": "Years Ago",
+          "dur": "4:57"
+        },
+        {
+          "pos": "10",
+          "title": "Loco Vs State",
+          "dur": "5:15"
+        },
+        {
+          "pos": "11",
+          "title": "Let Them Colors Go",
+          "dur": "4:45"
+        },
+        {
+          "pos": "12",
+          "title": "Brothers",
+          "dur": "5:11"
+        },
+        {
+          "pos": "13",
+          "title": "Going Crazy",
+          "dur": "5:48"
+        },
+        {
+          "pos": "14",
+          "title": "Where Do I Go",
+          "dur": "4:02"
+        },
+        {
+          "pos": "15",
+          "title": "Terror In The Gulf Coast (Bonus Track)",
+          "dur": "5:33"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/1207192",
+      "release_id": "1207192",
+      "resource_url": "https://api.discogs.com/releases/1207192",
+      "cover_image": "https://i.discogs.com/s4J1zOi9W9LMVoSjgTVc1Uf2YY1eekDUhn-bY1Z5qXA/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDcx/OTItMTYzODQ0ODQy/OC03Njk3LmpwZWc.jpeg"
+    },
+    {
+      "slug": "1-gud-cide-contradictions-1997",
+      "artiste": "1 Gud Cide",
+      "titre": "Contradictions",
+      "annee": 1997,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Hog Ball",
+          "dur": ""
+        },
+        {
+          "pos": "2",
+          "title": "Terror In The Gulf",
+          "dur": ""
+        },
+        {
+          "pos": "3",
+          "title": "Contradictions",
+          "dur": ""
+        },
+        {
+          "pos": "4",
+          "title": "Keep It Crunk",
+          "dur": ""
+        },
+        {
+          "pos": "5",
+          "title": "Systemized",
+          "dur": ""
+        },
+        {
+          "pos": "6",
+          "title": "White Girl",
+          "dur": ""
+        },
+        {
+          "pos": "7",
+          "title": "Where Dae At",
+          "dur": ""
+        },
+        {
+          "pos": "8",
+          "title": "Imagine If",
+          "dur": ""
+        },
+        {
+          "pos": "9",
+          "title": "Who They Riding With",
+          "dur": ""
+        },
+        {
+          "pos": "10",
+          "title": "Hell On Earth",
+          "dur": ""
+        },
+        {
+          "pos": "11",
+          "title": "Who They Gone Judge",
+          "dur": ""
+        },
+        {
+          "pos": "12",
+          "title": "Edge Of Death",
+          "dur": ""
+        },
+        {
+          "pos": "13",
+          "title": "Bad Dreams",
+          "dur": ""
+        },
+        {
+          "pos": "14",
+          "title": "Bury Me Or Burn Me",
+          "dur": ""
+        },
+        {
+          "pos": "15",
+          "title": "Taddle Tales (Syrup Remix)",
+          "dur": ""
+        },
+        {
+          "pos": "16",
+          "title": "Block Busta Skitt",
+          "dur": ""
+        },
+        {
+          "pos": "17",
+          "title": "Akabaka Skitt",
+          "dur": ""
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/3758104",
+      "release_id": "3758104",
+      "resource_url": "https://api.discogs.com/releases/3758104",
+      "cover_image": "https://i.discogs.com/3v4u4BY92rtrHYgnTI4fno7McgV8cGBK-RZvkps0T9I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTgx/MDQtMTQ5ODA4NzIx/Ni0zMjYwLmpwZWc.jpeg"
+    },
+    {
+      "slug": "10sion-10sion-2002",
       "artiste": "10sion",
       "titre": "10sion",
       "annee": 2002,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -150,11 +423,10 @@
       "cover_image": "https://i.discogs.com/41qi--IpUas-aBSsahrUoMYlnpZDuCIgMPaZl1Vo6jU/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwOTE1/NTktMTI2MzUwNTQx/Ni5qcGVn.jpeg"
     },
     {
-      "slug": "bink-2-something-2-ride-to-1999",
+      "slug": "11-5-fiendin-4-tha-funk-1995",
       "artiste": "11/5",
       "titre": "Fiendin' 4 Tha Funk",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -231,11 +503,10 @@
       "cover_image": "https://i.discogs.com/cClWzbODznugxwfAjjLzC9_6Jdvl8-RXhpnsBLwZN7g/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMTE0/NDYtMTQwODc3ODUx/OS0xOTE4LmpwZWc.jpeg"
     },
     {
-      "slug": "black-9-black-9-1995",
+      "slug": "11-5-fiendin-4-tha-funk-radio-edits-1995",
       "artiste": "11/5",
       "titre": "Fiendin' 4 Tha Funk: Radio Edits",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -267,11 +538,10 @@
       "cover_image": "https://i.discogs.com/8yxZW81TD_MDka7J3fwTJegv2zDhMAqkB-HK-xuvtws/rs:fit/g:sm/q:90/h:580/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2OTA5/NTEtMTY4MDU1NTU3/Mi04MDY5LmpwZWc.jpeg"
     },
     {
-      "slug": "bloods-crips-bangin-on-wax-1993",
+      "slug": "11-5-a-1-yola-1996",
       "artiste": "11/5",
       "titre": "A-1 Yola",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -353,12 +623,11 @@
       "cover_image": "https://i.discogs.com/POSeV4Lad-VN0GhoI6Da_1Q3etgx2AAHYbUMyM7CPnw/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwODI2/NS0xNjYzNDIzOTQ0/LTM1ODEuanBlZw.jpeg"
     },
     {
-      "slug": "bombshell-5-it-s-in-my-nature-1996",
+      "slug": "11-5-collections-bootlegs-g-sides-1997",
       "artiste": "11/5",
       "titre": "Collections: Bootlegs & G-Sides",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -449,11 +718,10 @@
       "cover_image": "https://i.discogs.com/KjAbDhlKGCSwHEUHO8KPQ-n23Cx0s-jhR14t2HIXPqM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NjU5/NTItMTU3NzY2NjMx/NS0yNDY4LmpwZWc.jpeg"
     },
     {
-      "slug": "big-mack-a-better-way-1995",
+      "slug": "11-5-the-overdose-2000",
       "artiste": "11/5",
       "titre": "The Overdose",
       "annee": 2000,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -545,11 +813,10 @@
       "cover_image": "https://i.discogs.com/FFTWH1e7TTg709etSm-1VT7ArDXnH7Cjaz_hYuhf-R0/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3MDIz/My0xNTYwMDE5MjY2/LTU0NTYuanBlZw.jpeg"
     },
     {
-      "slug": "streethugs-not-to-be-fu-ed-with-1996",
+      "slug": "11-5-after-the-drama-2001",
       "artiste": "11/5",
       "titre": "After The Drama",
       "annee": 2001,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -626,11 +893,10 @@
       "cover_image": "https://i.discogs.com/Rf1vpXHcVkxkinbe5D59_XwdfgfxnHyQsVdNv6FD0lM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NTA4/NDctMTU4NjE2MDUz/MS04MzMxLmpwZWc.jpeg"
     },
     {
-      "slug": "50-cent-animal-ambition-an-untamed-desire-to-win-2014",
+      "slug": "2-of-the-crew-dankaristic-pimpshit-1997",
       "artiste": "2 Of The Crew",
       "titre": "Dankaristic Pimpshit",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -717,12 +983,11 @@
       "cover_image": "https://i.discogs.com/QJcp1Mzeh-rqFdlWLnwn2p_dBgw7IxCw5mX81i7QLgA/rs:fit/g:sm/q:90/h:545/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4ODUx/NDQtMTMwNTY0MjQ3/OC5qcGVn.jpeg"
     },
     {
-      "slug": "dgsb-the-album-1995",
+      "slug": "2-11-ounce-of-game-1996",
       "artiste": "2-11",
       "titre": "Ounce Of Game",
       "annee": 1996,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -793,11 +1058,10 @@
       "cover_image": "https://i.discogs.com/wxwh4XKap5MGWD-tR7LmpiSkuOTMadQIQbWhwnFmLo0/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMDkw/MDUtMTQwMzAwNzE1/Ny0zMTM4LmpwZWc.jpeg"
     },
     {
-      "slug": "damu-ridas-damu-ridas-1995",
+      "slug": "2-11-ounce-of-game-2014",
       "artiste": "2-11",
       "titre": "Ounce Of Game",
       "annee": 2014,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -984,11 +1248,10 @@
       "cover_image": "https://i.discogs.com/fCxTs9qVrwMOXCPMfRWCf_N9L2ioIJurps6iKODHc_A/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3MzEy/ODUtMTQyNTQ5Mjcy/NC05NTIyLmpwZWc.jpeg"
     },
     {
-      "slug": "hollow-tip-takin-no-shortz-1998",
+      "slug": "2-def-str-8-doin-tha-fool-1997",
       "artiste": "2-Def",
       "titre": "Str-8 Doin Tha Fool",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -1060,12 +1323,11 @@
       "cover_image": "https://i.discogs.com/8069tRp2cfYnUMldA9xUDC7GLAahLF5wNnCulc8VFGw/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyMTEz/Ni0xMzk0MjcxOTAw/LTM3MDAuanBlZw.jpeg"
     },
     {
-      "slug": "triple-6-hustlin-4-my-paper",
+      "slug": "211-2-hustlin-pays-tha-bills-2021",
       "artiste": "211 (2)",
       "titre": "Hustlin Pays Tha Bills",
       "annee": 2021,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -1136,11 +1398,10 @@
       "cover_image": "https://i.discogs.com/IHynHaki0OgYhLUO7I948JhQpSkYWfAuL6q4OUVahJE/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4ODE3/ODI1LTE2MjE1OTIw/NjctNDc1Mi5qcGVn.jpeg"
     },
     {
-      "slug": "kill-kill-kill-kill-1995",
+      "slug": "2pac-2pacalypse-now-1991",
       "artiste": "2Pac",
       "titre": "2Pacalypse Now ",
       "annee": 1991,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -1217,11 +1478,10 @@
       "cover_image": "https://i.discogs.com/4iX95XW3QbymTX-kS1x3ajtAc2Ell4xlErLbRydg5pw/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzNTQy/MjgtMTY2MjgxNjA2/NC00MTYxLmpwZWc.jpeg"
     },
     {
-      "slug": "jet-3-tha-block-2011",
+      "slug": "2pac-strictly-4-my-n-i-g-g-a-z-1993",
       "artiste": "2Pac",
       "titre": "Strictly 4 My N.I.G.G.A.Z...",
       "annee": 1993,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -1313,11 +1573,10 @@
       "cover_image": "https://i.discogs.com/mqtb1HaYDegXlfN_yyE5Cmcyn3dIrD3-3PBVAhBLkkM/rs:fit/g:sm/q:90/h:520/w:513/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTAw/MzgwLTE1NjM3Mjky/ODMtMTE2MC5qcGVn.jpeg"
     },
     {
-      "slug": "jezreel-sick-and-tired-of-be-en-broke-1994",
+      "slug": "2pac-me-against-the-world-1995",
       "artiste": "2Pac",
       "titre": "Me Against The World",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -1404,11 +1663,10 @@
       "cover_image": "https://i.discogs.com/dG-VGNZ2gPnHYELkmHHXRSzOI8ehQdMWgUcpAqLLI_I/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODk5/MzY2LTE1MjQzNjU3/NjEtOTA4OS5qcGVn.jpeg"
     },
     {
-      "slug": "kazy-d-a-letter-from-tha-grave-1995",
+      "slug": "2pac-all-eyez-on-me-1996",
       "artiste": "2Pac",
       "titre": "All Eyez On Me",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -1555,11 +1813,10 @@
       "cover_image": "https://i.discogs.com/LdfmSiasPclUjTjicktS9k_WTb85dNNgE-A_4fsexTA/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNjQz/MC0xNTM4MDI0NDY0/LTU3MzYucG5n.jpeg"
     },
     {
-      "slug": "lil-one-once-in-a-decade-1997",
+      "slug": "2pac-r-u-still-down-remember-me-1997",
       "artiste": "2Pac",
       "titre": "R U Still Down? [Remember Me]",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -1701,11 +1958,10 @@
       "cover_image": "https://i.discogs.com/dU_w2rEFoVv2VGiLNsN1CQl5sdzvwDUXZlA6GNt1YDw/rs:fit/g:sm/q:90/h:525/w:522/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMzI3/OTQtMTMxMjU5MDk2/Ny5qcGVn.jpeg"
     },
     {
-      "slug": "infinite-mass-alwayz-somethang-1997",
+      "slug": "2pac-still-i-rise-1999",
       "artiste": "2Pac",
       "titre": "Still I Rise",
       "annee": 1999,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -1792,11 +2048,10 @@
       "cover_image": "https://i.discogs.com/9D8U1v6hqEOBwZXRFCD_7K_zh4ycW-cSlBqURuH0PA4/rs:fit/g:sm/q:90/h:298/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMjk0/NzgtMTE5NDQyNzM5/OC5qcGVn.jpeg"
     },
     {
-      "slug": "11-5-the-overdose-2000",
+      "slug": "2pac-until-the-end-of-time-2001",
       "artiste": "2Pac",
       "titre": "Until The End Of Time",
       "annee": 2001,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -1953,11 +2208,10 @@
       "cover_image": "https://i.discogs.com/zD5nxrCR0rNEt8u9yo7lXAbvcx4Loc3SrlR2C325aiE/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMDUz/OS0xMzQ3NDQyMjg3/LTQxNTcuanBlZw.jpeg"
     },
     {
-      "slug": "jako-2-creepshow",
+      "slug": "2pac-better-dayz-2002",
       "artiste": "2Pac",
       "titre": "Better Dayz",
       "annee": 2002,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -2104,11 +2358,10 @@
       "cover_image": "https://i.discogs.com/vIdiRhW7vj1ziF5ykc0SiZPfPr12RLy1MUCtrutQZBo/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MjU4/NTkxLTE1ODg3OTU5/MDQtNDE2My5qcGVn.jpeg"
     },
     {
-      "slug": "bullet-24-can-i-go-1998",
+      "slug": "2pac-live-at-the-house-of-blues-2005",
       "artiste": "2Pac",
       "titre": "Live At The House Of Blues",
       "annee": 2005,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -2245,11 +2498,10 @@
       "cover_image": "https://i.discogs.com/FL-w7g2mgbrXgkxPIEJc4Bk2AWvvStPLiiXfZMyhX68/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5Nzg1/MTgtMTQzNDQ3MTAy/NS04MTY0LmpwZWc.jpeg"
     },
     {
-      "slug": "n-a-p-2-nappy-city-heavyweights-2002",
+      "slug": "3x-krazy-stackin-chips-1997",
       "artiste": "3X Krazy",
       "titre": "Stackin Chips",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -2341,12 +2593,86 @@
       "cover_image": "https://i.discogs.com/IC8AJhFqtnkSwyavMP0fnNyl18U6O_qyRCjCASD9VSg/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3MDI0/NS0xNjg0MDc1ODAz/LTkxNTUuanBlZw.jpeg"
     },
     {
-      "slug": "mad-cj-mac-true-game-1995",
+      "slug": "4-tray-block-up-in-tha-pocket-2022",
+      "artiste": "4 Tray Block",
+      "titre": "Up In Tha Pocket",
+      "annee": 2022,
+      "stars": 3,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Valley Of The Smoking Gats",
+          "dur": ""
+        },
+        {
+          "pos": "2",
+          "title": "Cowards Don't Live Long",
+          "dur": ""
+        },
+        {
+          "pos": "3",
+          "title": "Drunk With A Playa",
+          "dur": ""
+        },
+        {
+          "pos": "4",
+          "title": "Sactown Hog",
+          "dur": ""
+        },
+        {
+          "pos": "5",
+          "title": "Did I Get A Page (Commercial)",
+          "dur": ""
+        },
+        {
+          "pos": "6",
+          "title": "Sacramento Nights",
+          "dur": ""
+        },
+        {
+          "pos": "7",
+          "title": "Up In Tha Pocket",
+          "dur": ""
+        },
+        {
+          "pos": "8",
+          "title": "Genocidal City",
+          "dur": ""
+        },
+        {
+          "pos": "9",
+          "title": "Livin' Low",
+          "dur": ""
+        },
+        {
+          "pos": "10",
+          "title": "Real (Wit Tha Rile'z)",
+          "dur": ""
+        },
+        {
+          "pos": "11",
+          "title": "Nico's Voice Mail (Commercial)",
+          "dur": ""
+        },
+        {
+          "pos": "12",
+          "title": "High Mission",
+          "dur": ""
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/22595255",
+      "release_id": "22595255",
+      "resource_url": "https://api.discogs.com/releases/22595255",
+      "cover_image": "https://i.discogs.com/YCl-JlIApjGd7jbu3YVlgQ7EpIaQGnu8IwDfWH0kBho/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNTk1/MjU1LTE2NDg1NDEy/MzItNDIyOC5qcGVn.jpeg"
+    },
+    {
+      "slug": "40-thevz-honor-amongst-thevz-1997",
       "artiste": "40 Thevz",
       "titre": "Honor Amongst Thevz",
       "annee": 1997,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -2432,11 +2758,10 @@
       "cover_image": "https://i.discogs.com/xnCb4Y7FynHKHLpj0Vcno6hMolApnvm-tLV1TnbkbZg/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDEx/NDc0LTE0OTAxMTAy/MzItOTc1My5qcGVn.jpeg"
     },
     {
-      "slug": "2pac-2pacalypse-now-1991",
+      "slug": "44-clique-mindofa44-1995",
       "artiste": "44 Clique",
       "titre": "(Mindofa44)",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -2513,12 +2838,11 @@
       "cover_image": "https://i.discogs.com/02Ra29lar76hugbKRaqwmAnKTlSmD6wEdm8mLlJ-QIs/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NjEx/MjMtMTQ4ODYxODM0/Ni02NjMyLmpwZWc.jpeg"
     },
     {
-      "slug": "sub-zero-7-s-m-d-sacramento-s-most-dangerous-vol-i",
+      "slug": "50-cent-the-massacre-2005",
       "artiste": "50 Cent",
       "titre": "The Massacre",
       "annee": 2005,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -2634,12 +2958,11 @@
       "cover_image": "https://i.discogs.com/B0vkuzq2qTcmP2ahioU6604S0rlog9_DVGSDhgI5DQc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNzI0/ODYtMTQyOTQ4MzA4/Ni03MTcyLnBuZw.jpeg"
     },
     {
-      "slug": "kilo-g-the-bloody-city-1995",
+      "slug": "50-cent-before-i-self-destruct-2009",
       "artiste": "50 Cent",
       "titre": "Before I Self Destruct",
       "annee": 2009,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -2735,12 +3058,11 @@
       "cover_image": "https://i.discogs.com/rqjOgj_B7wHF9d3p_UCz22sjBWWMXu0bo_u0YozrpLY/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4NTUx/ODctMTQ2MDgwNjg4/MS03MzQzLmpwZWc.jpeg"
     },
     {
-      "slug": "e-mack-7-16-minutes-with-an-o-g-1997",
+      "slug": "50-cent-animal-ambition-an-untamed-desire-to-win-2014",
       "artiste": "50 Cent",
       "titre": "Animal Ambition (An Untamed Desire To Win)",
       "annee": 2014,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -2806,11 +3128,10 @@
       "cover_image": "https://i.discogs.com/ojeurCOC4PCQvfYBvI5iAyG4E4mIZWjR5xdzYzbQ3Fo/rs:fit/g:sm/q:90/h:475/w:475/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NTY3/NDUtMTQwMTgwODA4/NS0yODM3LmpwZWc.jpeg"
     },
     {
-      "slug": "rondo-the-abused-1994",
+      "slug": "5th-ward-boyz-ghetto-dope-1993",
       "artiste": "5th Ward Boyz",
       "titre": "Ghetto Dope",
       "annee": 1993,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -2897,11 +3218,10 @@
       "cover_image": "https://i.discogs.com/SaWA2bK6E9dnTvkhR_k1BWyNqoDGtD1SRVQxwm1wLCA/rs:fit/g:sm/q:90/h:497/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMDA1/Ni0xMTI0MTg1NjMx/LmpwZw.jpeg"
     },
     {
-      "slug": "s-s-p-tales-from-tha-southside-1996",
+      "slug": "5th-ward-boyz-gangsta-funk-1994",
       "artiste": "5th Ward Boyz",
       "titre": "Gangsta Funk",
       "annee": 1994,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -2953,11 +3273,10 @@
       "cover_image": "https://i.discogs.com/UgqmkJsAh0poxXFxYiW4RnzBGa14BdZDoSheDL0RRoY/rs:fit/g:sm/q:90/h:491/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMDA2/NS0xMTI0MTg1NTQz/LmpwZw.jpeg"
     },
     {
-      "slug": "rodney-d-a-moment-of-silence-1995",
+      "slug": "5th-ward-boyz-rated-g-1995",
       "artiste": "5th Ward Boyz",
       "titre": "Rated G",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3039,12 +3358,11 @@
       "cover_image": "https://i.discogs.com/aZqbVzfdRxTjY-qY496KfL93ObNz-EGkfTRjE-woX4s/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU4NDA4/Ny0xMzQ2ODAxMjI1/LTkzNjEuanBlZw.jpeg"
     },
     {
-      "slug": "ray-luv-forever-hustlin-1995",
+      "slug": "5th-ward-juvenilez-deadly-groundz-1995",
       "artiste": "5th Ward Juvenilez",
       "titre": "Deadly Groundz",
       "annee": 1995,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -3134,8 +3452,7 @@
       "artiste": "A-Love (3)",
       "titre": "Commin' From The Hub",
       "annee": 1995,
-      "note": "",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -3185,7 +3502,6 @@
       "artiste": "A.T. (24)",
       "titre": "Big Daddy",
       "annee": 1999,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3262,11 +3578,10 @@
       "cover_image": "https://i.discogs.com/l8yvIuNQXM3U1kyr0g9XY-bmvI05OBOHtlKxFKd8Aac/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODIw/MDk3LTE3MTc2Mjgz/MDctMzIxOS5qcGVn.jpeg"
     },
     {
-      "slug": "sonya-c-married-to-the-mob-1993",
+      "slug": "above-the-law-black-mafia-life-",
       "artiste": "Above The Law",
       "titre": "Black Mafia Life",
       "annee": null,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3353,11 +3668,10 @@
       "cover_image": "https://i.discogs.com/-N5C__ITk1aeEywPXYSySSEKSFPhdVlSYPgUh9mASRI/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODkw/Mi0xNzQ5NDAwMzc4/LTcwODkuanBlZw.jpeg"
     },
     {
-      "slug": "snoop-dogg-tha-doggfather-1996",
+      "slug": "above-the-law-uncle-sams-curse-1994",
       "artiste": "Above The Law",
       "titre": "Uncle Sam's Curse",
       "annee": 1994,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3429,12 +3743,11 @@
       "cover_image": "https://i.discogs.com/cHQ5ifh_tfk1crQXNzlK6P5K1HipjIZfByOHtt5fnX8/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk1Nzc2/MS0xNDY2NDk5NDUy/LTk3OTIuanBlZw.jpeg"
     },
     {
-      "slug": "the-delinquents-3-outta-control-ep-1995",
+      "slug": "above-the-law-legends-1998",
       "artiste": "Above The Law",
       "titre": "Legends",
       "annee": 1998,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -3525,11 +3838,10 @@
       "cover_image": "https://i.discogs.com/YYRyO1vOOK6bgYGjtnENmv9DhCUDszJ-pdJskAzHpRo/rs:fit/g:sm/q:90/h:574/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3OTcz/OC0xMzIxNzQyOTc5/LmpwZWc.jpeg"
     },
     {
-      "slug": "new-breed-of-hustlas-streets-got-me-gone-1995",
+      "slug": "b-g-knocc-out-dresta-real-brothas-1995",
       "artiste": "B.G. Knocc Out & Dresta",
       "titre": "Real Brothas",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3616,11 +3928,10 @@
       "cover_image": "https://i.discogs.com/7EmFh9rRCio46jI_2bfRWrn-UXEu-7VU8vcpvKi1KDg/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjEy/NDMtMTYzNjQ0Nzc0/Ny0yNzg1LmpwZWc.jpeg"
     },
     {
-      "slug": "suthern-merchandise-suthern-stress-1997",
+      "slug": "ben-b-hard-one-mo-time-1996",
       "artiste": "Ben B. Hard",
       "titre": "One Mo Time",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3692,11 +4003,10 @@
       "cover_image": "https://i.discogs.com/rdIYw1Ybr9KK-S2hiOz-PBP2hb4tBhokQ7F6xlNr1_Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNDg3/MjgtMTM3NTc4Mzk4/OC05NzQ2LmpwZWc.jpeg"
     },
     {
-      "slug": "the-hard-boys-trapped-in-the-game-1996",
+      "slug": "big-50-4-a-gee-",
       "artiste": "Big 50",
       "titre": "4-A-Gee",
       "annee": null,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3778,11 +4088,10 @@
       "cover_image": "https://i.discogs.com/vM9EwxD36fVMOYtSRpmi5Xw3jtEmE0qV--AUghZKDSg/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDY3/NzQtMTM5MDU3MjUz/Mi0yODA5LmpwZWc.jpeg"
     },
     {
-      "slug": "the-delinquents-3-big-moves-1997",
+      "slug": "big-50-aint-no-turnin-back-1995",
       "artiste": "Big 50",
       "titre": "Ain't No Turnin Back",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3869,11 +4178,10 @@
       "cover_image": "https://i.discogs.com/a5nSEAiQpF3FmABycA0ZFb_hOFpfTKxrKMI3p33we2U/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3MTgw/My0xNDM1MjUwNzkw/LTM5MDYuanBlZw.jpeg"
     },
     {
-      "slug": "damu-ridas-how-deep-is-your-hood-1999",
+      "slug": "big-bur-na-the-daze-of-bur-na-1995",
       "artiste": "Big Bur-Na",
       "titre": "The Daze Of Bur-Na",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3925,11 +4233,10 @@
       "cover_image": "https://i.discogs.com/VMadUEu8YhH2eLan24bGjOIxVYhRONGRF8wEjS-WJ6Y/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDkw/MTUtMTUwODYxNTI2/NC01MjQ5LmpwZWc.jpeg"
     },
     {
-      "slug": "dirty-work-5-fatality-1996",
+      "slug": "big-drawz-the-eargasm-2005",
       "artiste": "Big Drawz",
       "titre": "The Eargasm",
       "annee": 2005,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -4031,12 +4338,11 @@
       "cover_image": "https://i.discogs.com/wwVDTy89J6QqnEgDh5vHMip7so7glf1-Kq4lxqoxwWM/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NjA1/NTktMTU0ODMwMTY0/OC0zNzIwLmpwZWc.jpeg"
     },
     {
-      "slug": "d-p-h-street-stories-2009",
+      "slug": "big-mack-a-better-way-1995",
       "artiste": "Big Mack",
       "titre": "A Better Way",
       "annee": 1995,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4107,12 +4413,11 @@
       "cover_image": "https://i.discogs.com/cxnAWR7dIMCny8lTAWfKDaKPQUrpDRGGZ0E3PLREsGk/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MTQw/MTQtMTQzNTg3MzQ5/OC04OTg1LmpwZWc.jpeg"
     },
     {
-      "slug": "dubee-aka-sugawolf-dangerous-prospects-1999",
+      "slug": "bink-2-something-2-ride-to-1999",
       "artiste": "Bink (2)",
       "titre": "Something 2 Ride To",
       "annee": 1999,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4193,12 +4498,11 @@
       "cover_image": "https://i.discogs.com/TeV2iSkCiTblKU1S4O6GLiqxrizIyFpw2kYmOtOM0hQ/rs:fit/g:sm/q:90/h:399/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTY3/MDYtMTMyMjYzNDkw/NC5qcGVn.jpeg"
     },
     {
-      "slug": "stranded-2-stranded-1998",
+      "slug": "black-9-black-9-1995",
       "artiste": "Black 9",
       "titre": "Black 9",
       "annee": 1995,
-      "note": "★★★★★",
-      "stars": null,
+      "stars": 5,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4259,12 +4563,11 @@
       "cover_image": "https://i.discogs.com/HzqQpcxVHs5G1zDJPwpDCB1gDrp7qSVEfYHAGZIyFc8/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MDk2/ODctMTQ0MTc4OTQw/Ni04ODYyLmpwZWc.jpeg"
     },
     {
-      "slug": "11-5-fiendin-4-tha-funk-1995",
+      "slug": "black-dynasty-deep-east-oakland-1995",
       "artiste": "Black Dynasty",
       "titre": "Deep East Oakland",
       "annee": 1995,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4330,11 +4633,10 @@
       "cover_image": "https://i.discogs.com/4CRD1gjubkqVSaoWhn3IJo9LOr0aTApF9HcTkuzDYdY/rs:fit/g:sm/q:90/h:600/w:578/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3MzM1/My0xNjEwNTIyMjQw/LTQwMzUuanBlZw.jpeg"
     },
     {
-      "slug": "5th-ward-boyz-ghetto-dope-1993",
+      "slug": "bloods-crips-bangin-on-wax-1993",
       "artiste": "Bloods & Crips",
       "titre": "Bangin On Wax",
       "annee": 1993,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -4436,12 +4738,11 @@
       "cover_image": "https://i.discogs.com/O-JwUcc6rCn2FrDNeQva_YqVGfY68Fv-OSStXoFStM8/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3OTY2/My0xNzE2ODQ3MDkw/LTQwNDIuanBlZw.jpeg"
     },
     {
-      "slug": "tha-reella-through-the-eyes-of-tha-reella-1997",
+      "slug": "bombshell-5-its-in-my-nature-1996",
       "artiste": "Bombshell (5)",
       "titre": "It's In My Nature",
       "annee": 1996,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4522,12 +4823,166 @@
       "cover_image": "https://i.discogs.com/kPb6gr6i4nsqC1Z52-ah8e5nwx_VJ9lAMHoSxSmr4V4/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNDI5/MjQtMTM4Mjk1OTk4/MS0xNDU3LmpwZWc.jpeg"
     },
     {
-      "slug": "the-unexpected-11-the-element-of-surprise-1996",
+      "slug": "bone-thugs-n-harmony-creepin-on-ah-come-up-1994",
+      "artiste": "Bone Thugs-N-Harmony",
+      "titre": "Creepin On Ah Come Up",
+      "annee": 1994,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Intro",
+          "dur": "1:25"
+        },
+        {
+          "pos": "2",
+          "title": "Mr. Ouija",
+          "dur": "1:20"
+        },
+        {
+          "pos": "3",
+          "title": "Thuggish Ruggish Bone",
+          "dur": "4:41"
+        },
+        {
+          "pos": "4",
+          "title": "No Surrender",
+          "dur": "3:36"
+        },
+        {
+          "pos": "5",
+          "title": "Down Foe My Thang",
+          "dur": "4:48"
+        },
+        {
+          "pos": "6",
+          "title": "Creepin On Ah Come Up",
+          "dur": "4:50"
+        },
+        {
+          "pos": "7",
+          "title": "Foe Tha Love Of $",
+          "dur": "4:32"
+        },
+        {
+          "pos": "8",
+          "title": "Moe Cheese",
+          "dur": "4:32"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/10823203",
+      "release_id": "10823203",
+      "resource_url": "https://api.discogs.com/releases/10823203",
+      "cover_image": "https://i.discogs.com/s1QMd-urJx3D4-vkjQBVsMikKTu6N6D1AGlIyBwffBY/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwODIz/MjAzLTE1MDQ4OTQz/MTgtNzk0Mi5qcGVn.jpeg"
+    },
+    {
+      "slug": "bone-thugs-n-harmony-e-1999-eternal-1995",
+      "artiste": "Bone Thugs-N-Harmony",
+      "titre": "E. 1999 Eternal",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Da Introduction",
+          "dur": "4:25"
+        },
+        {
+          "pos": "2",
+          "title": "East 1999",
+          "dur": "4:21"
+        },
+        {
+          "pos": "3",
+          "title": "Eternal",
+          "dur": "4:03"
+        },
+        {
+          "pos": "4",
+          "title": "Crept And We Came",
+          "dur": "5:03"
+        },
+        {
+          "pos": "5",
+          "title": "Down '71 (The Getaway)",
+          "dur": "4:50"
+        },
+        {
+          "pos": "6",
+          "title": "Mr. Bill Collector",
+          "dur": "5:01"
+        },
+        {
+          "pos": "7",
+          "title": "Budsmokers Only",
+          "dur": "3:31"
+        },
+        {
+          "pos": "8",
+          "title": "Crossroad",
+          "dur": "3:28"
+        },
+        {
+          "pos": "9",
+          "title": "Me Killa",
+          "dur": "0:55"
+        },
+        {
+          "pos": "10",
+          "title": "Land Of Tha Heartless",
+          "dur": "3:55"
+        },
+        {
+          "pos": "11",
+          "title": "No Shorts, No Losses",
+          "dur": "4:52"
+        },
+        {
+          "pos": "12",
+          "title": "1st Of Tha Month",
+          "dur": "5:14"
+        },
+        {
+          "pos": "13",
+          "title": "Buddah Lovaz",
+          "dur": "4:43"
+        },
+        {
+          "pos": "14",
+          "title": "Die Die Die",
+          "dur": "2:52"
+        },
+        {
+          "pos": "15",
+          "title": "Mr. Ouija 2",
+          "dur": "1:16"
+        },
+        {
+          "pos": "16",
+          "title": "Mo' Murda",
+          "dur": "5:44"
+        },
+        {
+          "pos": "17",
+          "title": "Shotz To Tha Double Glock",
+          "dur": "4:42"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/226396",
+      "release_id": "226396",
+      "resource_url": "https://api.discogs.com/releases/226396",
+      "cover_image": "https://i.discogs.com/wXnwbHEcOt1edKCG0mVu1nMSb6DyyKX4lDHqRSJZupg/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNjM5/Ni0xNzAyNDEwMzU3/LTM0ODcuanBlZw.jpeg"
+    },
+    {
+      "slug": "brotha-moe-you-reap-what-you-sow-1996",
       "artiste": "Brotha Moe",
       "titre": "You Reap What You Sow",
       "annee": 1996,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4633,12 +5088,11 @@
       "cover_image": "https://i.discogs.com/UQZYo3eIdNL9_w2hN42VPOlNV6DMhohplJpeu2hjqXY/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3NTUw/NS0xNzEwMDY4ODUy/LTc2NTkuanBlZw.jpeg"
     },
     {
-      "slug": "c-funk-three-dimensional-ear-pleasure-1995",
+      "slug": "bullet-24-can-i-go-1998",
       "artiste": "Bullet (24)",
       "titre": "Can I Go?",
       "annee": 1998,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4729,12 +5183,11 @@
       "cover_image": "https://i.discogs.com/E5UduZZPb0WaNBU8WghspeU0CkuVQRKI-oe5Kwj7L4U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMTY3/MTAtMTYzMDE3Nzc0/Ny00NjY3LmpwZWc.jpeg"
     },
     {
-      "slug": "squirrel-da-izm-1998",
+      "slug": "c-funk-three-dimensional-ear-pleasure-1995",
       "artiste": "C-Funk",
       "titre": "Three Dimensional Ear Pleasure",
       "annee": 1995,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4780,12 +5233,11 @@
       "cover_image": "https://i.discogs.com/tZXPHe749ITK_3YE28jVRyfYcH1d6TYaDWHRbK9RqKU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzE0/NDctMTM2NDQ1MjE5/Ny00ODY0LmpwZWc.jpeg"
     },
     {
-      "slug": "magic-mike-2-old-game-with-a-new-twist-1996",
+      "slug": "c-r-i-s-i-s-crazy-real-insane-soldiers-in-sacramento-1996",
       "artiste": "C.R.I.S.I.S.",
       "titre": "Crazy Real Insane Soldiers In Sacramento",
       "annee": 1996,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4861,12 +5313,11 @@
       "cover_image": "https://i.discogs.com/4Sl07baDq8YMJELSB6aK_1-VUqEYpynqwhMRGs9g7Ac/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNzc4/MjktMTY4NjgzNTUy/OS03NzYyLmpwZWc.jpeg"
     },
     {
-      "slug": "u-d-i-under-da-influence-1995",
+      "slug": "cell-e-cel-its-on-and-crackin-1996",
       "artiste": "Cell-E-Cel",
       "titre": "It's On And Crackin'",
       "annee": 1996,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -4931,7 +5382,6 @@
       "artiste": "Chuy Gomez",
       "titre": "On Hit Compilation",
       "annee": 1999,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -5078,12 +5528,11 @@
       "cover_image": "https://i.discogs.com/Wkg1o7B_M-c2g16-oOsXTDj3CLjpOa_0YHdrjHfL2mM/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NTAx/MDctMTY3NjgzNjk2/Ny02ODM3LmpwZWc.jpeg"
     },
     {
-      "slug": "master-p-the-ghettos-tryin-to-kill-me-limited-collector-s-edition-1997",
+      "slug": "cobra-13-playaz-in-paradise-1997",
       "artiste": "Cobra (13)",
       "titre": "Playaz In Paradise",
       "annee": 1997,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -5164,11 +5613,10 @@
       "cover_image": "https://i.discogs.com/GYkNoBhRPiuxLWaS16gf3zNLmhS8qTyg_vd3ee6CpMQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4NDU0/OS0xNjU5ODkwMzYw/LTM4OTYuanBlZw.jpeg"
     },
     {
-      "slug": "lil-1-2-dead-steel-on-a-mission-1996",
+      "slug": "cormega-legal-hustle-2004",
       "artiste": "Cormega",
       "titre": "Legal Hustle",
       "annee": 2004,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -5265,12 +5713,11 @@
       "cover_image": "https://i.discogs.com/SmvkyFLlP5R_sZpGgUnGgE4u55fLNtM4UbjQYVZAYlM/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4MTY2/OC0xNzEwOTkzNjc1/LTgwOTMuanBlZw.jpeg"
     },
     {
-      "slug": "cormega-legal-hustle-2004",
+      "slug": "coz-king-of-kali-1995",
       "artiste": "Coz",
       "titre": "King Of Kali",
       "annee": 1995,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -5356,12 +5803,11 @@
       "cover_image": "https://i.discogs.com/BPIWkEU8tZMSBYsN-3MXzYzXtRcppa__MFzLfHb-Imc/rs:fit/g:sm/q:90/h:490/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5Mjc1/MTktMTQwNjU0NjE2/MS0xNjc4LmpwZWc.jpeg"
     },
     {
-      "slug": "t-mo-3-tribal-groove-vol-1-1997",
+      "slug": "coz-view-to-a-kill-1996",
       "artiste": "Coz",
       "titre": "View To A Kill",
       "annee": 1996,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -5427,11 +5873,10 @@
       "cover_image": "https://i.discogs.com/se-tJTcEOhwNbmPlhzCyW5nIiTXVHtxYvfwhH-LYOtU/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NTQ2/NjQtMTMxNjgxNzQ5/My5qcGVn.jpeg"
     },
     {
-      "slug": "2pac-r-u-still-down-remember-me-1997",
+      "slug": "d-of-trinity-garden-cartel-straight-texas-hoodlum-1995",
       "artiste": "D Of Trinity Garden Cartel",
       "titre": "Straight Texas Hoodlum",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -5518,12 +5963,11 @@
       "cover_image": "https://i.discogs.com/lO_4BQS10n-Ee-JKG9k6lzELbYcdV0BuRe1OJhz2cno/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjAz/NjAtMTY2OTk3NTc5/OS04NTQ2LmpwZWc.jpeg"
     },
     {
-      "slug": "silkk-the-shocker-the-shocker-1996",
+      "slug": "d-p-h-street-stories-2009",
       "artiste": "D.P.H.",
       "titre": "Street Stories",
       "annee": 2009,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -5584,12 +6028,11 @@
       "cover_image": "https://i.discogs.com/SkR2eecpkHJAY1-dihgSbVX8Ah8p8X8qS1itNslx_jY/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4NTYw/MTktMTM4NjIzNDE2/MC04NDAyLmpwZWc.jpeg"
     },
     {
-      "slug": "5th-ward-boyz-gangsta-funk-1994",
+      "slug": "damu-ridas-damu-ridas-1995",
       "artiste": "Damu Ridas",
       "titre": "Damu Ridas",
       "annee": 1995,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -5680,11 +6123,10 @@
       "cover_image": "https://i.discogs.com/T2sUIG1jYUrwHERrBZVimhJUlLE8VT_9xwQZF3SUGRc/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MDg2/NC0xNzEzNTAwNzQ2/LTE1MTguanBlZw.jpeg"
     },
     {
-      "slug": "5th-ward-boyz-rated-g-1995",
+      "slug": "damu-ridas-how-deep-is-your-hood-1999",
       "artiste": "Damu Ridas",
       "titre": "How Deep Is Your Hood",
       "annee": 1999,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -5791,12 +6233,11 @@
       "cover_image": "https://i.discogs.com/p1PzZSEh8it6Y4vwS40RwnCHkmyJmlbMDrj9MMC1ftY/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzg1/NTktMTQ1MDE0NDg1/Mi0xNjQ3LmpwZWc.jpeg"
     },
     {
-      "slug": "sean-t-2-pimp-lyrics-dollar-signs-1996",
+      "slug": "dgsb-the-album-1995",
       "artiste": "DGSB",
       "titre": "The Album",
       "annee": 1995,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -5882,12 +6323,11 @@
       "cover_image": "https://i.discogs.com/dAHr1sO5VdkvDGNBh14wGWNCZ1urDTfwqiG6GFyQCAo/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MTUy/Ni0xNDE3ODYxMTIw/LTUxNDYuanBlZw.jpeg"
     },
     {
-      "slug": "trapp-stop-the-gunfight-1997",
+      "slug": "dirty-work-5-fatality-1996",
       "artiste": "Dirty Work (5)",
       "titre": "Fatality",
       "annee": 1996,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -5948,12 +6388,11 @@
       "cover_image": "https://i.discogs.com/yx5beA9hTFbrhF5tFcqgT60g2yAyNao0VLZHuYUwmz0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTkw/NDktMTUwNDY5MzIw/Ny03NDg3LmpwZWc.jpeg"
     },
     {
-      "slug": "young-d-boyz-straight-game-1995",
+      "slug": "dubee-aka-sugawolf-dubee-aka-sugawolf-1996",
       "artiste": "Dubee Aka Sugawolf",
       "titre": "Dubee Aka Sugawolf",
       "annee": 1996,
-      "note": "★★★★★",
-      "stars": null,
+      "stars": 5,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -6034,12 +6473,11 @@
       "cover_image": "https://i.discogs.com/l3RgFFkREtns6LMoYe55NMYoUkmITCGbEL3uiXH9554/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3OTY0/Mi0xMzgzNTc0Mjc0/LTUwMDYuanBlZw.jpeg"
     },
     {
-      "slug": "unlv-2-unlv-underground-nation-livin-violently-1998",
+      "slug": "dubee-aka-sugawolf-for-that-crilla-1997",
       "artiste": "Dubee Aka Sugawolf",
       "titre": "For That $crilla",
       "annee": 1997,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -6105,12 +6543,11 @@
       "cover_image": "https://i.discogs.com/rrtSx9kHSd-YjwYPENtb3CTTtmtg-c6VXMXm1QYrCIE/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NjM0/NS0xNjY4MDY3Mjg0/LTU4MTguanBlZw.jpeg"
     },
     {
-      "slug": "44-clique-mindofa44-1995",
+      "slug": "dubee-aka-sugawolf-dangerous-prospects-1999",
       "artiste": "Dubee Aka Sugawolf",
       "titre": "Dangerous Prospects",
       "annee": 1999,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -6201,12 +6638,11 @@
       "cover_image": "https://i.discogs.com/hXMz_jGyqaRSKmD02938skVewalcEnJFNu0yjPECm3o/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDY0/ODYtMTczNzI5OTk1/Mi04MjMxLmpwZWc.jpeg"
     },
     {
-      "slug": "victims-of-society-3-on-the-run-1995",
+      "slug": "dubee-aka-sugawolf-100-g-sh-t-2001",
       "artiste": "Dubee Aka Sugawolf",
       "titre": "100% G Sh#t!",
       "annee": 2001,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -6272,12 +6708,11 @@
       "cover_image": "https://i.discogs.com/FDGuYSMX89B-lniwgGfGSq6YeE1Xhp05l6_ojI23DAM/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODQ2/MzItMTU1Mjc0OTY4/Mi01NzI0LmpwZWc.jpeg"
     },
     {
-      "slug": "ugk-ridin-dirty-1996",
+      "slug": "dubee-aka-sugawolf-why-change-now-1996-heat-extreme-2005",
       "artiste": "Dubee Aka Sugawolf",
       "titre": "Why Change Now? 1996 Heat Extreme",
       "annee": 2005,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -6353,12 +6788,11 @@
       "cover_image": "https://i.discogs.com/O9j3saOQthk0VKWT4voB1eT_LNs7T15ET4DFcMQAhlE/rs:fit/g:sm/q:90/h:192/w:196/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMTYy/OC0xMTI1ODQyMTc0/LmpwZWc.jpeg"
     },
     {
-      "slug": "swolts-forever-tha-world-1998",
+      "slug": "e-mack-7-16-minutes-with-an-o-g-1997",
       "artiste": "E-Mack-7",
       "titre": "16 Minutes With An O.G.",
       "annee": 1997,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -6423,7 +6857,6 @@
       "artiste": "Eminem",
       "titre": "Relapse",
       "annee": 2009,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -6535,11 +6968,10 @@
       "cover_image": "https://i.discogs.com/2Ic2xQ68G8QzFGRnjPQGmFeIhS_Gt1NG23mZwVa-I_4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3Nzkw/MTYtMTI0NDA4OTU2/My5qcGVn.jpeg"
     },
     {
-      "slug": "native-soul-4-everyday-lifestyle-1994",
+      "slug": "fly-nate-tha-banksta-nothin-but-the-money-1996",
       "artiste": "Fly Nate Tha Banksta",
       "titre": "Nothin' But The Money",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -6641,11 +7073,10 @@
       "cover_image": "https://i.discogs.com/1ru08OJZGseejJXZc61yX7Cgcw8C8c2EndYipdE_hL4/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTk5/NjItMTYzNTEzNjM3/Ni0yNDgyLmpwZWc.jpeg"
     },
     {
-      "slug": "gangsta-2-wanted-1995",
+      "slug": "fly-nate-tha-banksta-nothin-but-the-money-2022",
       "artiste": "Fly Nate Tha Banksta",
       "titre": "Nothin' But The Money",
       "annee": 2022,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -6837,11 +7268,10 @@
       "cover_image": "https://i.discogs.com/h6vDZoHodisHxjsxRNAkErZq-f8xkB3_vcllm31BnWY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MzI2/MTYzLTE2NzcyODMw/MDQtMjQ0MS5qcGVn.jpeg"
     },
     {
-      "slug": "above-the-law-uncle-sam-s-curse-1994",
+      "slug": "fo-clips-eclipse-just-be-thankful-1996",
       "artiste": "Fo' Clips Eclipse",
       "titre": "Just Be Thankful",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -6933,12 +7363,11 @@
       "cover_image": "https://i.discogs.com/Y2_moSKob0qlEvNk7Ws7RbsZDCY_vbdIdH_cgZAPGMk/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDcw/NTEtMTUwODA2NjEx/Ni0xNjE0LmpwZWc.jpeg"
     },
     {
-      "slug": "u-d-i-drinks-on-us-1998",
+      "slug": "g-lo-still-a-g-1998",
       "artiste": "G-Lo",
       "titre": "Still A 'G",
       "annee": 1998,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -7024,11 +7453,10 @@
       "cover_image": "https://i.discogs.com/9A6SLg_jT-LnEwIjJfx_cvnIlx25FQygvxD5vw6ckSc/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4Nzk4/OTQtMTUwODk1MDQ3/NS0xMjU3LmpwZWc.jpeg"
     },
     {
-      "slug": "211-2-hustlin-pays-tha-bills-2021",
+      "slug": "g-slimm-fours-deuces-trays-1994",
       "artiste": "G-Slimm",
       "titre": "Fours Deuces & Trays",
       "annee": 1994,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -7110,11 +7538,10 @@
       "cover_image": "https://i.discogs.com/sBJC0jA9qbz-ycmGznziGQcvKUOlbO3niz2aD0Ky5RI/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMjQz/MTctMTY2Nzk4NTEw/NS00NjAzLmpwZWc.jpeg"
     },
     {
-      "slug": "mac-mall-untouchable-1996",
+      "slug": "gangsta-2-wanted-1995",
       "artiste": "Gangsta (2)",
       "titre": "Wanted",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -7206,12 +7633,96 @@
       "cover_image": "https://i.discogs.com/R-uu7dbFOoUbMOaq_dbCfyohU94S5bEO_Vto4txs0pc/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MzU2/NzgtMTUwODk1MjY5/NC0zMTA4LmpwZWc.jpeg"
     },
     {
-      "slug": "g-slimm-fours-deuces-trays-1994",
+      "slug": "gangsta-dre-gang-banging-poetry-the-sequel-1996",
+      "artiste": "Gangsta Dre",
+      "titre": "Gang Banging Poetry: The Sequel",
+      "annee": 1996,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Funk Central Hatas",
+          "dur": "6:12"
+        },
+        {
+          "pos": "2",
+          "title": "Mandatory Murder",
+          "dur": "3:14"
+        },
+        {
+          "pos": "3",
+          "title": "Cop A Squat",
+          "dur": "5:25"
+        },
+        {
+          "pos": "4",
+          "title": "Hoo-Ryd Musik",
+          "dur": "6:16"
+        },
+        {
+          "pos": "5",
+          "title": "I Do My Dirt All By My Lonely",
+          "dur": "3:15"
+        },
+        {
+          "pos": "6",
+          "title": "Jakin' Mission",
+          "dur": "4:33"
+        },
+        {
+          "pos": "7",
+          "title": "Hydro Shots",
+          "dur": "2:32"
+        },
+        {
+          "pos": "8",
+          "title": "How Deep Is Your Love (4 Yo Hood)",
+          "dur": "6:00"
+        },
+        {
+          "pos": "9",
+          "title": "Take A Toke",
+          "dur": "4:08"
+        },
+        {
+          "pos": "10",
+          "title": "Sacramento Summertime",
+          "dur": "3:40"
+        },
+        {
+          "pos": "11",
+          "title": "Main Matto",
+          "dur": "4:53"
+        },
+        {
+          "pos": "12",
+          "title": "Anykind Of Hustle",
+          "dur": "3:45"
+        },
+        {
+          "pos": "13",
+          "title": "Gang Banging Poetry",
+          "dur": "4:32"
+        },
+        {
+          "pos": "14",
+          "title": "Survival On The Battlefield",
+          "dur": "7:44"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/9217085",
+      "release_id": "9217085",
+      "resource_url": "https://api.discogs.com/releases/9217085",
+      "cover_image": "https://i.discogs.com/OgyEyFEuL0lJUs0yHHDkKltPFALsTbdSyzDylK7jgCo/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyMTcw/ODUtMTYxNzkxOTY3/MC00OTg4LmpwZWc.jpeg"
+    },
+    {
+      "slug": "gee-que-sucka-free-city-2010",
       "artiste": "Gee-Que",
       "titre": "Sucka Free City",
       "annee": 2010,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -7272,11 +7783,10 @@
       "cover_image": "https://i.discogs.com/nGFTg5kg6rk6THHmu-jPtsEZli20-vkmN_bqiUE9AEQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0OTMw/MDAtMTU0NjA1NTE1/OS03MTMwLmpwZWc.jpeg"
     },
     {
-      "slug": "klondike-kat-mobbin-muzik-melodies-1997",
+      "slug": "ghetto-kaos-guilty-as-charged-1994",
       "artiste": "Ghetto Kaos",
       "titre": "Guilty As Charged",
       "annee": 1994,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -7338,12 +7848,11 @@
       "cover_image": "https://i.discogs.com/faBo8lODAzSHCcYi8CT8nuKQexxHiOi5ITPB33PuIjw/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3ODQx/Ny0xNDc2ODk0NjA1/LTc3OTAuanBlZw.jpeg"
     },
     {
-      "slug": "sk-1-4-all-grounds-covered-1996",
+      "slug": "guce-pure-pressure-1995",
       "artiste": "Guce",
       "titre": "Pure Pressure",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -7434,11 +7943,270 @@
       "cover_image": "https://i.discogs.com/qzeSNNCkj73WgrQo9ZtkLwlQzx3EtvtjpG2VJRqZ5IE/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0OTIw/ODUtMTM4NjE1NDM0/Ny04MTA3LmpwZWc.jpeg"
     },
     {
-      "slug": "2pac-still-i-rise-1999",
+      "slug": "herm-trying-to-survive-in-the-ghetto-1993",
+      "artiste": "Herm",
+      "titre": "Trying To Survive In The Ghetto",
+      "annee": 1993,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Intro",
+          "dur": "3:30"
+        },
+        {
+          "pos": "2",
+          "title": "Comin' Out The Cuts",
+          "dur": "3:28"
+        },
+        {
+          "pos": "3",
+          "title": "I Smell Jealousy",
+          "dur": "4:16"
+        },
+        {
+          "pos": "4",
+          "title": "Call It What You Want",
+          "dur": "5:02"
+        },
+        {
+          "pos": "5",
+          "title": "The Banksta",
+          "dur": "5:11"
+        },
+        {
+          "pos": "6",
+          "title": "It's Like That",
+          "dur": "3:38"
+        },
+        {
+          "pos": "7",
+          "title": "I Got My Nine (9mm)",
+          "dur": "5:49"
+        },
+        {
+          "pos": "8",
+          "title": "Back 2 The Shit",
+          "dur": "3:43"
+        },
+        {
+          "pos": "9",
+          "title": "Kickin' Real Shit",
+          "dur": "4:52"
+        },
+        {
+          "pos": "10",
+          "title": "Cold Day In Hell",
+          "dur": "5:43"
+        },
+        {
+          "pos": "11",
+          "title": "Outro",
+          "dur": "2:48"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/798257",
+      "release_id": "798257",
+      "resource_url": "https://api.discogs.com/releases/798257",
+      "cover_image": "https://i.discogs.com/Mx33uie9sL5qEoXzuzihmpEtHPTlynyRBTf7CQryb2o/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5ODI1/Ny0xNTk3MjcxNTE4/LTE4NDYucG5n.jpeg"
+    },
+    {
+      "slug": "herm-still-trying-to-survive-in-the-ghetto-1995",
+      "artiste": "Herm",
+      "titre": "Still Trying To Survive In The Ghetto",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Intro",
+          "dur": "2:12"
+        },
+        {
+          "pos": "2",
+          "title": "City Of Da Players",
+          "dur": "4:01"
+        },
+        {
+          "pos": "3",
+          "title": "Voices In My Head",
+          "dur": "5:33"
+        },
+        {
+          "pos": "4",
+          "title": "Street Life",
+          "dur": "3:35"
+        },
+        {
+          "pos": "5",
+          "title": "Creepy Crawlin",
+          "dur": "3:36"
+        },
+        {
+          "pos": "6",
+          "title": "Ghetto Mentality",
+          "dur": "4:13"
+        },
+        {
+          "pos": "7",
+          "title": "East Side \"O\"",
+          "dur": "4:11"
+        },
+        {
+          "pos": "8",
+          "title": "Sucka Free H.P.",
+          "dur": "4:09"
+        },
+        {
+          "pos": "9",
+          "title": "Crooked Crow",
+          "dur": "4:00"
+        },
+        {
+          "pos": "10",
+          "title": "Still Trying To Survive In The Ghetto",
+          "dur": "4:34"
+        },
+        {
+          "pos": "11",
+          "title": "Leave A Message (Interlude)",
+          "dur": "2:47"
+        },
+        {
+          "pos": "12",
+          "title": "Wild Wild West",
+          "dur": "4:11"
+        },
+        {
+          "pos": "13",
+          "title": "The Reeper",
+          "dur": "3:58"
+        },
+        {
+          "pos": "14",
+          "title": "Ill Look",
+          "dur": "3:17"
+        },
+        {
+          "pos": "15",
+          "title": "Push Comes To Shove",
+          "dur": "4:42"
+        },
+        {
+          "pos": "16",
+          "title": "Set The Funk",
+          "dur": "3:35"
+        },
+        {
+          "pos": "17",
+          "title": "It Don't Stop",
+          "dur": "4:06"
+        },
+        {
+          "pos": "18",
+          "title": "Outro",
+          "dur": "2:22"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/1883511",
+      "release_id": "1883511",
+      "resource_url": "https://api.discogs.com/releases/1883511",
+      "cover_image": "https://i.discogs.com/Ls4XC2CTYZyOA3XT6qI7xrz7YvrMEsLQxHc6rzWkFO4/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4ODM1/MTEtMTMwNTcwMjE5/OS5qcGVn.jpeg"
+    },
+    {
+      "slug": "herm-keep-it-real-1995",
+      "artiste": "Herm",
+      "titre": "Keep It Real",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Herm",
+          "dur": "2:23"
+        },
+        {
+          "pos": "2",
+          "title": "Ka Boom",
+          "dur": "3:14"
+        },
+        {
+          "pos": "3",
+          "title": "Keep It Real",
+          "dur": "3:58"
+        },
+        {
+          "pos": "4",
+          "title": "That's How We Get Down",
+          "dur": "3:27"
+        },
+        {
+          "pos": "5",
+          "title": "Sprung",
+          "dur": "3:54"
+        },
+        {
+          "pos": "6",
+          "title": "Walk Like A \"G\"",
+          "dur": "4:21"
+        },
+        {
+          "pos": "7",
+          "title": "Everyday Thing",
+          "dur": "3:04"
+        },
+        {
+          "pos": "8",
+          "title": "Never Asked",
+          "dur": "3:28"
+        },
+        {
+          "pos": "9",
+          "title": "TNT",
+          "dur": "4:24"
+        },
+        {
+          "pos": "10",
+          "title": "Captivate",
+          "dur": "3:37"
+        },
+        {
+          "pos": "11",
+          "title": "You Don't Know Me",
+          "dur": "4:02"
+        },
+        {
+          "pos": "12",
+          "title": "Plain To See",
+          "dur": "4:36"
+        },
+        {
+          "pos": "13",
+          "title": "Creepy Crawling",
+          "dur": "3:36"
+        },
+        {
+          "pos": "14",
+          "title": "Outro (Marquis)",
+          "dur": "1:01"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/579575",
+      "release_id": "579575",
+      "resource_url": "https://api.discogs.com/releases/579575",
+      "cover_image": "https://i.discogs.com/c-I1JsEGQQwoXOogN4bjHOKSM65EQdkoeu76w7HfYnQ/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3OTU3/NS0xMzcxMzY3NzI1/LTI2MTAuanBlZw.jpeg"
+    },
+    {
+      "slug": "herm-mack-a-flama-1996",
       "artiste": "Herm",
       "titre": "Mack-A-Flama",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -7530,12 +8298,101 @@
       "cover_image": "https://i.discogs.com/OHXZSUmdqITpm5u9uzudrzisPIa3wpYU_TdxMC6x0CA/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NzU3/ODMxLTE1OTcyNDU0/NDItMTIwMC5wbmc.jpeg"
     },
     {
-      "slug": "ghetto-kaos-guilty-as-charged-1994",
+      "slug": "herm-solo-album-1998",
+      "artiste": "Herm",
+      "titre": "Solo Album",
+      "annee": 1998,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "B.G.F., Crips, Bloods, 415",
+          "dur": "4:08"
+        },
+        {
+          "pos": "2",
+          "title": "My Family's Been Ballin'",
+          "dur": "3:54"
+        },
+        {
+          "pos": "3",
+          "title": "Pass The Joint",
+          "dur": "3:41"
+        },
+        {
+          "pos": "4",
+          "title": "Soak Up Game",
+          "dur": "4:00"
+        },
+        {
+          "pos": "5",
+          "title": "Weed Spots",
+          "dur": "3:21"
+        },
+        {
+          "pos": "6",
+          "title": "Some Fuckin' Love",
+          "dur": "3:58"
+        },
+        {
+          "pos": "7",
+          "title": "There Goes The Neighborhood",
+          "dur": "4:47"
+        },
+        {
+          "pos": "8",
+          "title": "Get On Up",
+          "dur": "4:00"
+        },
+        {
+          "pos": "9",
+          "title": "No Time For That",
+          "dur": "4:31"
+        },
+        {
+          "pos": "10",
+          "title": "Music Game",
+          "dur": "4:07"
+        },
+        {
+          "pos": "11",
+          "title": "The Ghetto",
+          "dur": "4:38"
+        },
+        {
+          "pos": "12",
+          "title": "H.R.D.",
+          "dur": "4:30"
+        },
+        {
+          "pos": "13",
+          "title": "Brother, Brother",
+          "dur": "4:26"
+        },
+        {
+          "pos": "14",
+          "title": "Life Is Real",
+          "dur": "4:14"
+        },
+        {
+          "pos": "15",
+          "title": "Street Soldier",
+          "dur": "4:35"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/1843026",
+      "release_id": "1843026",
+      "resource_url": "https://api.discogs.com/releases/1843026",
+      "cover_image": "https://i.discogs.com/NaSGpsSa1dhCqRBS2BExWkMsqHHgCYSOI6juiX4urhg/rs:fit/g:sm/q:90/h:319/w:320/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NDMw/MjYtMTI0NzIzMzY0/OS5qcGVn.jpeg"
+    },
+    {
+      "slug": "hollow-tip-takin-no-shortz-1998",
       "artiste": "Hollow Tip",
       "titre": "Takin No Shortz",
       "annee": 1998,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -7596,12 +8453,91 @@
       "cover_image": "https://i.discogs.com/lJq9gk1Nla5pir0ZivJ1Bmg8ozeFENEtn5ko5kZrFc0/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTc4/NzctMTU4MDI3NDQ2/MC01NTQ4LmpwZWc.jpeg"
     },
     {
-      "slug": "slm-comin-out-the-fog-2014",
+      "slug": "i-m-p-ill-mannered-playas-1995",
+      "artiste": "I.M.P.",
+      "titre": "Ill Mannered Playas",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "The Last Breath",
+          "dur": "5:43"
+        },
+        {
+          "pos": "2",
+          "title": "Boss Mackin'",
+          "dur": "4:39"
+        },
+        {
+          "pos": "3",
+          "title": "Bay Nigga",
+          "dur": "4:46"
+        },
+        {
+          "pos": "4",
+          "title": "Public Execution",
+          "dur": "4:31"
+        },
+        {
+          "pos": "5",
+          "title": "Shinin' Star",
+          "dur": "4:24"
+        },
+        {
+          "pos": "6",
+          "title": "Don't Get It Twisted",
+          "dur": "4:55"
+        },
+        {
+          "pos": "7",
+          "title": "The Bay Way",
+          "dur": "3:19"
+        },
+        {
+          "pos": "8",
+          "title": "Wild Ass West",
+          "dur": "3:20"
+        },
+        {
+          "pos": "9",
+          "title": "No Witnesses",
+          "dur": "3:58"
+        },
+        {
+          "pos": "10",
+          "title": "Boots Laced Tight",
+          "dur": "3:56"
+        },
+        {
+          "pos": "11",
+          "title": "Jealousy",
+          "dur": "4:17"
+        },
+        {
+          "pos": "12",
+          "title": "Protect What You Hustle Fo'",
+          "dur": "4:45"
+        },
+        {
+          "pos": "13",
+          "title": "Tell Me Somethin' Good (Remix)",
+          "dur": "4:45"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/489222",
+      "release_id": "489222",
+      "resource_url": "https://api.discogs.com/releases/489222",
+      "cover_image": "https://i.discogs.com/pyQWy4Lv0SA5GlcMzZvNGz9wJ6W7J8dFgahFTV8RtT0/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTIy/Mi0xMzQwMTcyMzMx/LTgyNjkuanBlZw.jpeg"
+    },
+    {
+      "slug": "infinite-mass-alwayz-somethang-1997",
       "artiste": "Infinite Mass",
       "titre": "Alwayz Somethang",
       "annee": 1997,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -7717,12 +8653,91 @@
       "cover_image": "https://i.discogs.com/xjhs0I3Q-00mwvhx70fnJq4RYB8jwCxA-IbwAxEfZis/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MTg0/MDItMTYxMDIyNzMw/MS00ODE1LmpwZWc.jpeg"
     },
     {
-      "slug": "pho-balo-the-chosen-few-1997",
+      "slug": "j-1-2-hillz-of-darkne-2011",
+      "artiste": "J-1 (2)",
+      "titre": "Hillz Of Darkne$$",
+      "annee": 2011,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Massacre",
+          "dur": "4:41"
+        },
+        {
+          "pos": "2",
+          "title": "Funny Style Individuals",
+          "dur": "4:29"
+        },
+        {
+          "pos": "3",
+          "title": "Murder Mode",
+          "dur": "5:35"
+        },
+        {
+          "pos": "4",
+          "title": "Way Too Young To Be Stresson",
+          "dur": "4:48"
+        },
+        {
+          "pos": "5",
+          "title": "Freeze Ya Dome",
+          "dur": "4:08"
+        },
+        {
+          "pos": "6",
+          "title": "Stay Macc'n",
+          "dur": "4:58"
+        },
+        {
+          "pos": "7",
+          "title": "Neva Should've Let This Nigga Live",
+          "dur": "4:34"
+        },
+        {
+          "pos": "8",
+          "title": "I Can Smoke You",
+          "dur": "4:34"
+        },
+        {
+          "pos": "9",
+          "title": "Premeditated 2003",
+          "dur": "4:52"
+        },
+        {
+          "pos": "10",
+          "title": "Death Is Calling Ya Name",
+          "dur": "2:55"
+        },
+        {
+          "pos": "11",
+          "title": "The Doljah",
+          "dur": "4:40"
+        },
+        {
+          "pos": "12",
+          "title": "Can You See What I See",
+          "dur": "5:12"
+        },
+        {
+          "pos": "13",
+          "title": "Hillz Of Darkne$$ (Outro)",
+          "dur": "2:04"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/3319730",
+      "release_id": "3319730",
+      "resource_url": "https://api.discogs.com/releases/3319730",
+      "cover_image": "https://i.discogs.com/Hv3yIBgqyjbOvoyVKDgC0Pvh7aeqiEwNqT6DWbYdalI/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTk3/MzAtMTY3MDM0NTA4/Ny02NjkyLmpwZWc.jpeg"
+    },
+    {
+      "slug": "jako-2-creepshow-",
       "artiste": "Jako (2)",
       "titre": "Creepshow",
       "annee": null,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -7798,12 +8813,11 @@
       "cover_image": "https://i.discogs.com/TJ0ZAE6MxP3lMCOOdap-5E7A-Qqsfm0Jw_Wb9F1e7Gc/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5NTE1/OS0xMzk5NDU0NDcy/LTMzNDAuanBlZw.jpeg"
     },
     {
-      "slug": "young-lay-black-n-dangerous-1996",
+      "slug": "jet-3-tha-block-2011",
       "artiste": "Jet (3)",
       "titre": "Tha Block",
       "annee": 2011,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -7844,12 +8858,11 @@
       "cover_image": "https://i.discogs.com/4TxfOVR2vkVeILe6RWLcnbBdqV55kBfe9avNTIn39JQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0MTIy/MDAtMTQxMDQ3NTUy/OS05MzgyLmpwZWc.jpeg"
     },
     {
-      "slug": "skanless-the-book-of-skanless-1996",
+      "slug": "jezreel-sick-and-tired-of-been-broke-1994",
       "artiste": "Jezreel",
       "titre": "Sick And Tired Of Be'en Broke",
       "annee": 1994,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -7929,7 +8942,6 @@
       "artiste": "Just Mello",
       "titre": "Since Day One",
       "annee": 1998,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -8021,12 +9033,11 @@
       "cover_image": "https://i.discogs.com/l459ccTtk-PGj2r2V2tyLj0VxW_gtKuTpZDj2R1GJfQ/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzOTA1/NDAtMTU0ODY0NzAx/Ny0yNjExLmpwZWc.jpeg"
     },
     {
-      "slug": "11-5-after-the-drama-2001",
+      "slug": "kazy-d-a-letter-from-tha-grave-1995",
       "artiste": "Kazy D",
       "titre": "A Letter From Tha Grave",
       "annee": 1995,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -8082,12 +9093,11 @@
       "cover_image": "https://i.discogs.com/5WbBpVS1rEutQK5IRWHz_J-YdVDSqHbPhIYK040MLcc/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQz/OC0xNTg4MTY0MjMx/LTIzMDEuanBlZw.jpeg"
     },
     {
-      "slug": "lil-sin-2-frustrated-by-death-1996",
+      "slug": "kill-kill-kill-kill-1995",
       "artiste": "Kill Kill",
       "titre": "Kill Kill",
       "annee": 1995,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -8148,12 +9158,81 @@
       "cover_image": "https://i.discogs.com/mWEHvOkQ649b4hclEmSW4QTuSP-RPWdNfjkQAFhZZwQ/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDcw/ODQtMTM3Nzg2NTcy/MC00MTMyLmpwZWc.jpeg"
     },
     {
-      "slug": "40-thevz-honor-amongst-thevz-1997",
+      "slug": "killers-of-society-it-aint-no-thang-to-me-1997",
+      "artiste": "Killers Of Society",
+      "titre": "It Ain't No Thang To Me",
+      "annee": 1997,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Lay Your Strap Down",
+          "dur": "4:27"
+        },
+        {
+          "pos": "2",
+          "title": "I Got Lots Of ----",
+          "dur": "4:03"
+        },
+        {
+          "pos": "3",
+          "title": "It Ain't No Thang To Me",
+          "dur": "4:48"
+        },
+        {
+          "pos": "4",
+          "title": "Final Breath",
+          "dur": "4:07"
+        },
+        {
+          "pos": "5",
+          "title": "Some Body Told",
+          "dur": "4:04"
+        },
+        {
+          "pos": "6",
+          "title": "All About Game",
+          "dur": "5:32"
+        },
+        {
+          "pos": "7",
+          "title": "Six Feet Deep",
+          "dur": "3:09"
+        },
+        {
+          "pos": "8",
+          "title": "Caught Up",
+          "dur": "3:52"
+        },
+        {
+          "pos": "9",
+          "title": "Every Time I Smoke",
+          "dur": "3:56"
+        },
+        {
+          "pos": "10",
+          "title": "My Click",
+          "dur": "4:34"
+        },
+        {
+          "pos": "11",
+          "title": "Murda-N-Me",
+          "dur": "3:22"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/6726512",
+      "release_id": "6726512",
+      "resource_url": "https://api.discogs.com/releases/6726512",
+      "cover_image": "https://i.discogs.com/BOZnNVmt_ofixUENiBzOXUAhR98mcpkSWxS87C6vQwE/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3MjY1/MTItMTU1NDA2MDQy/NS00NDYzLmpwZWc.jpeg"
+    },
+    {
+      "slug": "kilo-g-the-bloody-city-1995",
       "artiste": "Kilo-G",
       "titre": "The Bloody City",
       "annee": 1995,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -8239,11 +9318,10 @@
       "cover_image": "https://i.discogs.com/mhVmrXmhFvftp32w-wIhjOLlfkuFhdbTaFrK3atenb8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwODY1/MC0xNTEwNDEzNDEz/LTQyODkuanBlZw.jpeg"
     },
     {
-      "slug": "q-2-the-man-with-the-plan-1995",
+      "slug": "kingdom-13-i-reign-omnipotent-1998",
       "artiste": "Kingdom (13)",
       "titre": "I Reign Omnipotent",
       "annee": 1998,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -8360,11 +9438,10 @@
       "cover_image": "https://i.discogs.com/Fsqbk_pqeePn06gQc1A_z3DqAQU2-ex1BAwUSI11W7U/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODk5/NjktMTU3NDI5NzE2/Ny0zNzQwLmpwZWc.jpeg"
     },
     {
-      "slug": "2-def-str-8-doin-tha-fool-1997",
+      "slug": "klondike-kat-mobbin-muzik-melodies-1997",
       "artiste": "Klondike Kat",
       "titre": "Mobbin' Muzik Melodies",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -8441,11 +9518,10 @@
       "cover_image": "https://i.discogs.com/9lQ3FkdpXsUb0v78_Eu0JaHT3bBp0WcnF81Msp0FYws/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMzkw/NS0xNjY2MTY5NDc5/LTI1NTIuanBlZw.jpeg"
     },
     {
-      "slug": "dubee-aka-sugawolf-why-change-now-1996-heat-extreme-2005",
+      "slug": "l-o-l-2-heaven-or-hell-1996",
       "artiste": "L.O.L. (2)",
       "titre": "Heaven Or Hell",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -8522,12 +9598,11 @@
       "cover_image": "https://i.discogs.com/USWHs-5P4aeDe3RMq136FqQhueUOo4AIrQFCtmXzxZw/rs:fit/g:sm/q:90/h:600/w:583/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MjM4/MDgwLTE1NzA0NzQ0/NjktNTc5MC5qcGVn.jpeg"
     },
     {
-      "slug": "smg-5-strawberry-manor-gangstas-2009",
+      "slug": "legend-man-pressure-pain-1997",
       "artiste": "Legend Man",
       "titre": "Pressure & Pain",
       "annee": 1997,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -8613,12 +9688,11 @@
       "cover_image": "https://i.discogs.com/6TmUxTQ2QYc18Aaqsa4mAXQsQ-_qVuPS1tabXV0ywHI/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODUz/OTUtMTY2NjE1OTk3/Ny04MjY4LmpwZWc.jpeg"
     },
     {
-      "slug": "cell-e-cel-it-s-on-and-crackin-1996",
+      "slug": "lil-milt-the-prophecy-1997",
       "artiste": "Lil Milt",
       "titre": "The Prophecy",
       "annee": 1997,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -8709,12 +9783,11 @@
       "cover_image": "https://i.discogs.com/OPI8QrvE2JXFKMYTyR9ZocKeSeYx7Guh0tYT3QlaebM/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODk5/NTQtMTM0NDUxMDg1/NC01NTUyLmpwZWc.jpeg"
     },
     {
-      "slug": "d-of-trinity-garden-cartel-straight-texas-hoodlum-1995",
+      "slug": "lil-one-once-in-a-decade-1997",
       "artiste": "Lil One",
       "titre": "Once In A Decade",
       "annee": 1997,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -8785,11 +9858,10 @@
       "cover_image": "https://i.discogs.com/PTSc8A6_3tyyyICHWZYwUr2V3Pt2GJJeDZ2xhxwm37s/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyOTgw/NDQtMTYyMTM3MDA3/OC0xMjI0LmpwZWc.jpeg"
     },
     {
-      "slug": "primo-2-stickin-to-the-script-1996",
+      "slug": "lil-1-2-dead-the-dead-has-arisen-1994",
       "artiste": "Lil' 1/2 Dead",
       "titre": "The Dead Has Arisen",
       "annee": 1994,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -8871,11 +9943,10 @@
       "cover_image": "https://i.discogs.com/tsAtV_KKt6FVzPVjUmTIcVNOUy2Kv7c_6jkb4CLFyn4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczMTg2/Ny0xMzI1Nzc1NTk1/LmpwZWc.jpeg"
     },
     {
-      "slug": "pooh-man-the-state-v-s-poohman-straight-from-san-quentin-state-prison-1997",
+      "slug": "lil-1-2-dead-steel-on-a-mission-1996",
       "artiste": "Lil' 1/2 Dead",
       "titre": "Steel On A Mission",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -8937,11 +10008,10 @@
       "cover_image": "https://i.discogs.com/lbUhuyTeeK2oeIJaw_4R__l20W8FIhGMrJSadgfeoYE/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDMy/NzktMTczMjI4ODYy/NC0xNzk0LmpwZWc.jpeg"
     },
     {
-      "slug": "2pac-me-against-the-world-1995",
+      "slug": "lil-sin-2-frustrated-by-death-1996",
       "artiste": "Lil' Sin (2)",
       "titre": "Frustrated By Death",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -9038,12 +10108,11 @@
       "cover_image": "https://i.discogs.com/0n_-UEJA-ewRnOL-VeTGRp5g3voFmdNjwq8icnqG1fk/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3NjQx/Mi0xNjY3MjIwNzg2/LTE1MTguanBlZw.jpeg"
     },
     {
-      "slug": "watts-gangstas-the-real-1995",
+      "slug": "mac-mall-illegal-business-1993",
       "artiste": "Mac Mall",
       "titre": "Illegal Business?",
       "annee": 1993,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -9134,12 +10203,11 @@
       "cover_image": "https://i.discogs.com/dF0OI_wVJSYq00odUbjFgJ_FxaH1X74tyMZJomS0JLw/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3MDAz/NjAtMTQ4NTAwMjI3/MS04NDE2LmpwZWc.jpeg"
     },
     {
-      "slug": "seff-tha-gaffla-livin-kinda-lavish-1995",
+      "slug": "mac-mall-untouchable-1996",
       "artiste": "Mac Mall",
       "titre": "Untouchable",
       "annee": 1996,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -9230,12 +10298,56 @@
       "cover_image": "https://i.discogs.com/fMxSVLSuI2QF7fn-0VYH28b3lYopFx4VaUZISp5A3Fg/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDEx/NDAwLTE0OTAxMDk0/NjktMTc5My5qcGVn.jpeg"
     },
     {
-      "slug": "psycho-gangsta-stories-of-the-jack-1995",
+      "slug": "mac-mill-one-mill-yon-1995",
+      "artiste": "Mac Mill",
+      "titre": "One Mill-Yon",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Arabian Hump (Radio)",
+          "dur": "4:07"
+        },
+        {
+          "pos": "2",
+          "title": "Can't Stop The Flow",
+          "dur": "4:56"
+        },
+        {
+          "pos": "3",
+          "title": "Twas The Night (Before The First)",
+          "dur": "4:15"
+        },
+        {
+          "pos": "4",
+          "title": "Arabian Hump (Album Version)",
+          "dur": "4:09"
+        },
+        {
+          "pos": "5",
+          "title": "Dippin'",
+          "dur": "4:16"
+        },
+        {
+          "pos": "6",
+          "title": "Outro",
+          "dur": "2:21"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/576327",
+      "release_id": "576327",
+      "resource_url": "https://api.discogs.com/releases/576327",
+      "cover_image": "https://i.discogs.com/7lmb-8cDXbJ1cdVawq45kRJLKp06D110wWHQeAYToUw/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NjMy/Ny0xNTYyNDQ2MTg2/LTI3NTcuanBlZw.jpeg"
+    },
+    {
+      "slug": "mad-cj-mac-true-game-1995",
       "artiste": "Mad CJ Mac",
       "titre": "True Game",
       "annee": 1995,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -9311,12 +10423,11 @@
       "cover_image": "https://i.discogs.com/r--tntR6DeTR24-dzVzfMVGJiEIbR_1mg_n_6TOSqGs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MTE2/MS0xNjk1MTIxMjM1/LTUwNjcucG5n.jpeg"
     },
     {
-      "slug": "dubee-aka-sugawolf-dubee-aka-sugawolf-1996",
+      "slug": "mafia-2-criminal-personality-1995",
       "artiste": "Mafia (2)",
       "titre": "Criminal Personality",
       "annee": 1995,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -9387,12 +10498,11 @@
       "cover_image": "https://i.discogs.com/oSZOXEm745TGkISyGwxWqwIlD_bb2Q3yLA4HZBDAlbM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTA2/OC0xNjc5MTI5MDY2/LTUyODAuanBlZw.jpeg"
     },
     {
-      "slug": "g-lo-still-a-g-1998",
+      "slug": "magic-mike-2-old-game-with-a-new-twist-1996",
       "artiste": "Magic Mike (2)",
       "titre": "Old Game With A New Twist",
       "annee": 1996,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -9443,12 +10553,11 @@
       "cover_image": "https://i.discogs.com/dJZAJ-WR0wkjgeEJsuWOQPzqWcVICmw_ytYOzySfrLQ/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2NzU1/NjgtMTYwNjA2MDY0/OC00NTQxLmpwZWc.jpeg"
     },
     {
-      "slug": "native-soul-4-the-mourning-after-1996",
+      "slug": "marv-mitch-lemay-livin-in-tha-strange-1996",
       "artiste": "Marv/Mitch & Lemay",
       "titre": "Livin In Tha Strange",
       "annee": 1996,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -9533,7 +10642,6 @@
       "artiste": "Mass 187",
       "titre": "Real Trues Paying Dues",
       "annee": 1995,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -9610,11 +10718,10 @@
       "cover_image": "https://i.discogs.com/Vv83EZD35owz0zlRytvJ7we5zgda-LTeS6vQF-wJIc4/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0OTEx/NTctMTM2MDkxNTQx/Ni0yMzIxLmpwZWc.jpeg"
     },
     {
-      "slug": "mushock-the-family-doomsday-1998",
+      "slug": "master-p-99-ways-to-die-1995",
       "artiste": "Master P",
       "titre": "99 Ways To Die",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -9695,7 +10802,6 @@
       "artiste": "Master P",
       "titre": "Ice Cream Man",
       "annee": 1996,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -9807,11 +10913,10 @@
       "cover_image": "https://i.discogs.com/zHUv838NQ7LWHsVBJCawYpvrMLUwrBbUJUjeC-RkIuA/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODU4/NjcyLTE2MDEyODU1/NjgtMTgxNi5qcGVn.jpeg"
     },
     {
-      "slug": "messy-marv-messy-situationz-1996",
+      "slug": "master-p-the-ghettos-tryin-to-kill-me-limited-collectors-edition-1997",
       "artiste": "Master P",
       "titre": "The Ghettos Tryin To Kill Me! (Limited Collector's Edition)",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -9898,11 +11003,10 @@
       "cover_image": "https://i.discogs.com/2U-kH0Kx1HbB8WeFJg-YgFACV4Tl0v9bCfK3mChiS_k/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MzI2/NjUtMTM0Njc1MjQy/Ni0xOTQ1LmpwZWc.jpeg"
     },
     {
-      "slug": "coz-king-of-kali-1995",
+      "slug": "mc-eiht-we-come-strapped-1994",
       "artiste": "MC Eiht",
       "titre": "We Come Strapped",
       "annee": 1994,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -9989,12 +11093,11 @@
       "cover_image": "https://i.discogs.com/YCsTnQ-LhLjVu5qIc-7tk0vQoP3xvPXQ8yK7e_gYG0Q/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NDE3/Mi0xNzA5NjMyNTAz/LTc2MDMuanBlZw.jpeg"
     },
     {
-      "slug": "the-unexpected-2-u-didn-t-know-2002",
+      "slug": "messy-marv-messy-situationz-1996",
       "artiste": "Messy Marv",
       "titre": "Messy Situationz",
       "annee": 1996,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -10079,7 +11182,6 @@
       "artiste": "Mississippi Mafia",
       "titre": "Another Mississippi Murder",
       "annee": 1995,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10165,7 +11267,6 @@
       "artiste": "Mista Boss Mann",
       "titre": "Pimp Or Die",
       "annee": 1995,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10236,7 +11337,6 @@
       "artiste": "Mobb Tyght Hustlers",
       "titre": "Dark Diamond Productions Presents: Mobb Tyght Hustlers",
       "annee": 1997,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10332,7 +11432,6 @@
       "artiste": "Moe Geeked",
       "titre": "The Nickel Sack",
       "annee": 2000,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10373,7 +11472,6 @@
       "artiste": "Mr. Eric Robles'",
       "titre": "E-Filez",
       "annee": 2000,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10449,7 +11547,6 @@
       "artiste": "Mr. Free Jack",
       "titre": "V.S.O.P. (Very Smooth On Paper)",
       "annee": 1997,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10536,11 +11633,10 @@
       "cover_image": "https://i.discogs.com/q2fb4VT_2VMMeCXpzij_6osklt_7vw7L3-gz0PbF0f0/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNzkz/OTU5LTE1MjI1MDE1/NzgtNTk3MS5qcGVn.jpeg"
     },
     {
-      "slug": "3x-krazy-stackin-chips-1997",
+      "slug": "mr-ivan-187-in-a-hockey-mask-1997",
       "artiste": "Mr. Ivan",
       "titre": "187 In \"A\" Hockey Mask",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10621,7 +11717,6 @@
       "artiste": "Mr. Kee",
       "titre": "14 Kt. Dreams",
       "annee": 2000,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10727,7 +11822,6 @@
       "artiste": "Mr. Peebodie",
       "titre": "Make It Happen",
       "annee": 1998,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10823,7 +11917,6 @@
       "artiste": "Mr. Sandman",
       "titre": "Out Of Time",
       "annee": 1997,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10894,7 +11987,6 @@
       "artiste": "Mr. Sandman",
       "titre": "Quicksand",
       "annee": 2001,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -10986,11 +12078,10 @@
       "cover_image": "https://i.discogs.com/kGFEZDwNLNJSMeWOB-yGk4PcQ3-2sZQtGh3hz1s0q5s/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTA4/NDUtMTM0NDUzODQy/Ny0zODcyLmpwZWc.jpeg"
     },
     {
-      "slug": "munchie-3-prepare-yourself",
+      "slug": "munchie-3-prepare-yourself-",
       "artiste": "Munchie (3)",
       "titre": "Prepare Yourself",
       "annee": null,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -11036,7 +12127,6 @@
       "artiste": "Murder Inc. (8)",
       "titre": "Playin' For Keeps",
       "annee": 1995,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -11098,11 +12188,10 @@
       "cover_image": "https://i.discogs.com/OehlszSS7gPQo8MWaiThAIfvgeWyVkrBlRO9dWst_-g/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MzUz/MTMtMTU1NzYwOTA4/Ny04MTc5LmpwZWc.jpeg"
     },
     {
-      "slug": "murder-inc-8-let-s-die-together-1997",
+      "slug": "murder-inc-8-lets-die-together-1997",
       "artiste": "Murder Inc. (8)",
       "titre": "Let's Die Together ",
       "annee": 1997,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -11204,11 +12293,10 @@
       "cover_image": "https://i.discogs.com/bcoSmTNfNjhVk9Hdr2C6qiRnc1oPfz8pE6VCcHicBAw/rs:fit/g:sm/q:90/h:500/w:499/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2MDg5/MzktMTM2OTgyOTg4/OC04NDI5LmpwZWc.jpeg"
     },
     {
-      "slug": "murder-inc-8-let-s-die-together-2017",
+      "slug": "murder-inc-8-lets-die-together-2017",
       "artiste": "Murder Inc. (8)",
       "titre": "Let's Die Together",
       "annee": 2017,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -11314,7 +12402,6 @@
       "artiste": "Murder One Gangster",
       "titre": "Exposed To The Game",
       "annee": 1992,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -11385,8 +12472,7 @@
       "artiste": "Murderous Klick",
       "titre": "Maddness N Evil Wayz",
       "annee": 1996,
-      "note": "",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -11452,12 +12538,11 @@
       "cover_image": "https://i.discogs.com/k22YCd1UOuNXKJ38tOjAfsINUpK50cM8ikFVALqHYMM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2MzQx/OTItMTQ2NTU4NTMw/MS03ODM3LmpwZWc.jpeg"
     },
     {
-      "slug": "marv-mitch-lemay-livin-in-tha-strange-1996",
+      "slug": "mushock-the-family-doomsday-1998",
       "artiste": "Mushock & The Family",
       "titre": "Doomsday",
       "annee": 1998,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -11557,7 +12642,6 @@
       "artiste": "MVP (10)",
       "titre": "C.L.O.U.T",
       "annee": 1995,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -11639,11 +12723,10 @@
       "cover_image": "https://i.discogs.com/KftShSaN2unJ8Eqfa3a6fOFLNe1I_qgM8ApaFkrAKdk/rs:fit/g:sm/q:90/h:469/w:481/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyMTQ2/NzAtMTM1ODc1MDg5/Ny0xMTY1LmpwZWc.jpeg"
     },
     {
-      "slug": "paris-2-guerrilla-funk-1994",
+      "slug": "n-a-p-2-nappy-city-heavyweights-2002",
       "artiste": "N.A.P. (2)",
       "titre": "Nappy City Heavyweights",
       "annee": 2002,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -11739,7 +12822,6 @@
       "artiste": "Nate Dogg",
       "titre": "Music & Me",
       "annee": 2001,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -11821,11 +12903,10 @@
       "cover_image": "https://i.discogs.com/Ln-rGlW9GMyYkxFZhjmu-9GvyGFZ5wC3d2T-FvzHNA0/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5MDgw/NzItMTQ4ODMzNTA3/Ni05NTA1LmpwZWc.jpeg"
     },
     {
-      "slug": "5th-ward-juvenilez-deadly-groundz-1995",
+      "slug": "nationwide-rip-ridaz-nationwide-rip-ridaz-1995",
       "artiste": "Nationwide Rip Ridaz",
       "titre": "Nationwide Rip Ridaz",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -11917,11 +12998,10 @@
       "cover_image": "https://i.discogs.com/2bsQfTtHt3BPFP4oEZDCBKf0zJriC0_wKwb6_pPwJ90/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0Njg0/NjE2LTE3MTkxNzg2/NzQtMTY2NC5qcGVn.jpeg"
     },
     {
-      "slug": "above-the-law-black-mafia-life",
+      "slug": "nationwide-rip-ridaz-nationwide-rip-ridaz-ii-betrayed-cant-trust-nobody-1999",
       "artiste": "Nationwide Rip Ridaz",
       "titre": "Nationwide Rip Ridaz II Betrayed (Can't Trust Nobody)",
       "annee": 1999,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -12028,12 +13108,11 @@
       "cover_image": "https://i.discogs.com/bWAICium9Y-l-XJQx9rukj95kPNjrmgJijcrVG36EpA/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNTk3/NjUtMTcyNDk5Mjc4/NS02OTEzLmpwZWc.jpeg"
     },
     {
-      "slug": "50-cent-before-i-self-destruct-2009",
+      "slug": "native-soul-4-everyday-lifestyle-1994",
       "artiste": "Native Soul (4)",
       "titre": "Everyday Lifestyle",
       "annee": 1994,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -12094,12 +13173,11 @@
       "cover_image": "https://i.discogs.com/x0ZyOiYtDStX8fCJ1yrWSl0w94uBmBKmiejfLlu8Oe0/rs:fit/g:sm/q:90/h:516/w:561/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1OTI1/OTQtMTQ0NDcyOTY5/NS01NzY5LmpwZWc.jpeg"
     },
     {
-      "slug": "50-cent-the-massacre-2005",
+      "slug": "native-soul-4-the-mourning-after-1996",
       "artiste": "Native Soul (4)",
       "titre": "The Mourning After",
       "annee": 1996,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -12175,11 +13253,10 @@
       "cover_image": "https://i.discogs.com/swxwhx5mo12028xT21LMfwlUFA1eaiSXDnNNZsPOVO4/rs:fit/g:sm/q:90/h:600/w:584/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTIy/MjQtMTM2Mjc0ODUw/NC05Mjg1LmpwZWc.jpeg"
     },
     {
-      "slug": "mafia-2-criminal-personality-1995",
+      "slug": "new-breed-of-hustlas-streets-got-me-gone-1995",
       "artiste": "New Breed Of Hustlas",
       "titre": "Streets Got Me Gone",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -12261,12 +13338,11 @@
       "cover_image": "https://i.discogs.com/YgcAL3KAZKHaTqGBvgly8dfRjdqHH3wrQ0rEuGVbznA/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5ODMz/Mi0xMzk2NDYzODY0/LTI1MjMuanBlZw.jpeg"
     },
     {
-      "slug": "south-central-cartel-n-gatz-we-truss-1994",
+      "slug": "one-grand-grand-opening-1995",
       "artiste": "One Grand",
       "titre": "Grand Opening",
       "annee": 1995,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -12352,12 +13428,11 @@
       "cover_image": "https://i.discogs.com/whvw7pO2FA69IkxnjWrJhH8TR5YhBLCe-jB1z7--ZHY/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDk2/NDAtMTcyNDIzMzEz/Ni03NjIyLmpwZWc.jpeg"
     },
     {
-      "slug": "tru-true-1995",
+      "slug": "paris-2-guerrilla-funk-1994",
       "artiste": "Paris (2)",
       "titre": "Guerrilla Funk",
       "annee": 1994,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -12433,11 +13508,10 @@
       "cover_image": "https://i.discogs.com/2guoO7znbxuWi6UqeHVQLzpU-Fg_JIyxEVKdGpjH4w4/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTM2/Mi0xNTI3MDY3NTE5/LTU5MDAuanBlZw.jpeg"
     },
     {
-      "slug": "one-grand-grand-opening-1995",
+      "slug": "pho-balo-the-chosen-few-1997",
       "artiste": "Pho Balo",
       "titre": "The Chosen Few",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -12539,11 +13613,120 @@
       "cover_image": "https://i.discogs.com/AQoUtMyWr_FH3dh_ewdnpzJWyCLQm8oPjJvR5PhfE24/rs:fit/g:sm/q:90/h:595/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0OTIx/NTAtMTYwNjI3MTg5/NC04ODk1LmpwZWc.jpeg"
     },
     {
-      "slug": "c-r-i-s-i-s-crazy-real-insane-soldiers-in-sacramento-1996",
+      "slug": "pho-balo-na-palm-2002",
+      "artiste": "Pho Balo",
+      "titre": "NA-PALM",
+      "annee": 2002,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Intro",
+          "dur": "2:06"
+        },
+        {
+          "pos": "2",
+          "title": "Gotta Deal Wit It",
+          "dur": "3:03"
+        },
+        {
+          "pos": "3",
+          "title": "House Party",
+          "dur": "4:20"
+        },
+        {
+          "pos": "4",
+          "title": "Shake, Rattle & Roll",
+          "dur": "4:41"
+        },
+        {
+          "pos": "5",
+          "title": "Don’t Wanna Hurt U",
+          "dur": "4:08"
+        },
+        {
+          "pos": "6",
+          "title": "Luv My Niggas",
+          "dur": "4:07"
+        },
+        {
+          "pos": "7",
+          "title": "It Was A Plot",
+          "dur": "4:00"
+        },
+        {
+          "pos": "8",
+          "title": "It’s All Good",
+          "dur": "3:47"
+        },
+        {
+          "pos": "9",
+          "title": "Irene",
+          "dur": "3:56"
+        },
+        {
+          "pos": "10",
+          "title": "I Ain’t In Love Wit Her",
+          "dur": "3:55"
+        },
+        {
+          "pos": "11",
+          "title": "Get Cha Grind On",
+          "dur": "3:49"
+        },
+        {
+          "pos": "12",
+          "title": "I Ain’t Ballin Yet",
+          "dur": "3:05"
+        },
+        {
+          "pos": "13",
+          "title": "My Niggas On The Block",
+          "dur": "3:53"
+        },
+        {
+          "pos": "14",
+          "title": "We Legit Now",
+          "dur": "3:56"
+        },
+        {
+          "pos": "15",
+          "title": "It’s All A Game",
+          "dur": "3:23"
+        },
+        {
+          "pos": "16",
+          "title": "Skrilla",
+          "dur": "4:33"
+        },
+        {
+          "pos": "17",
+          "title": "Born To Die",
+          "dur": "5:25"
+        },
+        {
+          "pos": "18",
+          "title": "All Day",
+          "dur": "3:19"
+        },
+        {
+          "pos": "19",
+          "title": "I Know",
+          "dur": "4:20"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/5492226",
+      "release_id": "5492226",
+      "resource_url": "https://api.discogs.com/releases/5492226",
+      "cover_image": "https://i.discogs.com/DFl-tDVIzlAD1BIn2fhFTaKnQTO9oagcOq6SAKYoG3c/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0OTIy/MjYtMTM5NDc4MTIw/My01OTY5LmpwZWc.jpeg"
+    },
+    {
+      "slug": "playa-g-pimp-sh-t-",
       "artiste": "Playa G",
       "titre": "Pimp Sh*t",
       "annee": null,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -12615,12 +13798,101 @@
       "cover_image": "https://i.discogs.com/GYLEDeIPeIPWtRsimFI17nbEH2oxx0FPn6ShyDkzaAc/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyMTQx/NDctMTUxMDIzNzA3/Mi04NDkyLmpwZWc.jpeg"
     },
     {
-      "slug": "herm-mack-a-flama-1996",
+      "slug": "playa-g-u-not-my-lady-1998",
+      "artiste": "Playa G",
+      "titre": "U Not My Lady",
+      "annee": 1998,
+      "stars": 4,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "U Not My Lady",
+          "dur": ""
+        },
+        {
+          "pos": "2",
+          "title": "Ghetto Warfare",
+          "dur": ""
+        },
+        {
+          "pos": "3",
+          "title": "Jail Break",
+          "dur": ""
+        },
+        {
+          "pos": "4",
+          "title": "Get Crunk",
+          "dur": ""
+        },
+        {
+          "pos": "5",
+          "title": "Those Who B Slippin",
+          "dur": ""
+        },
+        {
+          "pos": "6",
+          "title": "My Life",
+          "dur": ""
+        },
+        {
+          "pos": "7",
+          "title": "Ph Balanced",
+          "dur": ""
+        },
+        {
+          "pos": "8",
+          "title": "I Got 2 Have It",
+          "dur": ""
+        },
+        {
+          "pos": "9",
+          "title": "Where U At",
+          "dur": ""
+        },
+        {
+          "pos": "10",
+          "title": "Ho From The Club",
+          "dur": ""
+        },
+        {
+          "pos": "11",
+          "title": "Menaje Twa",
+          "dur": ""
+        },
+        {
+          "pos": "12",
+          "title": "Time Is Money",
+          "dur": ""
+        },
+        {
+          "pos": "13",
+          "title": "Soldier Til I Die",
+          "dur": ""
+        },
+        {
+          "pos": "14",
+          "title": "Beauty Pagent",
+          "dur": ""
+        },
+        {
+          "pos": "15",
+          "title": "Cloud 9",
+          "dur": ""
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/5115964",
+      "release_id": "5115964",
+      "resource_url": "https://api.discogs.com/releases/5115964",
+      "cover_image": "https://i.discogs.com/KJJ_0Db69pQH1PtM_HJWos8FQyujhRJAQhUnbMtJ9w4/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMTU5/NjQtMTczNDUyOTgy/OS00MzE0LmpwZWc.jpeg"
+    },
+    {
+      "slug": "pooh-man-the-state-v-s-poohman-straight-from-san-quentin-state-prison-1997",
       "artiste": "Pooh-Man",
       "titre": "The State V.S. Poohman: Straight From San Quentin State Prison",
       "annee": 1997,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -12695,7 +13967,6 @@
       "artiste": "Potna Deuce",
       "titre": "Heron Soup",
       "annee": 1996,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -12777,11 +14048,10 @@
       "cover_image": "https://i.discogs.com/BYjAZMs0GeczCLju-0PYFIaBcgsStWXMCzXBEkjojsw/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4ODc5/MDUtMTcyNDA2Njc0/Mi00MDgzLmpwZWc.jpeg"
     },
     {
-      "slug": "2pac-better-dayz-2002",
+      "slug": "primo-2-stickin-to-the-script-1996",
       "artiste": "Primo (2)",
       "titre": "Stickin' To The Script",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -12858,12 +14128,11 @@
       "cover_image": "https://i.discogs.com/f9hthdLW-6Eh1XwsVWW2xYrCFGzcMn_Zdt_fi8y9z2Q/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU4Mzg5/Mi0xNzUwNDM4NzAz/LTc3NDQuanBlZw.jpeg"
     },
     {
-      "slug": "san-quinn-the-hustle-continues-1996",
+      "slug": "psycho-gangsta-stories-of-the-jack-1995",
       "artiste": "Psycho Gangsta",
       "titre": "Stories Of The Jack",
       "annee": 1995,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -12924,12 +14193,11 @@
       "cover_image": "https://i.discogs.com/Nr0fWh93SuHYY6DoM11zBRhcwiaf3TLFtD0UAgU4ViY/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NjQy/NTctMTU1NjUzMjk5/MS03NjI4LmpwZWc.jpeg"
     },
     {
-      "slug": "s-t-n-game-stress-1996",
+      "slug": "psycho-gangsta-ballin-4-life-1997",
       "artiste": "Psycho Gangsta",
       "titre": "Ballin' 4 Life",
       "annee": 1997,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -13004,7 +14272,6 @@
       "artiste": "R.M.C. (3)",
       "titre": "Double Trouble 2x Da Funk",
       "annee": 2011,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -13095,7 +14362,6 @@
       "artiste": "R.O.A.",
       "titre": "G 4 Life",
       "annee": 1996,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -13161,8 +14427,7 @@
       "artiste": "Ramsey Da 4 Rilla",
       "titre": "Ramsey Da 4 Rilla",
       "annee": 1999,
-      "note": "",
-      "stars": null,
+      "stars": 5,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -13242,7 +14507,6 @@
       "artiste": "Rappin' Ron & Ant Diddley Dog",
       "titre": "Bad N-Fluenz",
       "annee": 1995,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -13328,7 +14592,6 @@
       "artiste": "Rashid (10)",
       "titre": "The Game",
       "annee": 1997,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -13395,12 +14658,11 @@
       "cover_image": "https://i.discogs.com/1SNEJ0mVBwN5pTwkLrdqV6O6WrwAL6FzWs-Xyp8NuOI/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMTYx/ODUtMTQxMDk1NDY2/MS0zNDIzLmpwZWc.jpeg"
     },
     {
-      "slug": "yd-give-it-up-to-the-g-s-1996",
+      "slug": "ray-luv-forever-hustlin-1995",
       "artiste": "Ray Luv",
       "titre": "Forever Hustlin'",
       "annee": 1995,
-      "note": "★★★★★",
-      "stars": null,
+      "stars": 5,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -13500,7 +14762,6 @@
       "artiste": "Realite",
       "titre": "Realite",
       "annee": 1996,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -13586,7 +14847,6 @@
       "artiste": "Red Money",
       "titre": "II Much Red",
       "annee": 1995,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -13683,11 +14943,10 @@
       "cover_image": "https://i.discogs.com/fqqUBdATH9bYtIkWmTNUcsZC368SFCJfP1jm91lGklg/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NjUx/MTMtMTY2MDc0MTIx/NC0yNzc2LmpwZWc.jpeg"
     },
     {
-      "slug": "redrum-23-livin-da-life-of-a-hustla",
+      "slug": "redrum-23-livin-da-life-of-a-hustla-",
       "artiste": "Redrum (23)",
       "titre": "Livin' Da Life Of A Hustla",
       "annee": null,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -13774,11 +15033,10 @@
       "cover_image": "https://i.discogs.com/cM8CX8jsw_QrhYMLQc6TUoTLTHZ7IBkJDWGUX-rxBHI/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NDkx/MjEtMTM5NTQyNDYx/OC0xMjU0LmpwZWc.jpeg"
     },
     {
-      "slug": "2pac-live-at-the-house-of-blues-2005",
+      "slug": "rodney-d-a-moment-of-silence-1995",
       "artiste": "Rodney D",
       "titre": "A Moment Of Silence",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -13849,7 +15107,6 @@
       "artiste": "Ron C",
       "titre": "Raw 4 Life",
       "annee": 1996,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -13921,12 +15178,11 @@
       "cover_image": "https://i.discogs.com/cX_uMp4tsyjCJ4BHbna9Lq7VI-5GSQde4YC8BxM_Htk/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NTM5/MTUtMTcxMzEwMzgx/NS04MDM3LmpwZWc.jpeg"
     },
     {
-      "slug": "gee-que-sucka-free-city-2010",
+      "slug": "rondo-the-abused-1994",
       "artiste": "Rondō",
       "titre": "The Abused",
       "annee": 1994,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -14016,7 +15272,6 @@
       "artiste": "Roots From The Underground",
       "titre": "Roots From The Underground",
       "annee": 1994,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -14082,7 +15337,6 @@
       "artiste": "Ruhkuss Mobb",
       "titre": "Mobb Zone",
       "annee": 2011,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -14138,7 +15392,6 @@
       "artiste": "Ruthless Til Death",
       "titre": "The Day I Wanted To Die",
       "annee": 2023,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -14205,11 +15458,10 @@
       "cover_image": "https://i.discogs.com/sG5gJw1hYD9HtSHbu_n5hnhanY2-UMzWSjfH-UMFS0I/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDcy/Njc1LTE2OTI5NjY2/NDMtNDc0My5qcGVn.jpeg"
     },
     {
-      "slug": "spice-1-amerikkka-s-nightmare-1994",
+      "slug": "s-s-p-tales-from-tha-southside-1996",
       "artiste": "S.S.P.",
       "titre": "Tales From Tha Southside",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -14296,11 +15548,10 @@
       "cover_image": "https://i.discogs.com/n2BxWCAaB4zPKvawvOgkMJSyWfWSgMpe8w3HcGOevfI/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NjQz/NTItMTc1NzE2NTkx/Ny04MzI0LmpwZWc.jpeg"
     },
     {
-      "slug": "coz-view-to-a-kill-1996",
+      "slug": "s-t-n-game-stress-1996",
       "artiste": "S.T.N.",
       "titre": "Game Stress",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -14387,12 +15638,11 @@
       "cover_image": "https://i.discogs.com/4tydn-my8zQib7Osg_eMzIa8es5si5W9DCL8pFiXVVQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyMTcx/MDUtMTQ1NzMxODgy/Ni01Mzg4LmpwZWc.jpeg"
     },
     {
-      "slug": "fly-nate-tha-banksta-nothin-but-the-money-1996",
+      "slug": "san-quinn-the-hustle-continues-1996",
       "artiste": "San Quinn",
       "titre": "The Hustle Continues",
       "annee": 1996,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -14463,11 +15713,95 @@
       "cover_image": "https://i.discogs.com/Ht-A0OY3MzyZ_eLJUvVi_8Ne_XTuavIy78txBgBmhpU/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzMzEx/NC0xNzIzNDQ1MzE4/LTcwOTkuanBlZw.jpeg"
     },
     {
-      "slug": "young-mack-t-life-in-the-game-1995",
+      "slug": "seagram-reality-check-1994",
+      "artiste": "Seagram",
+      "titre": "Reality Check",
+      "annee": 1994,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "The Town",
+          "dur": "4:55"
+        },
+        {
+          "pos": "2",
+          "title": "Gangsta Livin",
+          "dur": "4:19"
+        },
+        {
+          "pos": "3",
+          "title": "It Don't Stop",
+          "dur": "3:42"
+        },
+        {
+          "pos": "4",
+          "title": "Can't Win For Losin",
+          "dur": "4:38"
+        },
+        {
+          "pos": "5",
+          "title": "Bustas, Tricks & Thangs",
+          "dur": "2:07"
+        },
+        {
+          "pos": "6",
+          "title": "Birth",
+          "dur": "5:26"
+        },
+        {
+          "pos": "7",
+          "title": "Where Do We Go From Here",
+          "dur": "4:31"
+        },
+        {
+          "pos": "8",
+          "title": "Eastside",
+          "dur": "3:28"
+        },
+        {
+          "pos": "9",
+          "title": "13 Deep",
+          "dur": "4:40"
+        },
+        {
+          "pos": "10",
+          "title": "No Matter The Cost",
+          "dur": "6:02"
+        },
+        {
+          "pos": "11",
+          "title": "Gangstas & Players",
+          "dur": "5:05"
+        },
+        {
+          "pos": "12",
+          "title": "The Old School",
+          "dur": "4:37"
+        },
+        {
+          "pos": "13",
+          "title": "69",
+          "dur": "3:12"
+        },
+        {
+          "pos": "14",
+          "title": "Peace To You",
+          "dur": "3:41"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/526470",
+      "release_id": "526470",
+      "resource_url": "https://api.discogs.com/releases/526470",
+      "cover_image": "https://i.discogs.com/hoQyl0crh5JDo7vjwlR5WJDOAy9R4x1gWJqMq1r0EAE/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNjQ3/MC0xNjg1NTQyNTk5/LTQ4MzIuanBlZw.jpeg"
+    },
+    {
+      "slug": "sean-t-2-pimp-lyrics-dollar-signs-1996",
       "artiste": "Sean T (2)",
       "titre": "Pimp Lyrics & Dollar Signs",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -14559,12 +15893,11 @@
       "cover_image": "https://i.discogs.com/rT27XczjovtDgL6qujEHMDjxFbMxxxLgV_jPf4e384A/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNTQ1/Ny0xNTU1OTg3MTQw/LTY1NjguanBlZw.jpeg"
     },
     {
-      "slug": "fly-nate-tha-banksta-nothin-but-the-money-2022",
+      "slug": "seff-tha-gaffla-livin-kinda-lavish-1995",
       "artiste": "Seff Tha Gaffla",
       "titre": "Livin' Kinda Lavish",
       "annee": 1995,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -14624,7 +15957,6 @@
       "artiste": "Seven (35)",
       "titre": "Seven",
       "annee": 1997,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -14730,7 +16062,6 @@
       "artiste": "SIC (4)",
       "titre": "Long Lasting",
       "annee": 1996,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -14792,11 +16123,10 @@
       "cover_image": "https://i.discogs.com/P7oSY0G25YTMoyotnajF7ASb_u4g6Q9cvsZFncUPS28/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NDM5/NDEtMTcyMzQ1Mjc4/Ny0xMzY0LmpwZWc.jpeg"
     },
     {
-      "slug": "mc-eiht-we-come-strapped-1994",
+      "slug": "silkk-the-shocker-the-shocker-1996",
       "artiste": "Silkk The Shocker",
       "titre": "The Shocker",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -14903,12 +16233,11 @@
       "cover_image": "https://i.discogs.com/S5OXi8RnTRvrY_9SlrnfyLsrjvl119ldo1j-73cQo4w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzc4/MjItMTQwMDYwNDIw/MS03NjQ4LmpwZWc.jpeg"
     },
     {
-      "slug": "lil-1-2-dead-the-dead-has-arisen-1994",
+      "slug": "sk-1-4-all-grounds-covered-1996",
       "artiste": "SK-1 (4)",
       "titre": "All Grounds Covered",
       "annee": 1996,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -14959,11 +16288,10 @@
       "cover_image": "https://i.discogs.com/JHHBnuT4th1glom9SZGlWZFGhI0Jv1wIza8ticqTzOw/rs:fit/g:sm/q:90/h:600/w:587/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMjM2/MTktMTY2NDM1NjMx/OC03NjM4LmpwZWc.jpeg"
     },
     {
-      "slug": "10sion-10sion-2002",
+      "slug": "skanless-the-book-of-skanless-1996",
       "artiste": "Skanless",
       "titre": "The Book Of Skanless",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15055,12 +16383,11 @@
       "cover_image": "https://i.discogs.com/8Vh6W4D3QHjEkPao0GiBP_kgVGel7_CRKvZ3vuT8dWk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5OTQ4/MTItMTM2NzUyOTY0/Ni00NTg3LmpwZWc.jpeg"
     },
     {
-      "slug": "2pac-all-eyez-on-me-1996",
+      "slug": "skip-dog-1-t-the-money-then-the-power-1996",
       "artiste": "Skip Dog",
       "titre": "1$t The Money Then The Power.",
       "annee": 1996,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -15111,11 +16438,10 @@
       "cover_image": "https://i.discogs.com/81aT5ultwi6cLjEHRQOzwmKXRt5X1K4p29gEgW4c18A/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNTc5/Ni0xNTg5MjY0NTkz/LTk2NDUuanBlZw.jpeg"
     },
     {
-      "slug": "fo-clips-eclipse-just-be-thankful-1996",
+      "slug": "slm-comin-out-the-fog-2014",
       "artiste": "SLM",
       "titre": "Comin' Out The Fog",
       "annee": 2014,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15157,11 +16483,10 @@
       "cover_image": "https://i.discogs.com/g3D8l7b6vzWigP9V8hHUmZrhNUCg1ZVjJm_hXC-BiFI/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5Mjc2/NzItMTQyOTcwMTI5/MS0xODE0LmpwZWc.jpeg"
     },
     {
-      "slug": "mac-mall-illegal-business-1993",
+      "slug": "smg-5-strawberry-manor-gangstas-2009",
       "artiste": "SMG (5)",
       "titre": "Strawberry Manor Gangstas",
       "annee": 2009,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15203,11 +16528,10 @@
       "cover_image": "https://i.discogs.com/Gb9XTfImFkaGfICBLkYp1NJ6UU_VOuqAVgUbM5g7f3Q/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NzA0/NDYtMTM4NjE1NDQ3/Ny01NTc3LmpwZWc.jpeg"
     },
     {
-      "slug": "big-50-4-a-gee",
+      "slug": "snoop-dogg-doggystyle-1993",
       "artiste": "Snoop Dogg",
       "titre": "Doggystyle",
       "annee": 1993,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15314,11 +16638,10 @@
       "cover_image": "https://i.discogs.com/pcZqeVKIeOBKYB7WJcbwq3mQs2BwN59bJu1gNDWE3fU/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NDA5/My0xNDk3NjkxMTcx/LTM2MTEuanBlZw.jpeg"
     },
     {
-      "slug": "big-bur-na-the-daze-of-bur-na-1995",
+      "slug": "snoop-dogg-tha-doggfather-1996",
       "artiste": "Snoop Dogg",
       "titre": "Tha Doggfather",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15435,11 +16758,10 @@
       "cover_image": "https://i.discogs.com/xAhaveRjjHKWWFC30MAtTvxt1_oShiIOf_0COt210ak/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNjA0/OS0xNTIwNDgwNDYx/LTg1MDcuanBlZw.jpeg"
     },
     {
-      "slug": "master-p-99-ways-to-die-1995",
+      "slug": "sonya-c-married-to-the-mob-1993",
       "artiste": "Sonya C",
       "titre": "Married To The Mob",
       "annee": 1993,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15506,11 +16828,10 @@
       "cover_image": "https://i.discogs.com/CGb5SgWmI636N2Hd4h-L5xSCLyJTYM8yucnb0KcIMko/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxNjk5/MC0xNzEyMDEwMTU1/LTgzMTQuanBlZw.jpeg"
     },
     {
-      "slug": "snoop-dogg-doggystyle-1993",
+      "slug": "south-central-cartel-n-gatz-we-truss-1994",
       "artiste": "South Central Cartel",
       "titre": "'N Gatz We Truss",
       "annee": 1994,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15616,7 +16937,6 @@
       "artiste": "South Central Cartel",
       "titre": "Nationwide",
       "annee": 1995,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15688,11 +17008,10 @@
       "cover_image": "https://i.discogs.com/jHxcUUhLngXNyAuZgDitX2poK7j6QCFqAI5aEZ9LXq8/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzMzM4/Mi0xMTI4NTQxNzg1/LmpwZWc.jpeg"
     },
     {
-      "slug": "l-o-l-2-heaven-or-hell-1996",
+      "slug": "spice-1-amerikkkas-nightmare-1994",
       "artiste": "Spice 1",
       "titre": "AmeriKKKa's Nightmare",
       "annee": 1994,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15779,11 +17098,10 @@
       "cover_image": "https://i.discogs.com/2jKKAOkpPcH3hFOU6u2Lp29sxucxi2uVvuCArvdT0ZM/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjA5/Ni0xNjMwMjcxMTE4/LTY0MzIuanBlZw.jpeg"
     },
     {
-      "slug": "legend-man-pressure-pain-1997",
+      "slug": "spice-1-1990-sick-1995",
       "artiste": "Spice 1",
       "titre": "1990-Sick",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15870,11 +17188,10 @@
       "cover_image": "https://i.discogs.com/E1-GqEy6tGMcF3Eu5Fh143d4FccLn5tq6dZnKV_sJSw/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyNTE2/MTEtMTU0NDI3ODI1/MS04NTM3LmpwZWc.jpeg"
     },
     {
-      "slug": "11-5-collections-bootlegs-g-sides-1997",
+      "slug": "squirrel-da-izm-1998",
       "artiste": "Squirrel",
       "titre": "Da Izm",
       "annee": 1998,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -15941,12 +17258,11 @@
       "cover_image": "https://i.discogs.com/hAnvN_Z0KcaCp608aue1YgISzvdOZ_3X4d89gpqDieM/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3MTg1/NzMtMTQyNTI1MTEz/Ny02MjU1LmpwZWc.jpeg"
     },
     {
-      "slug": "t-lowe-young-g-s-1996",
+      "slug": "stranded-2-stranded-1998",
       "artiste": "Stranded (2)",
       "titre": "Stranded",
       "annee": 1998,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -16032,12 +17348,11 @@
       "cover_image": "https://i.discogs.com/DuFfHq-0aILtcGHhBboF2CHQ5xLFSTNpibh2UZKUVL8/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4Nzcw/NTUtMTc2MjIwOTQ3/NS03NjE2LnBuZw.jpeg"
     },
     {
-      "slug": "swolts-nighttime-music-1996",
+      "slug": "streethugs-not-to-be-fu-ed-with-1996",
       "artiste": "StreeThugs",
       "titre": "Not To Be Fu•?ed With",
       "annee": 1996,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -16093,11 +17408,10 @@
       "cover_image": "https://i.discogs.com/XWMd17ee3SSdS8a_yCeJPrd97Y9rvrSRzj6KY2pB1kg/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4NjU0/My0xNzE5NzMzMTky/LTQzMjIuanBlZw.jpeg"
     },
     {
-      "slug": "tha-dogg-pound-dogg-food-1995",
+      "slug": "sub-zero-7-s-m-d-sacramentos-most-dangerous-vol-i-",
       "artiste": "Sub-Zero (7)",
       "titre": "S.M.D. (Sacramento's Most Dangerous) Vol. I",
       "annee": null,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -16184,12 +17498,11 @@
       "cover_image": "https://i.discogs.com/-tf7lQGeSEpS-qE9dszKxis62fTK-LMKXZBMp7Ua8Fo/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNDY0/NzktMTYwMDM1Mjcy/Ni01OTc1LmpwZWc.jpeg"
     },
     {
-      "slug": "the-conscious-daughters-ear-to-the-street-1993",
+      "slug": "suthern-merchandise-suthern-stress-1997",
       "artiste": "Suthern Merchandise",
       "titre": "Suthern Stress",
       "annee": 1997,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -16260,11 +17573,10 @@
       "cover_image": "https://i.discogs.com/5Iaf5R2kiSDwa6fqFTzrSXpkWGMZf8fB8trW1N6HPiQ/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU4MjUw/NjMtMTY2NzIyMTg1/Ny03MTM0LmpwZWc.jpeg"
     },
     {
-      "slug": "cobra-13-playaz-in-paradise-1997",
+      "slug": "swolts-a-hard-life-story-1995",
       "artiste": "Swolts",
       "titre": "A Hard Life Story",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -16316,11 +17628,10 @@
       "cover_image": "https://i.discogs.com/qhDCNFzmQmHKsX5rqxyInLaJI3ZKjTibxUnDorBwUJE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1ODQ0/MzctMTQ2NDUzNjYz/Ni01Nzg4LmpwZWc.jpeg"
     },
     {
-      "slug": "big-50-ain-t-no-turnin-back-1995",
+      "slug": "swolts-nighttime-music-1996",
       "artiste": "Swolts",
       "titre": "Nighttime Music",
       "annee": 1996,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -16387,11 +17698,10 @@
       "cover_image": "https://i.discogs.com/FWbpymn8NcRpszlc39QBwkboAbeHZTeYJmFF9_iPBW8/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5MjYw/MTQtMTQ4ODcwNzMy/NC0yNjgwLmpwZWc.jpeg"
     },
     {
-      "slug": "ben-b-hard-one-mo-time-1996",
+      "slug": "swolts-forever-tha-world-1998",
       "artiste": "Swolts",
       "titre": "Forever, Tha World",
       "annee": 1998,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -16468,12 +17778,11 @@
       "cover_image": "https://i.discogs.com/xFWDXOpEIaEOowUQPsUxs2vFvFltUYeo1QCLY1nTezo/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjM5/NDMtMTU1NzMzNjM4/OS01NTQ1LmpwZWc.jpeg"
     },
     {
-      "slug": "2-of-the-crew-dankaristic-pimpshit-1997",
+      "slug": "t-mo-3-tribal-groove-vol-1-1997",
       "artiste": "T-Mo (3)",
       "titre": "Tribal Groove Vol. 1",
       "annee": 1997,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -16544,12 +17853,11 @@
       "cover_image": "https://i.discogs.com/a7XdAxb_hx-u8kZdIrJF5H9wEzOqcykRCP-xqZnQirA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxNjA4/MTMtMTM5NTQ3NDE1/Ni0zMDgxLmpwZWc.jpeg"
     },
     {
-      "slug": "nationwide-rip-ridaz-nationwide-rip-ridaz-ii-betrayed-can-t-trust-nobody-1999",
+      "slug": "t-lowe-young-gs-1996",
       "artiste": "T. Lowe",
       "titre": "Young G's",
       "annee": 1996,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -16580,11 +17888,10 @@
       "cover_image": "https://i.discogs.com/wMnaGbZDxxIpiPCHoM5ql7vxzOT3NqXIeGSKcb193po/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkwMjAy/NDYtMTQ3MzM5MTY3/Mi05MDYyLmpwZWc.jpeg"
     },
     {
-      "slug": "big-drawz-the-eargasm-2005",
+      "slug": "tha-dogg-pound-dogg-food-1995",
       "artiste": "Tha Dogg Pound",
       "titre": "Dogg Food",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -16681,12 +17988,11 @@
       "cover_image": "https://i.discogs.com/Om1MKxm6ZfqYKMn83hCtXC2v7m3P1Ug1xuKZUg08UB0/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNjA2/My0xNTYxOTg3NTQw/LTM0NTEuanBlZw.jpeg"
     },
     {
-      "slug": "2-11-ounce-of-game-2014",
+      "slug": "tha-reella-through-the-eyes-of-tha-reella-1997",
       "artiste": "Tha Reella",
       "titre": "Through The Eyes Of Tha Reella",
       "annee": 1997,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -16767,12 +18073,11 @@
       "cover_image": "https://i.discogs.com/D9e9DGZoepgJx-RBJYHFQYYg-5vcJb68-vJKieH8HaI/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwODg1/ODQtMTQ0Nzk0MDcz/OC02MTkxLmpwZWc.jpeg"
     },
     {
-      "slug": "spice-1-1990-sick-1995",
+      "slug": "the-conscious-daughters-ear-to-the-street-1993",
       "artiste": "The Conscious Daughters",
       "titre": "Ear To The Street",
       "annee": 1993,
-      "note": "☆☆☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -16842,8 +18147,7 @@
       "artiste": "The Conscious Daughters",
       "titre": "Gamers",
       "annee": 1996,
-      "note": "",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -16924,12 +18228,11 @@
       "cover_image": "https://i.discogs.com/aRxJfrker11xYxaGvbBc--ANPN5yYCM5BKFHp6eJFIM/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNjgz/NS0xNjE5OTAyNTc5/LTczNDguanBlZw.jpeg"
     },
     {
-      "slug": "above-the-law-legends-1998",
+      "slug": "the-delinquents-3-outta-control-ep-1995",
       "artiste": "The Delinquents (3)",
       "titre": "Outta Control EP",
       "annee": 1995,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -16985,12 +18288,11 @@
       "cover_image": "https://i.discogs.com/axg5MWgaQ6vkPtKM6Syj01BdjwSJu6wuZXjGyX_zMHQ/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMTMx/NC0xNjkxNTc5Njk3/LTcxMTYuanBlZw.jpeg"
     },
     {
-      "slug": "b-g-knocc-out-dresta-real-brothas-1995",
+      "slug": "the-delinquents-3-big-moves-1997",
       "artiste": "The Delinquents (3)",
       "titre": "Big Moves",
       "annee": 1997,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -17091,12 +18393,11 @@
       "cover_image": "https://i.discogs.com/9CBij6K2ZRGcprb1C4UP2D4ewywhCG1_MkxpQchcB94/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Mjcz/NDktMTI5OTg0MjMx/OC5qcGVn.jpeg"
     },
     {
-      "slug": "playa-g-pimp-sh-t",
+      "slug": "the-hard-boys-trapped-in-the-game-1996",
       "artiste": "The Hard Boys",
       "titre": "Trapped In The Game",
       "annee": 1996,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -17177,12 +18478,11 @@
       "cover_image": "https://i.discogs.com/kgfkTBlv089WfHXLz6YKCogFCSdDzyz7KuNu0HsYISc/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5ODMx/Ni0xNjIxOTI2OTg0/LTczOTUuanBlZw.jpeg"
     },
     {
-      "slug": "nationwide-rip-ridaz-nationwide-rip-ridaz-1995",
+      "slug": "the-unexpected-11-the-element-of-surprise-1996",
       "artiste": "The Unexpected (11)",
       "titre": "The Element Of Surprise",
       "annee": 1996,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -17278,11 +18578,10 @@
       "cover_image": "https://i.discogs.com/crT2KmkCBhIcHL6u7YLE-WnYWl_fsL1XqLsej7eJDPY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5OTI3/NzAtMTQzMTI0NTgx/MS05NTc1LmpwZWc.jpeg"
     },
     {
-      "slug": "2pac-until-the-end-of-time-2001",
+      "slug": "the-unexpected-2-u-didnt-know-2002",
       "artiste": "The Unexpected (2)",
       "titre": "U Didn't Know??",
       "annee": 2002,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -17379,11 +18678,275 @@
       "cover_image": "https://i.discogs.com/HNJd4UYbKV0Qsnw5OZn9JPIbsaggA7hLVCe5s417UQ4/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5MDYy/Ny0xNTk4NDU4ODgz/LTE1NjEuanBlZw.jpeg"
     },
     {
-      "slug": "kingdom-13-i-reign-omnipotent-1998",
+      "slug": "totally-insane-direct-from-the-backstreet-1992",
+      "artiste": "Totally Insane",
+      "titre": "Direct From The Backstreet",
+      "annee": 1992,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Intro:",
+          "dur": ""
+        },
+        {
+          "pos": "2",
+          "title": "What Ya Know",
+          "dur": ""
+        },
+        {
+          "pos": "3",
+          "title": "Kiss No Ass",
+          "dur": "2:54"
+        },
+        {
+          "pos": "4",
+          "title": "No More Mr. Nice Guy",
+          "dur": "4:28"
+        },
+        {
+          "pos": "5",
+          "title": "Heartless Mother Fuc...",
+          "dur": "4:05"
+        },
+        {
+          "pos": "6",
+          "title": "Mack Game",
+          "dur": "5:03"
+        },
+        {
+          "pos": "7",
+          "title": "The Insane",
+          "dur": "4:11"
+        },
+        {
+          "pos": "8",
+          "title": "Smoooth",
+          "dur": "3:39"
+        },
+        {
+          "pos": "9",
+          "title": "-N- The Backstreets",
+          "dur": ""
+        },
+        {
+          "pos": "10",
+          "title": "I Can't Be Faded",
+          "dur": "4:28"
+        },
+        {
+          "pos": "11",
+          "title": "I Don't Even Trip",
+          "dur": "3:10"
+        },
+        {
+          "pos": "12",
+          "title": "Now Ya Understand",
+          "dur": "3:57"
+        },
+        {
+          "pos": "13",
+          "title": "Outro:",
+          "dur": ""
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/11331325",
+      "release_id": "11331325",
+      "resource_url": "https://api.discogs.com/releases/11331325",
+      "cover_image": "https://i.discogs.com/YBt8HNXEmFtgKuabMXnTwxPwSDn2j_j8i3y-kLZBp7A/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzMx/MzI1LTE1NDcwNTA0/MjctNzI4OC5qcGVn.jpeg"
+    },
+    {
+      "slug": "totally-insane-goin-insane-1993",
+      "artiste": "Totally Insane",
+      "titre": "Goin Insane",
+      "annee": 1993,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Intro",
+          "dur": "1:12"
+        },
+        {
+          "pos": "2",
+          "title": "Goin Insane",
+          "dur": "4:38"
+        },
+        {
+          "pos": "3",
+          "title": "It's On",
+          "dur": "3:04"
+        },
+        {
+          "pos": "4",
+          "title": "The Bad Hand",
+          "dur": "4:15"
+        },
+        {
+          "pos": "5",
+          "title": "Pimps Up Hoes Down",
+          "dur": "5:22"
+        },
+        {
+          "pos": "6",
+          "title": "The Times",
+          "dur": "4:47"
+        },
+        {
+          "pos": "7",
+          "title": "A To D",
+          "dur": "4:43"
+        },
+        {
+          "pos": "8",
+          "title": "That Insane Shit",
+          "dur": "3:44"
+        },
+        {
+          "pos": "9",
+          "title": "Epa Interview",
+          "dur": "0:39"
+        },
+        {
+          "pos": "10",
+          "title": "Backstreet Boys",
+          "dur": "3:42"
+        },
+        {
+          "pos": "11",
+          "title": "Can't Be Faded",
+          "dur": "2:54"
+        },
+        {
+          "pos": "12",
+          "title": "Here We Go Again",
+          "dur": "3:11"
+        },
+        {
+          "pos": "13",
+          "title": "Slangin Bean Pies",
+          "dur": "4:08"
+        },
+        {
+          "pos": "14",
+          "title": "Maggot Ass Bitches",
+          "dur": "5:17"
+        },
+        {
+          "pos": "15",
+          "title": "Krazy Shit",
+          "dur": "2:54"
+        },
+        {
+          "pos": "16",
+          "title": "No Mo Muzik",
+          "dur": "3:54"
+        },
+        {
+          "pos": "17",
+          "title": "Outro",
+          "dur": "3:04"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/3494221",
+      "release_id": "3494221",
+      "resource_url": "https://api.discogs.com/releases/3494221",
+      "cover_image": "https://i.discogs.com/o6UxU50yaXgmulhdJ6tlfs9Qg2BxBNZlapzz87G1iEU/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0OTQy/MjEtMTY3Njk1ODE5/NS01MTYzLmpwZWc.jpeg"
+    },
+    {
+      "slug": "totally-insane-back-street-life-1995",
+      "artiste": "Totally Insane",
+      "titre": "Back Street Life",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Follow Me",
+          "dur": "4:56"
+        },
+        {
+          "pos": "2",
+          "title": "Fast Lane",
+          "dur": "4:09"
+        },
+        {
+          "pos": "3",
+          "title": "Mr. Ad Kapone",
+          "dur": "4:23"
+        },
+        {
+          "pos": "4",
+          "title": "4-Ever",
+          "dur": "3:21"
+        },
+        {
+          "pos": "5",
+          "title": "Done Deal",
+          "dur": "4:49"
+        },
+        {
+          "pos": "6",
+          "title": "Back Street Life (Remix)",
+          "dur": "4:28"
+        },
+        {
+          "pos": "7",
+          "title": "Neighborhood Rockstarz",
+          "dur": "4:38"
+        },
+        {
+          "pos": "8",
+          "title": "Murder, Death, Kill",
+          "dur": "3:34"
+        },
+        {
+          "pos": "9",
+          "title": "Playaz And Hustlaz",
+          "dur": "4:17"
+        },
+        {
+          "pos": "10",
+          "title": "The 4-1-1",
+          "dur": "4:05"
+        },
+        {
+          "pos": "11",
+          "title": "Total Insanity",
+          "dur": "4:16"
+        },
+        {
+          "pos": "12",
+          "title": "The Bad Hand Too",
+          "dur": "4:14"
+        },
+        {
+          "pos": "13",
+          "title": "G-Shit",
+          "dur": "3:40"
+        },
+        {
+          "pos": "14",
+          "title": "Back Street Life (Outro)",
+          "dur": "4:32"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/490520",
+      "release_id": "490520",
+      "resource_url": "https://api.discogs.com/releases/490520",
+      "cover_image": "https://i.discogs.com/44Ep9ddkbYXQ31zEX4ELbmHm3S9I3GlRtAXVhq8iRCs/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5MDUy/MC0xNjEwMDg0MzI0/LTI4MzIuanBlZw.jpeg"
+    },
+    {
+      "slug": "trapp-stop-the-gunfight-1997",
       "artiste": "Trapp",
       "titre": "Stop The Gunfight",
       "annee": 1997,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -17465,12 +19028,11 @@
       "cover_image": "https://i.discogs.com/UvkNzBVEwRmz3QZbZHjoImCPjY8DWmE1xXKYKCJzK7g/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDEx/NTUzLTE0OTAxMTEx/OTctMTAyNS5qcGVn.jpeg"
     },
     {
-      "slug": "11-5-fiendin-4-tha-funk-radio-edits-1995",
+      "slug": "triple-6-hustlin-4-my-paper-",
       "artiste": "TRIPLE 6",
       "titre": "Hustlin' 4 My Paper",
       "annee": null,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -17546,11 +19108,10 @@
       "cover_image": "https://i.discogs.com/xle-lJXsbR6C1zf0nUMKUO25pgO-FdnCSWkfD0r993I/rs:fit/g:sm/q:90/h:200/w:200/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NjU2/NjAtMTI0ODg2MDAw/MC5qcGVn.jpeg"
     },
     {
-      "slug": "mr-ivan-187-in-a-hockey-mask-1997",
+      "slug": "tru-true-1995",
       "artiste": "Tru",
       "titre": "True",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -17662,12 +19223,11 @@
       "cover_image": "https://i.discogs.com/usSW6v7DyDotACU4d8l8HNh1iKDeF-lIpR7B_NjXf5Y/rs:fit/g:sm/q:90/h:589/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MDI4/OS0xNTQ5MTM4NjY4/LTk3MjkuanBlZw.jpeg"
     },
     {
-      "slug": "black-dynasty-deep-east-oakland-1995",
+      "slug": "u-d-i-under-da-influence-1995",
       "artiste": "U.D.I.",
       "titre": "Under Da Influence",
       "annee": 1995,
-      "note": "★★★★★",
-      "stars": null,
+      "stars": 5,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -17763,12 +19323,11 @@
       "cover_image": "https://i.discogs.com/uhVoYL-j8icfk76bAe51WQZqKc3RICBX5vXl-zUBgW4/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4ODIz/My0xNDA0MDgxNjg2/LTcwMTUuanBlZw.jpeg"
     },
     {
-      "slug": "2-11-ounce-of-game-1996",
+      "slug": "u-d-i-drinks-on-us-1998",
       "artiste": "U.D.I.",
       "titre": "Drinks On Us",
       "annee": 1998,
-      "note": "★★★★☆",
-      "stars": null,
+      "stars": 4,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -17859,12 +19418,11 @@
       "cover_image": "https://i.discogs.com/TAivqe99eBhPofIayDV0uFR1FbH2G3ExdVrJa5nYFQk/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjk0/MzAtMTY2ODQyNjc5/My0zNDk3LmpwZWc.jpeg"
     },
     {
-      "slug": "lil-milt-the-prophecy-1997",
+      "slug": "ugk-ridin-dirty-1996",
       "artiste": "UGK",
       "titre": "Ridin' Dirty",
       "annee": 1996,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -17940,12 +19498,11 @@
       "cover_image": "https://i.discogs.com/JsNAoiOITw0Yzl3_8L4p_-wUshv_OEEE6Hk3eKvs25w/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNDkw/NS0xNzI1NTE5OTI3/LTgzNzMucG5n.jpeg"
     },
     {
-      "slug": "brotha-moe-you-reap-what-you-sow-1996",
+      "slug": "unlv-2-unlv-underground-nation-livin-violently-1998",
       "artiste": "UNLV (2)",
       "titre": "UNLV (Underground Nation Livin' Violently)",
       "annee": 1998,
-      "note": "★★★☆☆",
-      "stars": null,
+      "stars": 3,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -18041,11 +19598,10 @@
       "cover_image": "https://i.discogs.com/S2gQR3K7CcK-10Ekty1KzLHSoLm6nmGXYSyckPqUXGY/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDY5/MTktMTY4MjE2NTA2/MS03MDk4LmpwZWc.jpeg"
     },
     {
-      "slug": "various-repo-ric-s-west-coast-underground-repolation-1998",
+      "slug": "various-repo-rics-west-coast-underground-repolation-1998",
       "artiste": "Various",
       "titre": "Repo Ric's West Coast Underground Repolation",
       "annee": 1998,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -18137,11 +19693,10 @@
       "cover_image": "https://i.discogs.com/NfjyJuqIefuwv-obOq0gjH55-Xjm8q0pqNM3QM_QeKM/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNjkw/MDMtMTY5NzE5NDIz/NC00MjQ1LmpwZWc.jpeg"
     },
     {
-      "slug": "psycho-gangsta-ballin-4-life-1997",
+      "slug": "victims-of-society-3-on-the-run-1995",
       "artiste": "Victims Of Society (3)",
       "titre": "On The Run",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -18233,11 +19788,10 @@
       "cover_image": "https://i.discogs.com/Wo0OqN4Ko5rq1HD1jhpfWFdeO53u68CS-PqEjYIbFJI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njgy/MTktMTM2MTAzMzUw/OC00NDM0LmpwZWc.jpeg"
     },
     {
-      "slug": "guce-pure-pressure-1995",
+      "slug": "watts-gangstas-the-real-1995",
       "artiste": "Watts Gangstas",
       "titre": "The Real",
       "annee": 1995,
-      "note": "☆☆☆☆☆",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -18309,12 +19863,11 @@
       "cover_image": "https://i.discogs.com/qEdUy-kmYAZ8f_IzIqTbi6YIfSyXz9Ltgcd9nO3fkp4/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4MTky/OC0xNTA3MzE3MjYw/LTI2OTAuanBlZw.jpeg"
     },
     {
-      "slug": "swolts-a-hard-life-story-1995",
+      "slug": "yd-give-it-up-to-the-gs-1996",
       "artiste": "YD",
       "titre": "Give It Up To The G's",
       "annee": 1996,
-      "note": "★★★★★",
-      "stars": null,
+      "stars": 5,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -18390,12 +19943,11 @@
       "cover_image": "https://i.discogs.com/1Yw-z0Eri8lyortXalSPaxyCIWQFjeYlSnqF1fzElEg/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzM1/NDktMTYzNjQ0NzUw/MS05NzkyLmpwZWc.jpeg"
     },
     {
-      "slug": "skip-dog-1-t-the-money-then-the-power-1996",
+      "slug": "young-d-boyz-straight-game-1995",
       "artiste": "Young \"D\" Boyz",
       "titre": "Straight Game",
       "annee": 1995,
-      "note": "★☆☆☆☆",
-      "stars": null,
+      "stars": 1,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -18471,12 +20023,91 @@
       "cover_image": "https://i.discogs.com/A_tHNPPQy71Nj2w1TqquE_0vbDRW1uQ2tCqmoOlqi_I/rs:fit/g:sm/q:90/h:491/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3NTU1/Ny0xMjE0MjYxMTk5/LmpwZWc.jpeg"
     },
     {
-      "slug": "11-5-a-1-yola-1996",
+      "slug": "young-know-takin-it-to-the-next-1997",
+      "artiste": "Young Know",
+      "titre": "Takin' It To The Next",
+      "annee": 1997,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Tell It Like It Is",
+          "dur": "4:48"
+        },
+        {
+          "pos": "2",
+          "title": "The Way The Game Goes",
+          "dur": "4:03"
+        },
+        {
+          "pos": "3",
+          "title": "Change Your Ways",
+          "dur": "4:30"
+        },
+        {
+          "pos": "4",
+          "title": "Come Thru",
+          "dur": "4:11"
+        },
+        {
+          "pos": "5",
+          "title": "Pimp Talk",
+          "dur": "2:15"
+        },
+        {
+          "pos": "6",
+          "title": "Start To Finish",
+          "dur": "5:14"
+        },
+        {
+          "pos": "7",
+          "title": "Gotta Survive",
+          "dur": "4:35"
+        },
+        {
+          "pos": "8",
+          "title": "Money Mackin'",
+          "dur": "3:39"
+        },
+        {
+          "pos": "9",
+          "title": "Game Lessons",
+          "dur": "2:58"
+        },
+        {
+          "pos": "10",
+          "title": "Hustla On The Go",
+          "dur": "4:13"
+        },
+        {
+          "pos": "11",
+          "title": "Heartless",
+          "dur": "3:50"
+        },
+        {
+          "pos": "12",
+          "title": "Savage Tales",
+          "dur": "3:05"
+        },
+        {
+          "pos": "13",
+          "title": "The Track",
+          "dur": "4:05"
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/2461606",
+      "release_id": "2461606",
+      "resource_url": "https://api.discogs.com/releases/2461606",
+      "cover_image": "https://i.discogs.com/YN4HojrjdqtmXlAnY-FIkSLDvlVlzWFhf5RIpgXQBK0/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NjE2/MDYtMTM3MTI5NTE2/OC02ODQ3LmpwZWc.jpeg"
+    },
+    {
+      "slug": "young-lay-black-n-dangerous-1996",
       "artiste": "Young Lay",
       "titre": "Black 'N Dangerous",
       "annee": 1996,
-      "note": "★★★★★",
-      "stars": null,
+      "stars": 5,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -18552,12 +20183,11 @@
       "cover_image": "https://i.discogs.com/VnHzJ5-Nnv0-HSumLtxPDLWOKVPg_StwVpUkR37rLSw/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU4NzMy/My0xNzQzODcyNDEz/LTMxODIuanBlZw.jpeg"
     },
     {
-      "slug": "dubee-aka-sugawolf-for-that-crilla-1997",
+      "slug": "young-mack-t-life-in-the-game-1995",
       "artiste": "Young Mack-T",
       "titre": "Life In The Game",
       "annee": 1995,
-      "note": "★★☆☆☆",
-      "stars": null,
+      "stars": 2,
       "favorite": false,
       "favTracks": [],
       "tracklist": [
@@ -18617,7 +20247,6 @@
       "artiste": "Young Murder Squad",
       "titre": "How We Livin'",
       "annee": 1996,
-      "note": "",
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -18692,6 +20321,81 @@
       "release_id": "610126",
       "resource_url": "https://api.discogs.com/releases/610126",
       "cover_image": "https://i.discogs.com/4v_ZAQRGUmTUzxzQZUd2Xi72pySoNebKP0ObcNjA_fY/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMDEy/Ni0xNzA4NzYxMzUw/LTM3NzkuanBlZw.jpeg"
+    },
+    {
+      "slug": "zeno-vellie-the-missin-link-of-the-game-1999",
+      "artiste": "Zeno Vellie",
+      "titre": "The Missin' Link Of The Game",
+      "annee": 1999,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": [
+        {
+          "pos": "1",
+          "title": "Intro",
+          "dur": ""
+        },
+        {
+          "pos": "2",
+          "title": "Kansas City (RMX)",
+          "dur": ""
+        },
+        {
+          "pos": "3",
+          "title": "Z Stopped Rappin'",
+          "dur": ""
+        },
+        {
+          "pos": "4",
+          "title": "Key 2 Da City",
+          "dur": ""
+        },
+        {
+          "pos": "5",
+          "title": "Hard headed",
+          "dur": ""
+        },
+        {
+          "pos": "6",
+          "title": "Reconize My Name",
+          "dur": ""
+        },
+        {
+          "pos": "7",
+          "title": "I'm A Thug",
+          "dur": ""
+        },
+        {
+          "pos": "8",
+          "title": "Spittin' Phrases",
+          "dur": ""
+        },
+        {
+          "pos": "9",
+          "title": "Get Ya Bounce On",
+          "dur": ""
+        },
+        {
+          "pos": "10",
+          "title": "Let The Playas Play",
+          "dur": ""
+        },
+        {
+          "pos": "11",
+          "title": "Z Keep Runnin'",
+          "dur": ""
+        },
+        {
+          "pos": "12",
+          "title": "Posted At The Bar",
+          "dur": ""
+        }
+      ],
+      "discogsLink": "https://www.discogs.com/release/7408647",
+      "release_id": "7408647",
+      "resource_url": "https://api.discogs.com/releases/7408647",
+      "cover_image": "https://i.discogs.com/9ysdTxdrkgpTciZBEeCwuwQ8ThKxoLUBrvEtZJGDE6g/rs:fit/g:sm/q:90/h:393/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MDg2/NDctMTQ0MDg4MzA3/Ni0zOTMzLmpwZWc.jpeg"
     }
   ]
 }
