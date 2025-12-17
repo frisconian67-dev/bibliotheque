@@ -26,6 +26,20 @@
       backdrop-filter: blur(8px);
       border-bottom:1px solid var(--stroke);
     }
+    .main::before{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:0;
+  bottom:0;
+  width:1px;
+  background: linear-gradient(to bottom, transparent, rgba(255,255,255,.08), transparent);
+  transform: translateX(-50%);
+}
+.main{
+  position: relative;
+}
+
     .topline{ display:flex; align-items:center; gap:12px; margin-bottom:12px; }
     .brand{ font-weight:800; letter-spacing:.2px; }
     .badge{ font-size:12px; color:var(--muted); padding:6px 10px; border:1px solid var(--stroke); border-radius:999px; background:rgba(255,255,255,.03); }
@@ -105,6 +119,109 @@
     .stars { font-size:20px; letter-spacing:2px; margin-top:8px; text-align:center; }
     .stars .on { color:#ffd36b; text-shadow: 1px 1px 2px #000; }
     .stars .off { color:rgba(255,255,255,.25); text-shadow: 1px 1px 2px #000; }
+  
+    .sentinel{
+  height: 1px;
+  max-width:1200px;
+  margin: 0 auto;
+}
+/* ===== Mobile: rendu plus dense (moins "gros") ===== */
+@media (max-width: 600px){
+
+  header{ padding:12px 10px 8px; }
+  .topline{ margin-bottom:10px; gap:10px; }
+  .brand{ font-size:14px; }
+  .badge{ font-size:11px; padding:5px 8px; }
+
+  input{ padding:10px 12px; border-radius:12px; font-size:14px; }
+
+  /* Grille: cartes plus petites */
+  .grid{
+    gap:10px;
+    padding:10px;
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+  }
+
+  .meta{ padding:10px 10px 12px; }
+
+  .artist{
+    font-size:13px;
+    margin-bottom:4px;
+  }
+
+  .separator{ width:54px; margin:6px auto; }
+
+  .title{ font-size:13px; margin:0 0 4px; }
+  .year{ font-size:12px; margin-top:4px; }
+
+  .stars{ font-size:16px; margin-top:6px; letter-spacing:1px; }
+
+  /* Liseré un peu moins épais sur mobile */
+  .card{ border-width:1px; }
+}
+#starsFilter{
+  width:100%;
+  margin-top:8px;
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid var(--stroke);
+  background:rgba(255,255,255,.03);
+  color:var(--text);
+}
+
+/* ===== Upgrade texte header (moins "blanc plat") ===== */
+
+/* Halo doux derrière artiste + titre */
+.header{
+  position: relative;
+  overflow: hidden;
+}
+.header::before{
+  content:"";
+  position:absolute;
+  inset:-60px;
+  background:
+    radial-gradient(500px 220px at 50% 35%, rgba(255,211,107,.20), transparent 65%),
+    radial-gradient(900px 340px at 50% 0%, rgba(120,170,255,.10), transparent 60%);
+  filter: blur(8px);
+  pointer-events:none;
+  z-index:0;
+}
+.header > *{ position: relative; z-index:1; }
+
+/* Artiste : doré plus "premium" */
+.header .artist{
+  color: transparent;
+  background: linear-gradient(180deg, #ffe39a 0%, #ffd36b 40%, #b87a14 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow:
+    0 0 18px rgba(255,211,107,.25),
+    0 8px 22px rgba(0,0,0,.55);
+}
+
+/* Titre : blanc -> argenté + micro-contraste */
+.header h1{
+  color: transparent;
+  background: linear-gradient(180deg, #ffffff 0%, #dfe7ff 40%, #a9b4d6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* relief */
+  text-shadow:
+    0 1px 0 rgba(0,0,0,.55),
+    0 14px 28px rgba(0,0,0,.60),
+    0 0 18px rgba(255,255,255,.12);
+}
+
+/* Année un peu plus stylée (subtile) */
+.header .year{
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  opacity: .9;
+}
+.header h1{ letter-spacing: .02em; }
+
   </style>
 </head>
 <body>
@@ -114,9 +231,20 @@
     <div class="badge" id="count">…</div>
   </div>
   <input id="q" placeholder="Rechercher artiste, titre, année…" />
+  <select id="starsFilter">
+  <option value="">Toutes les notes</option>
+  <option value="5">★★★★★</option>
+  <option value="4">★★★★☆ et +</option>
+  <option value="3">★★★☆☆ et +</option>
+  <option value="2">★★☆☆☆ et +</option>
+  <option value="1">★☆☆☆☆ et +</option>
+</select>
+
 </header>
 
 <div class="grid" id="grid"></div>
+<div id="sentinel" class="sentinel"></div>
+
 
 <script>
 function starsHtml(n){
@@ -154,7 +282,13 @@ fetch('data/export.json?v=' + Date.now())
         d.onclick = () => location.href = `album.html?slug=${encodeURIComponent(a.slug)}`;
         d.innerHTML = `
           <div class="coverWrap">
-            <img class="cover" src="${a.cover_image || ''}" alt="${a.titre || ''} - ${a.artiste || ''}">
+            <img class="cover"
+     src="${a.cover_image || ''}"
+     alt="${a.titre || ''} - ${a.artiste || ''}"
+     loading="lazy"
+     decoding="async">
+
+
             <div class="shine"></div>
           </div>
           <div class="meta">
@@ -168,18 +302,86 @@ fetch('data/export.json?v=' + Date.now())
         grid.appendChild(d);
       });
     }
+const pageSize = 72;
+let filtered = items.slice();
+let visible = 0;
 
-    render(items);
+const sentinel = document.getElementById('sentinel');
 
-    q.oninput = () => {
-      const s = q.value.trim().toLowerCase();
-      if (!s) return render(items);
-      render(items.filter(a =>
-        (a.artiste || '').toLowerCase().includes(s) ||
-        (a.titre || '').toLowerCase().includes(s) ||
-        String(a.annee ?? '').includes(s)
-      ));
-    };
+function appendNext(){
+  const next = filtered.slice(visible, visible + pageSize);
+  visible += next.length;
+
+  next.forEach(a => {
+    const d = document.createElement('div');
+    d.className = 'card';
+    d.onclick = () => location.href = `album.html?slug=${encodeURIComponent(a.slug)}`;
+    d.innerHTML = `
+      <div class="coverWrap">
+        <img class="cover"
+             src="${a.cover_image || ''}"
+             alt="${a.titre || ''} - ${a.artiste || ''}"
+             loading="lazy" decoding="async">
+        <div class="shine"></div>
+      </div>
+      <div class="meta">
+        <span class="artist">${a.artiste || ''}</span>
+        <div class="separator"></div>
+        <p class="title">${a.titre || ''}</p>
+        <span class="year">${a.annee ?? ''}</span>
+        ${starsHtml(a.stars)}
+      </div>`;
+    grid.appendChild(d);
+  });
+
+  count.textContent = `${filtered.length} albums — affichés ${Math.min(visible, filtered.length)}`;
+}
+
+function resetAndRender(){
+  grid.innerHTML = '';
+  visible = 0;
+
+  if (!filtered.length){
+    grid.innerHTML = `<div class="empty">Aucun résultat.</div>`;
+    count.textContent = `0 album`;
+    return;
+  }
+  appendNext();
+}
+
+const io = new IntersectionObserver((entries) => {
+  if (!entries[0].isIntersecting) return;
+  if (visible < filtered.length) appendNext();
+}, { rootMargin: '800px 0px' });
+
+io.observe(sentinel);
+
+const starsFilter = document.getElementById('starsFilter');
+
+function applyFilters(){
+  const text = q.value.trim().toLowerCase();
+  const minStars = Number(starsFilter.value || 0);
+
+  filtered = items.filter(a => {
+    const okText = !text ||
+      (a.artiste || '').toLowerCase().includes(text) ||
+      (a.titre || '').toLowerCase().includes(text) ||
+      String(a.annee ?? '').includes(text);
+
+    const s = Number(a.stars || 0); // non noté => 0
+    const okStars = !minStars || s >= minStars;
+
+    return okText && okStars;
+  });
+
+  resetAndRender();
+}
+
+q.oninput = applyFilters;
+starsFilter.onchange = applyFilters;
+
+  resetAndRender();
+
   });
 </script>
 </body>
