@@ -306,20 +306,40 @@ ol.tracks{
   return `<div class="stars">${s}</div>`;
 }
 
+// Fonction de rendu de la tracklist (compatible ancien + nouveau format)
+function renderTracklist(tracklist) {
+  let norm = [];
 
-    // Fonction de rendu de la tracklist
-    function renderTracklist(tracklist) {
-  if (!tracklist || !tracklist.length) {
+  // 1) Nouveau format : string multi-lignes
+  if (typeof tracklist === "string") {
+    const lines = tracklist.split(/\r?\n/).map(s => s.trim()).filter(Boolean);
+    if (!lines.length) return `<div class="empty">Tracklist non disponible.</div>`;
+
+    norm = lines.map((line, i) => {
+      const m = line.match(/^(\S+)\s*-\s*(.+)$/);
+      return {
+        pos: m ? m[1] : (i + 1),
+        title: m ? m[2] : line,
+        dur: ""
+      };
+    });
+  }
+
+  // 2) Ancien format : array d'objets
+  else if (Array.isArray(tracklist) && tracklist.length) {
+    norm = tracklist.map((t, i) => ({
+      pos: t.pos ?? t.position ?? (i + 1),
+      title: t.title ?? t.name ?? "Titre inconnu",
+      dur: t.dur ?? t.duration ?? ""
+    }));
+  }
+
+  // 3) Rien
+  else {
     return `<div class="empty">Tracklist non disponible.</div>`;
   }
 
-  // Normalisation des données pour être sûr qu'elles ont un format correct
-  const norm = tracklist.map((t, i) => ({
-    pos: t.pos ?? (i + 1),
-    title: t.title ?? t.name ?? "Titre inconnu",
-    dur: t.dur ?? t.duration ?? "Durée inconnue"
-  }));
-
+  // Rendu UNIQUE (ton ancien HTML)
   return `
     <div class="tracklist">
       <h3>Tracklist</h3>
@@ -327,16 +347,17 @@ ol.tracks{
         ${norm.map(t => `
           <li class="track">
             <div class="tleft">
-              <div class="tno">${t.pos}</div>
+              <div class="tno">${escapeHtml(t.pos)}</div>
               <div class="tname">${escapeHtml(t.title)}</div>
             </div>
-            <div class="tdur">${escapeHtml(t.dur)}</div>
+            <div class="tdur">${escapeHtml(t.dur || "")}</div>
           </li>
-        `).join('')}
+        `).join("")}
       </ol>
     </div>
   `;
 }
+
 
 
     window.addEventListener("DOMContentLoaded", () => {

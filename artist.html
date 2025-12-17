@@ -36,6 +36,41 @@
     .row:first-child{ border-top:none; }
     .year{ color:var(--muted); min-width:48px; }
     .title{ flex:1; }
+  /* ===== Mobile: rendu plus dense (moins "gros") ===== */
+@media (max-width: 600px){
+
+  header{ padding:12px 10px 8px; }
+  .topline{ margin-bottom:10px; gap:10px; }
+  .brand{ font-size:14px; }
+  .badge{ font-size:11px; padding:5px 8px; }
+
+  input{ padding:10px 12px; border-radius:12px; font-size:14px; }
+
+  /* Grille: cartes plus petites */
+  .grid{
+    gap:10px;
+    padding:10px;
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+  }
+
+  .meta{ padding:10px 10px 12px; }
+
+  .artist{
+    font-size:13px;
+    margin-bottom:4px;
+  }
+
+  .separator{ width:54px; margin:6px auto; }
+
+  .title{ font-size:13px; margin:0 0 4px; }
+  .year{ font-size:12px; margin-top:4px; }
+
+  .stars{ font-size:16px; margin-top:6px; letter-spacing:1px; }
+
+  /* Liseré un peu moins épais sur mobile */
+  .card{ border-width:1px; }
+}
+
   </style>
 </head>
 <body>
