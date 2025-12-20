@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Artiste</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root{
+      --bg:#0b0d12;
+      --panel:#111522;
+      --text:#e9edf5;
+      --muted:#9aa4b2;
+      --stroke:rgba(255,255,255,.08);
+      --radius:18px;
+      --shadow: 0 12px 30px rgba(0,0,0,.35);
+    }
+    *{ box-sizing:border-box; }
+    body{ margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:radial-gradient(1200px 600px at 20% 0%, #121a2e 0%, var(--bg) 45%), var(--bg); color:var(--text); }
+    a{ color:#6aa8ff; text-decoration:none; }
+    .wrap{ max-width:980px; margin:0 auto; padding:18px 16px 28px; }
+    .topbar{ display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
+    .btn{ padding:10px 12px; border-radius:12px; border:1px solid var(--stroke); background:rgba(255,255,255,.03); color:var(--text); cursor:pointer; }
+    .panel{
+      background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.02));
+      border:1px solid var(--stroke);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    h1{ margin:0 0 12px; font-size:22px; }
+    .row{
+      display:flex; justify-content:space-between; gap:12px;
+      padding:12px 14px;
+      border-top:1px solid var(--stroke);
+    }
+    .row:first-child{ border-top:none; }
+    .year{ color:var(--muted); min-width:48px; }
+    .title{ flex:1; }
+  /* ===== Mobile: rendu plus dense (moins "gros") ===== */
+@media (max-width: 600px){
+
+  header{ padding:12px 10px 8px; }
+  .topline{ margin-bottom:10px; gap:10px; }
+  .brand{ font-size:14px; }
+  .badge{ font-size:11px; padding:5px 8px; }
+
+  input{ padding:10px 12px; border-radius:12px; font-size:14px; }
+
+  /* Grille: cartes plus petites */
+  .grid{
+    gap:10px;
+    padding:10px;
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+  }
+
+  .meta{ padding:10px 10px 12px; }
+
+  .artist{
+    font-size:13px;
+    margin-bottom:4px;
+  }
+
+  .separator{ width:54px; margin:6px auto; }
+
+  .title{ font-size:13px; margin:0 0 4px; }
+  .year{ font-size:12px; margin-top:4px; }
+
+  .stars{ font-size:16px; margin-top:6px; letter-spacing:1px; }
+
+  /* Liseré un peu moins épais sur mobile */
+  .card{ border-width:1px; }
+}
+.wrap{max-width:980px;margin:0 auto;padding:28px 18px 60px;}
+.topbar{display:flex;justify-content:flex-start;margin-bottom:18px;}
+
+h1{
+  margin: 6px 0 6px;
+  font-size: 34px;
+  letter-spacing: .2px;
+}
+
+.sub{
+  color: var(--muted);
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.panel{
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+  border: 1px solid var(--stroke);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 14px;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+.row:last-child{border-bottom:0;}
+
+.year{
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.title a{
+  color: #8fa2ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.title a:hover{
+  color: #cfd6ff;
+  text-decoration: underline;
+}
+.wrap{max-width:980px;margin:0 auto;padding:28px 18px 60px;}
+.topbar{display:flex;justify-content:flex-start;margin-bottom:18px;}
+
+h1{margin:6px 0 6px;font-size:34px;letter-spacing:.2px;}
+
+.sub{color:var(--muted);margin-bottom:16px;font-size:14px;}
+
+.panel{
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+  border: 1px solid var(--stroke);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.row{
+  display:grid;
+  grid-template-columns:64px 1fr;
+  gap:14px;
+  padding:12px 16px;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.row:last-child{border-bottom:0;}
+
+.year{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right;}
+
+.title a{color:#8fa2ff;text-decoration:none;font-weight:500;}
+.title a:hover{color:#cfd6ff;text-decoration:underline;}
+.row{
+  display: grid;
+  grid-template-columns: 64px 44px 1fr; /* année | cover | titre */
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+.thumb{
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,.10);
+}
+.artist-header{
+  max-width: 900px;
+  margin: 24px auto 14px;
+  padding: 22px 24px;
+  text-align: center;
+
+  border-radius: 22px;
+
+  /* cadre doré cohérent avec album / index */
+  border: 1px solid rgba(255,211,107,.35);
+  background: linear-gradient(
+    180deg,
+    rgba(255,211,107,.06),
+    rgba(255,211,107,.02)
+  );
+
+  box-shadow:
+    0 0 0 1px rgba(255,211,107,.12) inset,
+    0 8px 30px rgba(0,0,0,.45);
+}
+
+/* nom d’artiste */
+.artist-header h1{
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: .6px;
+
+  color: var(--text);
+
+  /* glow doré discret */
+  text-shadow:
+    0 0 10px rgba(255,211,107,.25),
+    0 0 28px rgba(255,211,107,.15);
+}
+.sub{
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+  margin: 6px 0 24px;
+}
+/* 4 colonnes : année | cover | titre+stars | label */
+.row{
+  display: grid;
+  grid-template-columns: 64px 44px 1fr 240px;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.row:last-child{border-bottom:0;}
+
+.thumb{
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,.10);
+}
+
+.maincol{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  min-width: 0;
+}
+
+.title{
+  color: #8fa2ff;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.title:hover{color:#cfd6ff;text-decoration:underline;}
+
+/* étoiles petites, dorées, discrètes */
+.stars{
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: rgba(255,211,107,.9);
+  text-shadow: 0 0 10px rgba(255,211,107,.20);
+  flex-shrink: 0;
+}
+
+/* label tout à droite */
+.label{
+  text-align: right;
+  color: var(--muted);
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.labelLink{
+  color: var(--muted);
+  text-decoration: none;
+}
+.labelLink:hover{
+  color: var(--text);
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <button class="btn" onclick="location.href='index.html'">← Retour</button>
+  </div>
+
+  <div class="artist-header">
+  <h1 id="h"></h1>
+</div>
+
+<div class="sub" id="count"></div>
+<div class="panel" id="list"></div>
+
+
+<script>
+  function cleanArtist(name) {
+    return String(name).replace(/\s*\(\d+\)$/, '');
+  }
+
+  function escapeHtml(s){
+    return String(s ?? '')
+      .replaceAll('&','&amp;')
+      .replaceAll('<','&lt;')
+      .replaceAll('>','&gt;')
+      .replaceAll('"','&quot;')
+      .replaceAll("'","&#39;");
+  }
+
+  const name = new URLSearchParams(location.search).get('name') || '';
+  const target = cleanArtist(decodeURIComponent(name));
+
+  document.getElementById('h').textContent = target;
+
+  fetch('data/export.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const list = document.getElementById('list');
+      const count = document.getElementById('count');
+
+      const items = (data.items || [])
+        .filter(a => cleanArtist(a.artiste || "") === target)
+        .sort((a,b) => (a.annee ?? 0) - (b.annee ?? 0));
+
+      if (count) {
+        count.textContent = `${items.length} album${items.length > 1 ? 's' : ''}`;
+      }
+console.log(items[0]);
+
+     list.innerHTML = items.map(a => `
+  <div class="row">
+    <div class="year">${a.annee ?? ''}</div>
+
+    <img class="thumb"
+         src="${a.cover_image || ''}"
+         alt="${escapeHtml(a.titre || '')}"
+         loading="lazy" decoding="async"
+         onerror="this.style.display='none'">
+
+    <div class="maincol">
+      <a class="title" href="album.html?slug=${encodeURIComponent(a.slug)}">
+        ${escapeHtml(a.titre || '')}
+      </a>
+      <span class="stars">${starsHtml(a.stars)}</span>
+    </div>
+
+    <div class="label" title="${escapeHtml(a.label || '')}">
+  ${a.label ? `<a class="labelLink" href="label.html?name=${encodeURIComponent(a.label)}">${escapeHtml(a.label)}</a>` : ``}
+</div>
+
+  </div>
+`).join('');
+
+
+    });
+    function starsHtml(n){
+  if (n === null || n === undefined || n === "") return "";
+  const v = Math.max(0, Math.min(5, Number(n)));
+  let s = "";
+  for (let i = 1; i <= 5; i++) s += (i <= v) ? "★" : "☆";
+  return s;
+}
+
+</script>
+
+
+</body>
+</html>
+

@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
 <style>
+
 :root{
   --bg0:#0b0b0f;
   --bg1:#14141a;
@@ -276,6 +277,123 @@ ol.tracks{
   .tracklist{ margin-top:14px; }
   .separator{ width:54px; }
 }
+.related .year {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.related .title a {
+  font-size: 15px;
+  font-weight: 500;
+}
+.related .title a {
+  color: #8fa2ff;
+  text-decoration: none;
+}
+
+.related .title a:hover {
+  color: #cfd6ff;
+  text-decoration: underline;
+}
+.related {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+.related .panel {
+  max-width: 900px;   /* même logique que ta page */
+  margin: 0 auto;
+  padding-left: 12px; /* léger retrait visuel */
+}
+
+/* bloc autres albums */
+.related {
+  text-align: left;              /* empêche le centrage */
+}
+
+.related .panel {
+  max-width: 900px;   /* même logique que ta page */
+  margin: 0 auto;
+  padding-left: 12px; /* léger retrait visuel */
+}
+
+.related {
+  margin-top: 28px;   /* plus compact */
+}
+
+.related .row {
+  justify-content: flex-start;
+}
+
+/* ligne année + titre */
+.related .row {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;   /* PAS centré */
+  gap: 12px;
+  padding: 6px 0;
+}
+
+/* colonne année alignée */
+.related .year {
+  width: 48px;                   /* largeur fixe */
+  text-align: right;             /* chiffres alignés */
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;                /* empêche le tassement */
+}
+
+/* titre */
+.related .title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #8fa2ff;
+  text-decoration: none;
+}
+
+.related .title:hover {
+  color: #cfd6ff;
+  text-decoration: underline;
+}
+
+.coverBlock{
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+
+.labelUnder{
+  max-width: 420px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: .3px;
+  color: rgba(255,211,107,.92);
+  text-shadow: 0 0 12px rgba(255,211,107,.18);
+  opacity: .95;
+
+  text-decoration: none;   /* important : enlève le soulignement */
+  display: inline-block;  /* pour que le hover soit propre */
+}
+
+.labelUnder:hover{
+  text-decoration: underline;
+  opacity: 1;
+}
+.row{
+  display: grid;
+  grid-template-columns: 64px 1fr 1fr; /* année | artiste | album */
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.row:last-child{border-bottom:0;}
+.artistCenter{
+  justify-self: center;   /* CENTRE dans la ligne */
+  text-align: center;
+  white-space: nowrap;
+}
 
 
 </style>
@@ -286,6 +404,10 @@ ol.tracks{
   <div id="app"></div>
 
   <script>
+    function cleanArtist(name) {
+  return String(name).replace(/\s*\(\d+\)$/, '');
+}
+
     function escapeHtml(s){
       return String(s ?? "")
         .replaceAll("&","&amp;")
@@ -370,41 +492,84 @@ function renderTracklist(tracklist) {
       }
 
       fetch("data/export.json")
-        .then(r => r.json())
-        .then(data => {
-          const items = data.items || [];
-          const a = items.find(x => x.slug === slug);
+  .then(r => r.json())
+  .then(data => {
+    const items = data.items || [];
+    const a = items.find(x => String(x.slug) === String(slug));
 
-          if (!a) {
-            app.innerHTML = `Album introuvable.`;
-            return;
-          }
+    if (!a) {
+      app.innerHTML = `Album introuvable.`;
+      return;
+    }
 
-          const cover = a.cover_image || "";
+    const artistClean = cleanArtist(a.artiste || "");
+    const currentSlug = String(a.slug || "");
 
-          app.innerHTML = `
-  <div class="page">
-    <div class="header">
-      <div class="artist">${escapeHtml(a.artiste || "")}</div>
-      <h1>${escapeHtml(a.titre || "")}</h1>
-      <div class="year">${escapeHtml(a.annee ? String(a.annee) : "")}</div>
-      <div class="separator"></div>
-    </div>
+    app.innerHTML = `
+      <div class="page">
+        <div class="header">
+          <a class="artist"
+             href="artiste.html?name=${encodeURIComponent(artistClean)}">
+            ${escapeHtml(artistClean)}
+          </a>
 
-    <div class="main">
-      <img class="cover"
-           src="${escapeHtml(a.cover_image || "")}"
-           alt="Pochette de ${escapeHtml(a.titre || "")}">
-      ${renderTracklist(a.tracklist)}
-    </div>
+          <h1>${escapeHtml(a.titre || "")}</h1>
+          <div class="year">${escapeHtml(a.annee ? String(a.annee) : "")}</div>
+          <div class="separator"></div>
+        </div>
 
-    <div class="footer">
-      ${stars(a.stars)}
-    </div>
+        <div class="main">
+          <div class="coverBlock">
+  <img class="cover"
+       src="${escapeHtml(a.cover_image || "")}"
+       alt="Pochette de ${escapeHtml(a.titre || "")}">
+
+  ${a.label ? `
+  <a class="labelUnder" href="label.html?name=${encodeURIComponent(a.label)}">
+    ${escapeHtml(a.label)}
+  </a>
+` : ``}
+
+</div>
+
+${renderTracklist(a.tracklist)}
+
+        </div>
+
+        <div class="footer">
+          ${stars(a.stars)}
+        </div>
+
+        <div class="related">
+          <div class="panel" id="related"></div>
+        </div>
+      </div>
+    `;
+
+    // --- Remplit la liste "Autres albums"
+    const box = document.getElementById("related");
+    const others = items
+      .filter(x =>
+        cleanArtist(x.artiste || "") === artistClean &&
+        String(x.slug || "") !== currentSlug
+      )
+      .sort((p, q) => (p.annee ?? 0) - (q.annee ?? 0));
+
+    if (!others.length) {
+      box.innerHTML = `<div class="muted">Aucun autre album trouvé.</div>`;
+      return;
+    }
+
+    box.innerHTML = others.map(x => `
+  <div class="row">
+    <span class="year">${x.annee ?? ""}</span>
+    <a class="title" href="album.html?slug=${encodeURIComponent(x.slug)}">
+      ${escapeHtml(x.titre || "")}
+    </a>
   </div>
-`;
+    `).join("");
+  });
 
-        });
     });
   </script>
 </body>

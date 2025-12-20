@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Label</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root{
+      --bg:#0b0d12;
+      --panel:#111522;
+      --text:#e9edf5;
+      --muted:#9aa4b2;
+      --stroke:rgba(255,255,255,.08);
+      --radius:18px;
+      --shadow: 0 12px 30px rgba(0,0,0,.35);
+    }
+
+    body{
+      margin:0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    .wrap{max-width:980px;margin:0 auto;padding:28px 18px 60px;}
+    .topbar{display:flex;justify-content:flex-start;margin-bottom:18px;}
+
+    .btn{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    .btn:hover{background: rgba(255,255,255,.09);}
+
+    /* Header doré (cohérence album/artiste) */
+    .label-header{
+      max-width: 900px;
+      margin: 24px auto 10px;
+      padding: 22px 24px;
+      text-align: center;
+      border-radius: 22px;
+      border: 1px solid rgba(255,211,107,.35);
+      background: linear-gradient(
+        180deg,
+        rgba(255,211,107,.06),
+        rgba(255,211,107,.02)
+      );
+      box-shadow:
+        0 0 0 1px rgba(255,211,107,.12) inset,
+        0 8px 30px rgba(0,0,0,.45);
+    }
+    .label-header h1{
+      margin: 0;
+      font-size: 40px;
+      font-weight: 600;
+      letter-spacing: .4px;
+      color: var(--text);
+      text-shadow:
+        0 0 10px rgba(255,211,107,.25),
+        0 0 28px rgba(255,211,107,.15);
+    }
+
+    .sub{
+      text-align:center;
+      color: var(--muted);
+      font-size: 14px;
+      margin: 10px 0 22px;
+    }
+
+    .panel{
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+.row{
+  display: grid;
+  grid-template-columns: 64px 1fr 1fr; /* année | artiste | album */
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.row:last-child{border-bottom:0;}
+
+
+
+
+    /* année | cover | titre+stars | label (tout à droite mais ici on est sur la page label, donc on peut l’omettre) */
+    .artistCol{
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artistLink{
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 13.5px;
+}
+
+.artistLink:hover{
+  color: var(--text);
+  text-decoration: underline;
+}
+
+
+    .year{
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+    }
+
+    .thumb{
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 1px solid rgba(255,255,255,.10);
+    }
+
+    .maincol{
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .title{
+      color: #8fa2ff;
+      text-decoration: none;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .title:hover{color:#cfd6ff;text-decoration:underline;}
+
+    .stars{
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: rgba(255,211,107,.9);
+      text-shadow: 0 0 10px rgba(255,211,107,.20);
+      flex-shrink: 0;
+    }
+/* centre visuellement le bloc album (cover + titre + étoiles) */
+.maincol{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  justify-content: center; /* centre le titre + étoiles */
+  text-align: center;
+}
+
+
+/* centre la cover aussi */
+.thumb{
+  justify-self: center;
+}
+.title{
+  text-align: center;
+}
+
+    .muted{color: var(--muted); padding: 12px 16px;}
+  .centerCol{
+  justify-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.thumb{
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,.10);
+}
+
+.textcol{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;     /* centre le texte */
+  text-align: center;
+  min-width: 0;
+}
+
+.title{
+  color: #8fa2ff;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 520px;        /* évite que ça explose */
+}
+.title:hover{color:#cfd6ff;text-decoration:underline;}
+
+.stars{
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgba(255,211,107,.9);
+  text-shadow: 0 0 10px rgba(255,211,107,.20);
+  line-height: 1;
+}
+
+.artistCol{
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artistLink{
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 13.5px;
+}
+
+.artistLink:hover{
+  color: var(--text);
+  text-decoration: underline;
+}
+/* artiste centré */
+.artistCenter{
+  text-align: center;
+  white-space: nowrap;
+}
+
+.artistCenter .artistLink{
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.artistCenter .artistLink:hover{
+  color: var(--text);
+  text-decoration: underline;
+}
+
+/* album à droite */
+.albumRight{
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.thumb{
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,.10);
+}
+
+.textcol{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+  max-width: 520px;
+}
+
+.title{
+  color: #8fa2ff;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.title:hover{color:#cfd6ff;text-decoration:underline;}
+
+.stars{
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgba(255,211,107,.9);
+  text-shadow: 0 0 10px rgba(255,211,107,.20);
+  line-height: 1;
+}
+.artistCenter{
+  justify-self: center;
+  text-align: center;
+  white-space: nowrap;
+}
+.albumRight{
+  justify-self: end;        /* colle à droite */
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+.artistCenter{ width: 100%; }
+
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <button class="btn" onclick="location.href='index.html'">← Retour</button>
+    </div>
+
+    <div class="label-header">
+      <h1 id="h"></h1>
+    </div>
+
+    <div class="sub" id="count"></div>
+    <div class="panel" id="list"></div>
+  </div>
+
+  <script>
+    function escapeHtml(s){
+      return String(s ?? '')
+        .replaceAll('&','&amp;')
+        .replaceAll('<','&lt;')
+        .replaceAll('>','&gt;')
+        .replaceAll('"','&quot;')
+        .replaceAll("'","&#39;");
+    }
+
+    function starsHtml(n){
+      if (n === null || n === undefined || n === "") return "";
+      const v = Math.max(0, Math.min(5, Number(n)));
+      let s = "";
+      for (let i = 1; i <= 5; i++) s += (i <= v) ? "★" : "☆";
+      return s;
+    }
+
+    // normalisation label (évite les différences d’espaces / casse)
+    function normLabel(s){
+      return String(s ?? "").trim().toLowerCase();
+    }
+
+    const labelParam = new URLSearchParams(location.search).get('name') || '';
+    const labelName = decodeURIComponent(labelParam).trim();
+
+    document.getElementById('h').textContent = labelName || "Label";
+function cleanArtist(name) {
+  return String(name).replace(/\s*\(\d+\)$/, '');
+}
+
+    fetch('data/export.json?v=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        const list = document.getElementById('list');
+        const count = document.getElementById('count');
+
+        const items = (data.items || [])
+          .filter(a => normLabel(a.label) === normLabel(labelName))
+          .sort((a,b) => (a.annee ?? 0) - (b.annee ?? 0));
+
+        count.textContent = `${items.length} album${items.length > 1 ? 's' : ''}`;
+
+        if (!items.length) {
+          list.innerHTML = `<div class="muted">Aucun album trouvé pour ce label.</div>`;
+          return;
+        }
+
+        list.innerHTML = items.map(a => `
+  <div class="row">
+    <div class="year">${a.annee ?? ''}</div>
+
+    <div class="artistCenter">
+      <a class="artistLink"
+         href="artiste.html?name=${encodeURIComponent(cleanArtist(a.artiste || ''))}">
+        ${escapeHtml(cleanArtist(a.artiste || ''))}
+      </a>
+    </div>
+
+    <div class="albumRight">
+      <img class="thumb"
+           src="${a.cover_image || ''}"
+           alt="${escapeHtml(a.titre || '')}"
+           loading="lazy" decoding="async"
+           onerror="this.style.display='none'">
+
+      <div class="textcol">
+        <a class="title" href="album.html?slug=${encodeURIComponent(a.slug)}">
+          ${escapeHtml(a.titre || '')}
+        </a>
+        ${a.stars === null || a.stars === undefined || a.stars === "" ? "" : `
+          <div class="stars">${starsHtml(a.stars)}</div>
+        `}
+      </div>
+    </div>
+  </div>
+`).join('');
+
+
+      });
+  </script>
+</body>
+</html>

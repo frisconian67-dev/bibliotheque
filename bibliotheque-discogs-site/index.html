@@ -221,6 +221,33 @@
   opacity: .9;
 }
 .header h1{ letter-spacing: .02em; }
+/* Halo doré pulsé pour les albums 5★ */
+/* Halo doré pulsé (compatible avec overflow:hidden) */
+.card.fiveStars{
+  position: relative;
+}
+
+.card.fiveStars::after{
+  content:"";
+  position:absolute;
+  inset: 0;                /* reste à l’intérieur, donc pas coupé */
+  border-radius: inherit;
+  pointer-events:none;
+
+  box-shadow:
+    0 0 0 5px rgba(255,211,107,.45) inset,
+    0 0 18px rgba(255,211,107,.28) inset,
+    0 0 48px rgba(255,211,107,.18) inset;
+
+  opacity:.55;
+  animation: goldPulse 1.6s ease-in-out infinite;
+}
+
+@keyframes goldPulse{
+  0%, 100%{ opacity:.40; }
+  50%{ opacity:.95; }
+
+}
 
   </style>
 </head>
@@ -247,6 +274,11 @@
 
 
 <script>
+  function cleanArtist(name) {
+  return String(name).replace(/\s*\(\d+\)$/, '');
+}
+
+
 function starsHtml(n){
   if (n === null || n === undefined || n === "") return ""; // non noté → rien affiché
 
@@ -278,7 +310,8 @@ fetch('data/export.json?v=' + Date.now())
       }
       list.forEach(a => {
         const d = document.createElement('div');
-        d.className = 'card';
+d.className = 'card' + (Number(a.stars) === 5 ? ' fiveStars' : '');
+
         d.onclick = () => location.href = `album.html?slug=${encodeURIComponent(a.slug)}`;
         d.innerHTML = `
           <div class="coverWrap">
@@ -312,27 +345,32 @@ function appendNext(){
   const next = filtered.slice(visible, visible + pageSize);
   visible += next.length;
 
-  next.forEach(a => {
-    const d = document.createElement('div');
-    d.className = 'card';
-    d.onclick = () => location.href = `album.html?slug=${encodeURIComponent(a.slug)}`;
-    d.innerHTML = `
-      <div class="coverWrap">
-        <img class="cover"
-             src="${a.cover_image || ''}"
-             alt="${a.titre || ''} - ${a.artiste || ''}"
-             loading="lazy" decoding="async">
-        <div class="shine"></div>
-      </div>
-      <div class="meta">
-        <span class="artist">${a.artiste || ''}</span>
-        <div class="separator"></div>
-        <p class="title">${a.titre || ''}</p>
-        <span class="year">${a.annee ?? ''}</span>
-        ${starsHtml(a.stars)}
-      </div>`;
-    grid.appendChild(d);
-  });
+ next.forEach(a => {
+  const d = document.createElement('div');
+  d.className = 'card' + (parseInt(a.stars, 10) === 5 ? ' fiveStars' : '');
+
+  d.onclick = () => location.href = `album.html?slug=${encodeURIComponent(a.slug)}`;
+
+  const artistClean = cleanArtist(a.artiste || '');
+
+  d.innerHTML = `
+    <div class="coverWrap">
+      <img class="cover"
+           src="${a.cover_image || ''}"
+           alt="${a.titre || ''} - ${artistClean}"
+           loading="lazy" decoding="async">
+      <div class="shine"></div>
+    </div>
+    <div class="meta">
+      <span class="artist">${artistClean}</span>
+      <div class="separator"></div>
+      <p class="title">${a.titre || ''}</p>
+      <span class="year">${a.annee ?? ''}</span>
+      ${starsHtml(a.stars)}
+    </div>`;
+  grid.appendChild(d);
+});
+
 
   count.textContent = `${filtered.length} albums — affichés ${Math.min(visible, filtered.length)}`;
 }
