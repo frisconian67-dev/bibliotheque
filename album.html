@@ -395,6 +395,52 @@ ol.tracks{
   white-space: nowrap;
 }
 
+/* piste favorite */
+.tracklist .fav{
+  background: linear-gradient(90deg, rgba(255,211,107,.16), rgba(255,211,107,.04));
+  border: 1px solid rgba(255,211,107,.22);
+  border-radius: 12px;
+  padding: 10px 12px;
+  box-shadow: 0 0 22px rgba(255,211,107,.10);
+}
+
+.tracklist .fav .n{
+  color: rgba(255,211,107,.95);
+  font-weight: 700;
+}
+
+.tracklist .favMark{
+  margin-left: 8px;
+  color: rgba(255,211,107,.95);
+  text-shadow: 0 0 10px rgba(255,211,107,.18);
+  font-size: 14px;
+}
+.labelsRow{
+  margin-top: 14px;            /* espace sous la cover */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.labelBadge{
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,211,107,.28);
+  background: linear-gradient(180deg, rgba(255,211,107,.06), rgba(255,211,107,.02));
+  color: rgba(255,211,107,.92);
+  text-shadow: 0 0 12px rgba(255,211,107,.18);
+  font-size: 15px;
+  letter-spacing: .2px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.labelBadge:hover{
+  border-color: rgba(255,211,107,.55);
+  text-decoration: underline;
+  opacity: 1;
+}
 
 </style>
 </head>
@@ -428,19 +474,20 @@ ol.tracks{
   return `<div class="stars">${s}</div>`;
 }
 
-// Fonction de rendu de la tracklist (compatible ancien + nouveau format)
-function renderTracklist(tracklist) {
+// Fonction de rendu de la tracklist (compatible ancien + nouveau format + FavTracks)
+function renderTracklist(tracklist, favTracks) {
   let norm = [];
+  const favSet = new Set((favTracks || []).map(n => Number(n)));
 
   // 1) Nouveau format : string multi-lignes
   if (typeof tracklist === "string") {
     const lines = tracklist.split(/\r?\n/).map(s => s.trim()).filter(Boolean);
-    if (!lines.length) return `<div class="empty">Tracklist non disponible.</div>`;
+    if (!lines.length) return ``; // rien affiché
 
     norm = lines.map((line, i) => {
-      const m = line.match(/^(\S+)\s*-\s*(.+)$/);
+      const m = line.match(/^\s*(\d{1,3})\s*[-.)]?\s*(.+)$/);
       return {
-        pos: m ? m[1] : (i + 1),
+        pos: m ? Number(m[1]) : (i + 1),
         title: m ? m[2] : line,
         dur: ""
       };
@@ -450,7 +497,7 @@ function renderTracklist(tracklist) {
   // 2) Ancien format : array d'objets
   else if (Array.isArray(tracklist) && tracklist.length) {
     norm = tracklist.map((t, i) => ({
-      pos: t.pos ?? t.position ?? (i + 1),
+      pos: Number(t.pos ?? t.position ?? (i + 1)),
       title: t.title ?? t.name ?? "Titre inconnu",
       dur: t.dur ?? t.duration ?? ""
     }));
@@ -458,27 +505,32 @@ function renderTracklist(tracklist) {
 
   // 3) Rien
   else {
-    return `<div class="empty">Tracklist non disponible.</div>`;
+    return ``;
   }
 
-  // Rendu UNIQUE (ton ancien HTML)
+  // Rendu (même HTML que le tien, avec fav)
   return `
     <div class="tracklist">
       <h3>Tracklist</h3>
       <ol class="tracks">
-        ${norm.map(t => `
-          <li class="track">
-            <div class="tleft">
-              <div class="tno">${escapeHtml(t.pos)}</div>
-              <div class="tname">${escapeHtml(t.title)}</div>
-            </div>
-            <div class="tdur">${escapeHtml(t.dur || "")}</div>
-          </li>
-        `).join("")}
+        ${norm.map(t => {
+          const isFav = favSet.has(Number(t.pos));
+          return `
+            <li class="track ${isFav ? "fav" : ""}">
+              <div class="tleft">
+                <div class="tno">${escapeHtml(t.pos)}</div>
+                <div class="tname">${escapeHtml(t.title)}</div>
+                ${isFav ? `<span class="favMark">★</span>` : ``}
+              </div>
+              <div class="tdur">${escapeHtml(t.dur || "")}</div>
+            </li>
+          `;
+        }).join("")}
       </ol>
     </div>
   `;
 }
+
 
 
 
@@ -524,15 +576,26 @@ function renderTracklist(tracklist) {
        src="${escapeHtml(a.cover_image || "")}"
        alt="Pochette de ${escapeHtml(a.titre || "")}">
 
-  ${a.label ? `
-  <a class="labelUnder" href="label.html?name=${encodeURIComponent(a.label)}">
-    ${escapeHtml(a.label)}
-  </a>
-` : ``}
+  ${(() => {
+  const arr = Array.isArray(a.labels) ? a.labels : [];
+  const labelsArr = arr.length ? arr : (a.label ? [a.label] : []);
+  if (!labelsArr.length) return "";
+  return `
+    <div class="labelsRow">
+      ${labelsArr.map(l => `
+        <a class="labelBadge" href="label.html?name=${encodeURIComponent(l)}">
+          ${escapeHtml(l)}
+        </a>
+      `).join("")}
+    </div>
+  `;
+})()}
+
 
 </div>
 
-${renderTracklist(a.tracklist)}
+${renderTracklist(a.tracklist, a.favTracks)}
+
 
         </div>
 
@@ -556,8 +619,9 @@ ${renderTracklist(a.tracklist)}
       .sort((p, q) => (p.annee ?? 0) - (q.annee ?? 0));
 
     if (!others.length) {
-      box.innerHTML = `<div class="muted">Aucun autre album trouvé.</div>`;
-      return;
+  box.innerHTML = "";
+  return;
+
     }
 
     box.innerHTML = others.map(x => `

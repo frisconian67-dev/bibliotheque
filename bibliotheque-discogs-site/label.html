@@ -346,6 +346,22 @@
 function cleanArtist(name) {
   return String(name).replace(/\s*\(\d+\)$/, '');
 }
+function splitLabelsLocal_(s){
+  const raw = String(s ?? "").trim();
+  if (!raw) return [];
+  return raw
+    .split(/\s*(?:\/|,|;|\|)\s*/g)
+    .map(x => x.trim())
+    .filter(Boolean);
+}
+
+function normLabel(s){
+  return String(s ?? "")
+    .replace(/\u00A0/g, " ")  // espace insécable -> normal
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
 
     fetch('data/export.json?v=' + Date.now())
       .then(r => r.json())
@@ -353,9 +369,17 @@ function cleanArtist(name) {
         const list = document.getElementById('list');
         const count = document.getElementById('count');
 
-        const items = (data.items || [])
-          .filter(a => normLabel(a.label) === normLabel(labelName))
-          .sort((a,b) => (a.annee ?? 0) - (b.annee ?? 0));
+        const target = normLabel(labelName);
+
+const items = (data.items || [])
+  .filter(a => {
+    const arr = (Array.isArray(a.labels) && a.labels.length)
+      ? a.labels
+      : String(a.label || "").split(/\s*(?:\/|,|;|\|)\s*/g).map(s => s.trim()).filter(Boolean);
+    return arr.some(l => normLabel(l) === target);
+  })
+  .sort((a,b) => (a.annee ?? 0) - (b.annee ?? 0));
+
 
         count.textContent = `${items.length} album${items.length > 1 ? 's' : ''}`;
 
