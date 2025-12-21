@@ -441,6 +441,105 @@ ol.tracks{
   text-decoration: underline;
   opacity: 1;
 }
+/* ===== FIX MOBILE TRACKLIST SEULEMENT ===== */
+@media (max-width:760px){
+
+  /* sécurité : jamais de scroll horizontal */
+  html, body{
+    overflow-x: hidden;
+  }
+
+  /* la tracklist ne doit JAMAIS dépasser */
+  .tracklist{
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  /* ligne de piste */
+  .track{
+    align-items: flex-start;
+  }
+
+  /* zone gauche (numéro + titre) */
+  .tleft{
+    min-width: 0; /* CRUCIAL */
+  }
+
+  /* TITRE : on enlève la contrainte desktop */
+  .tname{
+    white-space: normal !important;   /* autorise retour à la ligne */
+    max-width: 100% !important;       /* plus de 520px */
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  /* durée reste compacte */
+  .tdur{
+    flex-shrink: 0;
+  }
+}
+/* ===== MOBILE : TOUT CENTRÉ (sans toucher au desktop) ===== */
+@media (max-width:760px){
+
+  /* évite le scroll horizontal */
+  html, body{ overflow-x:hidden; }
+
+  /* page + blocs : centrage visuel */
+  .page{ text-align:center; }
+
+  /* header déjà centré, on garde mais on sécurise */
+  .header{ text-align:center; }
+
+  /* MAIN : en colonne + éléments centrés */
+  .main{
+    grid-template-columns: 1fr;
+    justify-items: center;     /* centre les 2 blocs (coverBlock + tracklist) */
+    text-align: center;
+  }
+
+  /* cover block + cover + labels */
+  .coverBlock{ justify-items:center; }
+  img.cover{ margin: 0 auto; }
+
+  .labelsRow{
+    justify-content: center;
+  }
+
+  /* TRACKLIST : bloc centré + texte lisible */
+  .tracklist{
+    width: 100%;
+    max-width: 520px;          /* look “carte” centrée */
+    margin: 14px auto 0;
+    text-align: left;          /* le contenu reste aligné propre */
+    overflow: hidden;
+  }
+
+  /* titres longs : retour à la ligne (sinon ça déborde) */
+  .tleft{ min-width: 0; }
+  .tname{
+    white-space: normal !important;
+    max-width: 100% !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  /* FOOTER (étoiles) centré naturellement */
+  .footer{ text-align:center; }
+
+  /* AUTRES ALBUMS : bloc centré */
+  .related{
+    text-align: center;
+  }
+  .related .panel{
+    max-width: 520px;
+    margin: 0 auto;
+    padding-left: 0;           /* retire le retrait desktop */
+  }
+  .related .row{
+    justify-content: center;
+    text-align: left;          /* comme la tracklist : lisible */
+  }
+}
 
 </style>
 </head>
@@ -451,6 +550,9 @@ ol.tracks{
 
   <script>
     function cleanArtist(name) {
+  return String(name).replace(/\s*\(\d+\)$/, '');
+}
+function cleanLabel(name){
   return String(name).replace(/\s*\(\d+\)$/, '');
 }
 
@@ -581,14 +683,18 @@ function renderTracklist(tracklist, favTracks) {
   const labelsArr = arr.length ? arr : (a.label ? [a.label] : []);
   if (!labelsArr.length) return "";
   return `
-    <div class="labelsRow">
-      ${labelsArr.map(l => `
-        <a class="labelBadge" href="label.html?name=${encodeURIComponent(l)}">
-          ${escapeHtml(l)}
+  <div class="labelsRow">
+    ${labelsArr.map(l => {
+      const lc = cleanLabel(l);
+      return `
+        <a class="labelBadge" href="label.html?name=${encodeURIComponent(lc)}">
+          ${escapeHtml(lc)}
         </a>
-      `).join("")}
-    </div>
-  `;
+      `;
+    }).join("")}
+  </div>
+`;
+
 })()}
 
 

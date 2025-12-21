@@ -298,6 +298,79 @@
   gap: 14px;
 }
 .artistCenter{ width: 100%; }
+/* ===== LABEL PAGE : MOBILE ONLY ===== */
+@media (max-width:760px){
+
+  html, body{
+    overflow-x: hidden;
+  }
+
+  /* chaque ligne devient une carte centrée */
+  .row{
+    grid-template-columns: 1fr !important;
+    justify-items: center;
+    gap: 10px;
+    padding: 18px 12px;
+    text-align: center;
+  }
+
+  /* cover */
+  .albumRight{
+    order: 1;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .thumb{
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+  }
+
+  /* artiste */
+  .artistCenter{
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .artistCenter .artistLink{
+    font-size: 14px;
+    letter-spacing: .5px;
+  }
+
+  /* titre album */
+  .textcol{
+    order: 3;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .title{
+    white-space: normal !important;
+    max-width: 100% !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    font-size: 15px;
+  }
+
+  /* étoiles sous le titre */
+  .stars{
+    margin-top: 4px;
+  }
+
+  /* année en dernier */
+  .year{
+    order: 4;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 2px;
+  }
+
+}
 
   </style>
 </head>
@@ -342,10 +415,15 @@
     const labelParam = new URLSearchParams(location.search).get('name') || '';
     const labelName = decodeURIComponent(labelParam).trim();
 
-    document.getElementById('h').textContent = labelName || "Label";
+    document.getElementById('h').textContent = cleanLabel(labelName) || "Label";
+
 function cleanArtist(name) {
   return String(name).replace(/\s*\(\d+\)$/, '');
 }
+function cleanLabel(name){
+  return String(name).replace(/\s*\(\d+\)$/, '');
+}
+
 function splitLabelsLocal_(s){
   const raw = String(s ?? "").trim();
   if (!raw) return [];
@@ -369,14 +447,16 @@ function normLabel(s){
         const list = document.getElementById('list');
         const count = document.getElementById('count');
 
-        const target = normLabel(labelName);
+        const target = normLabel(cleanLabel(labelName));
+
 
 const items = (data.items || [])
   .filter(a => {
     const arr = (Array.isArray(a.labels) && a.labels.length)
       ? a.labels
       : String(a.label || "").split(/\s*(?:\/|,|;|\|)\s*/g).map(s => s.trim()).filter(Boolean);
-    return arr.some(l => normLabel(l) === target);
+    return arr.some(l => normLabel(cleanLabel(l)) === target);
+
   })
   .sort((a,b) => (a.annee ?? 0) - (b.annee ?? 0));
 
