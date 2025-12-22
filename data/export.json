@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-22T14:12:54.113Z",
+  "generatedAt": "2025-12-22T21:03:39.364Z",
   "count": 507,
   "items": [
     {
@@ -310,17 +310,16 @@
       "slug": "18817825-211-2-hustlin-pays-tha-bills-2021",
       "artiste": "211 (2)",
       "titre": "Hustlin Pays Tha Bills",
-      "annee": 2021,
+      "annee": 1996,
       "stars": 2,
       "favorite": false,
       "favTracks": [
 3
       ],
       "tracklist": "1 - Intro\n2 - Death Iz In My Hood\n3 - Pizza Man (Comm.)\n4 - Hustlin Iz Tha Skillz\n5 - These Are The Toolz\n6 - C.Tuck (Comm.)\n7 - Redrum\n8 - Down In Tha Boot\n9 - A Mutha F--kin' Hustla\n10 - A G' Til' I Die\n11 - 211z & 187z\n12 - Outro",
-      "label": "Untouchable Records (4) / Most Wanted Records (12)",
+      "label": "Untouchable Records (4)",
       "labels": [
-        "Untouchable Records (4)",
-        "Most Wanted Records (12)"
+        "Untouchable Records (4)"
       ],
       "discogsLink": "https://www.discogs.com/release/18817825",
       "release_id": "18817825",
@@ -889,7 +888,7 @@
       "slug": "258902-above-the-law-black-mafia-life-",
       "artiste": "Above The Law",
       "titre": "Black Mafia Life",
-      "annee": null,
+      "annee": 1993,
       "stars": 2,
       "favorite": false,
       "favTracks": [
@@ -1170,26 +1169,6 @@
       "cover_image": "https://i.discogs.com/rdIYw1Ybr9KK-S2hiOz-PBP2hb4tBhokQ7F6xlNr1_Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNDg3/MjgtMTM3NTc4Mzk4/OC05NzQ2LmpwZWc.jpeg"
     },
     {
-      "slug": "3006774-big-50-4-a-gee-",
-      "artiste": "Big 50",
-      "titre": "4-A-Gee",
-      "annee": null,
-      "stars": 4,
-      "favorite": false,
-      "favTracks": [
-8
-      ],
-      "tracklist": "1 - Intro\n2 - Bring Da Funk\n3 - Deez Street\n4 - Million Dollar\n5 - Pressure\n6 - 4-A-Gee\n7 - Money\n8 - Smoke-N-Maintain\n9 - Thug Niggaz\n10 - Ride-4-Me\n11 - Everyday (Remix)\n12 - That's Real\n13 - First Platoon\n14 - Outro",
-      "label": "Tray Duce Records (2)",
-      "labels": [
-        "Tray Duce Records (2)"
-      ],
-      "discogsLink": "https://www.discogs.com/release/3006774",
-      "release_id": "3006774",
-      "resource_url": "https://api.discogs.com/releases/3006774",
-      "cover_image": "https://i.discogs.com/vM9EwxD36fVMOYtSRpmi5Xw3jtEmE0qV--AUghZKDSg/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDY3/NzQtMTM5MDU3MjUz/Mi0yODA5LmpwZWc.jpeg"
-    },
-    {
       "slug": "971803-big-50-aint-no-turnin-back-1995",
       "artiste": "Big 50",
       "titre": "Ain't No Turnin Back",
@@ -1208,6 +1187,26 @@
       "release_id": "971803",
       "resource_url": "https://api.discogs.com/releases/971803",
       "cover_image": "https://i.discogs.com/a5nSEAiQpF3FmABycA0ZFb_hOFpfTKxrKMI3p33we2U/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3MTgw/My0xNDM1MjUwNzkw/LTM5MDYuanBlZw.jpeg"
+    },
+    {
+      "slug": "3006774-big-50-4-a-gee-",
+      "artiste": "Big 50",
+      "titre": "4-A-Gee",
+      "annee": 1997,
+      "stars": 4,
+      "favorite": false,
+      "favTracks": [
+8
+      ],
+      "tracklist": "1 - Intro\n2 - Bring Da Funk\n3 - Deez Street\n4 - Million Dollar\n5 - Pressure\n6 - 4-A-Gee\n7 - Money\n8 - Smoke-N-Maintain\n9 - Thug Niggaz\n10 - Ride-4-Me\n11 - Everyday (Remix)\n12 - That's Real\n13 - First Platoon\n14 - Outro",
+      "label": "Tray Duce Records (2)",
+      "labels": [
+        "Tray Duce Records (2)"
+      ],
+      "discogsLink": "https://www.discogs.com/release/3006774",
+      "release_id": "3006774",
+      "resource_url": "https://api.discogs.com/releases/3006774",
+      "cover_image": "https://i.discogs.com/vM9EwxD36fVMOYtSRpmi5Xw3jtEmE0qV--AUghZKDSg/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDY3/NzQtMTM5MDU3MjUz/Mi0yODA5LmpwZWc.jpeg"
     },
     {
       "slug": "big-b-11-nothing-but-game-1997-1450138",
@@ -1998,9 +1997,11 @@
       "artiste": "Celly Cel",
       "titre": "Killa Kali",
       "annee": 1996,
-      "stars": null,
+      "stars": 5,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Round 2 (Intro)\n2 - What U Niggaz Thought\n3 - 4 Tha Scrilla\n4 - It's Goin' Down\n5 - Can't Tell Me Shit\n6 - Tha Bullet\n7 - Red Rum\n8 - Skanlezz Call\n9 - Skanlezz Azz Bytchez\n10 - Remember Where You Came From\n11 - Killa Kali\n12 - Playerizm\n13 - Funk Season",
       "label": "Jive / Sick Wid' It Records",
       "labels": [
@@ -3017,7 +3018,7 @@
       "slug": "eastside-2-the-battlefield-12292820",
       "artiste": "Eastside (2)",
       "titre": "The Battlefield",
-      "annee": null,
+      "annee": 1998,
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -3576,6 +3577,27 @@
       "cover_image": "https://i.discogs.com/SMZQlw_0L-DOUU7gdoJZTqBrmIrtxYyzvnJWdCSrWRU/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNTI1/OTktMTQzOTU4MDgz/Mi04MTU0LmpwZWc.jpeg"
     },
     {
+      "slug": "3493000-gee-que-sucka-free-city-2010",
+      "artiste": "Gee-Que",
+      "titre": "Sucka Free City",
+      "annee": 1995,
+      "stars": 1,
+      "favorite": false,
+      "favTracks": [
+4
+      ],
+      "tracklist": "1 - Intro\n2 - The Land Of The Funk\n3 - Stepping In The Wrong Fashion\n4 - Sucka Free City\n5 - Sex Playing Hoe's\n6 - A \"G\" Swing\n7 - On The Downlow\n8 - Nothing But A Dog\n9 - Just Kickin' It\n10 - Outro",
+      "label": "Half Ounz Records / And Music Group",
+      "labels": [
+        "Half Ounz Records",
+        "And Music Group"
+      ],
+      "discogsLink": "https://www.discogs.com/release/3493000",
+      "release_id": "3493000",
+      "resource_url": "https://api.discogs.com/releases/3493000",
+      "cover_image": "https://i.discogs.com/nGFTg5kg6rk6THHmu-jPtsEZli20-vkmN_bqiUE9AEQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0OTMw/MDAtMTU0NjA1NTE1/OS03MTMwLmpwZWc.jpeg"
+    },
+    {
       "slug": "gee-que-q-a-questions-answers-vol-1-2001-9802410",
       "artiste": "Gee-Que",
       "titre": "Q&A: Questions & Answers Vol. 1",
@@ -3592,27 +3614,6 @@
       "release_id": "9802410",
       "resource_url": "https://api.discogs.com/releases/9802410",
       "cover_image": "https://i.discogs.com/FuxUliCgzNqpTH1vmOcMKygcOplNEJoo4iq64-o3A1U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4MDI0/MTAtMTU2Njc4MzQ2/Ny0xNjU0LmpwZWc.jpeg"
-    },
-    {
-      "slug": "3493000-gee-que-sucka-free-city-2010",
-      "artiste": "Gee-Que",
-      "titre": "Sucka Free City",
-      "annee": 2010,
-      "stars": 1,
-      "favorite": false,
-      "favTracks": [
-4
-      ],
-      "tracklist": "1 - Intro\n2 - The Land Of The Funk\n3 - Stepping In The Wrong Fashion\n4 - Sucka Free City\n5 - Sex Playing Hoe's\n6 - A \"G\" Swing\n7 - On The Downlow\n8 - Nothing But A Dog\n9 - Just Kickin' It\n10 - Outro",
-      "label": "Half Ounz Records / And Music Group",
-      "labels": [
-        "Half Ounz Records",
-        "And Music Group"
-      ],
-      "discogsLink": "https://www.discogs.com/release/3493000",
-      "release_id": "3493000",
-      "resource_url": "https://api.discogs.com/releases/3493000",
-      "cover_image": "https://i.discogs.com/nGFTg5kg6rk6THHmu-jPtsEZli20-vkmN_bqiUE9AEQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0OTMw/MDAtMTU0NjA1NTE1/OS03MTMwLmpwZWc.jpeg"
     },
     {
       "slug": "get-low-playaz-the-package-1998-1678272",
@@ -4350,15 +4351,16 @@
       "slug": "insane-d-mack-lookin-fo-the-dopeman-2012-4078793",
       "artiste": "Insane & D-Mack",
       "titre": "Lookin' Fo The Dopeman",
-      "annee": 2012,
-      "stars": null,
+      "annee": 1995,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+1
+      ],
       "tracklist": "1 - Niggaz In The Streets\n2 - Hangin N The Hood\n3 - Nathin Ass Bitches\n4 - Slow Down\n5 - Don't Talk, Just Listen\n6 - Gangster, Gangster\n7 - Visualize\n8 - Murda Pack\n9 - 40 & A Blunt\n10 - Lookin Fo The Dopeman\n11 - Part Of The Game\n12 - Murder Never Dies\n13 - Curtains\n14 - Last Game",
-      "label": "In It Fo The Money Records / Drop Top Music (2)",
+      "label": "In It Fo The Money Records",
       "labels": [
-        "In It Fo The Money Records",
-        "Drop Top Music (2)"
+        "In It Fo The Money Records"
       ],
       "discogsLink": "https://www.discogs.com/release/4078793",
       "release_id": "4078793",
@@ -5833,9 +5835,11 @@
       "artiste": "Master P",
       "titre": "The Ghettos Tryin To Kill Me! (Limited Collector's Edition)",
       "annee": 1997,
-      "stars": null,
+      "stars": 5,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - The Ghettos Tryin To Kill Me!\n2 - Always Look A Man In The Eyes (Bonus Track)\n3 - Anything Goes\n4 - Late Night Creepin'\n5 - I Got The Dank\n6 - Robbery (Bonus Track)\n7 - Playa Haterz\n8 - Intro\n9 - Some Jack\n10 - Somethin For The Street\n11 - Bastard Child\n12 - Hands Of A Dead Man\n13 - 211\n14 - Just An Everyday Thang\n15 - No Limit Party",
       "label": "No Limit Records / Priority Records",
       "labels": [
@@ -5911,9 +5915,11 @@
       "artiste": "Mississippi Mafia",
       "titre": "Another Mississippi Murder",
       "annee": 1995,
-      "stars": null,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+8
+      ],
       "tracklist": "1 - Intro\n2 - Mississippi-Murder Part 2\n3 - Art Of Pimpin\n4 - Skitt\n5 - Scottie Got Your Body\n6 - Roaches In My Ashray\n7 - I Got 99 Problems And A Bitch Ain't One\n8 - Living 4 The $$$$$$$\n9 - Shot U Thru The Cross\n10 - Heavy-Weight\n11 - Skitt\n12 - Mississippi Hustler\n13 - Shot U Thru The Cross (Radio)\n14 - Outro",
       "label": "Sir Captain Records",
       "labels": [
@@ -5929,9 +5935,11 @@
       "artiste": "Mista Boss Mann",
       "titre": "Pimp Or Die",
       "annee": 1995,
-      "stars": null,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+6
+      ],
       "tracklist": "1 - Droppin' Some Dopeness\n2 - Trigga Lock\n3 - Pimpin' And Panderin' (Radio)\n4 - Bloody Sunday\n5 - Pimp Or Die\n6 - Where I'm From\n7 - It's Like That (Radio)\n8 - C-Funk\n9 - Nighty Night\n10 - Doin' What The Playaz Do\n11 - Murder 4 Hire",
       "label": "Rollin Dice Records",
       "labels": [
@@ -5967,9 +5975,11 @@
       "artiste": "Mobb Tyght Hustlers",
       "titre": "Dark Diamond Productions Presents: Mobb Tyght Hustlers",
       "annee": 1997,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - Thang Keep Gettin Crazy\n2 - Deep Up-N-Da Game\n3 - Mr. Wo Wo\n4 - Keep It Pimpin\n5 - Hustle For A 9-5\n6 - Let's Get Toasted\n7 - Where's Da Sunshine\n8 - Shitty Game\n9 - Mobb Tyght Hustlers\n10 - Interlude\n11 - Would You Do\n12 - Get Up On It\n13 - Mr. Ho Checka\n14 - Brand New Season\n15 - No Way Out\n16 - Puttin It Down",
       "label": "Dark Diamond Records",
       "labels": [
@@ -5985,9 +5995,11 @@
       "artiste": "Moe Geeked",
       "titre": "The Nickel Sack",
       "annee": 2000,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Follow We\n2 - 21 About It\n3 - Smoke Some\n4 - Never Saved\n5 - Twerk Sum",
       "label": "Wall Street Records",
       "labels": [
@@ -6003,9 +6015,11 @@
       "artiste": "Mr. Eric Robles'",
       "titre": "E-Filez",
       "annee": 2000,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - Arrival\n2 - Global\n3 - Death Therapy\n4 - Messages\n5 - Stripes\n6 - If U Want\n7 - At The Finish\n8 - Time Bomb\n9 - Chosen\n10 - It Feels Good\n11 - Whose World\n12 - Mission Complete",
       "label": "Mayhem Entertainment",
       "labels": [
@@ -6021,9 +6035,11 @@
       "artiste": "Mr. Free Jack",
       "titre": "V.S.O.P. (Very Smooth On Paper)",
       "annee": 1997,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+1
+      ],
       "tracklist": "1 - Enter My Funky Land\n2 - It's Time\n3 - Do You Wanna Hump?\n4 - My Only Child\n5 - Living In This World\n6 - Mary Jane\n7 - Claiming Game\n8 - Product Of Your Sins\n9 - Tah Tah Ya\n10 - Take It To The Heart\n11 - Curiosity Killed The Cat\n12 - That's Real\n13 - Hey Now\n14 - Players Club Scene\n15 - No Hook (Bonus)",
       "label": "TNT Recordings (2)",
       "labels": [
@@ -6039,9 +6055,11 @@
       "artiste": "Mr. Ivan",
       "titre": "187 In \"A\" Hockey Mask",
       "annee": 1997,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Intro\n2 - Ruger #9\n3 - Snitchen A$$ Niggaz!!\n4 - All Crossed Up\n5 - Devil N Me!!\n6 - Up It Daddy!\n7 - How \"U\" Kill\n8 - 187 In A Hockey Mask\n9 - Doing Bad\n10 - I Live U Die\n11 - Look At Yourself\n12 - Fakin' A$$ Hu$tler$!!\n13 - $ugar $lim - Outro",
       "label": "Cash Money Records",
       "labels": [
@@ -6057,9 +6075,11 @@
       "artiste": "Mr. Kee",
       "titre": "14 Kt. Dreams",
       "annee": 2000,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - You Fucked Yourself\n2 - Texas Connections\n3 - Streets Is Watching (Skit)\n4 - Welcome To Da Westside\n5 - Blaze Up The City\n6 - Ultimate High\n7 - Lickin' Me Softly (Skit)\n8 - Ain't No Tellin'\n9 - Money To Make\n10 - I've Been Watching Ya\n11 - Informmercial\n12 - Satisfaction Guaranteed\n13 - H.L.G.\n14 - Shame Or Glory\n15 - The Take Over\n16 - 14 Kt. Dreams\n17 - Swallow My Hollow\n18 - Let's Set It Off",
       "label": "Black-N-Brown Entertainment",
       "labels": [
@@ -6075,9 +6095,11 @@
       "artiste": "Mr. Peebodie",
       "titre": "Make It Happen",
       "annee": 1998,
-      "stars": null,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+15
+      ],
       "tracklist": "1 - Intro\n2 - Wrong Impressions\n3 - Before I Let Go\n4 - Rocksteady\n5 - Whoride\n6 - Freaky Tales\n7 - Sahloo\n8 - Its All About Mee\n9 - Push Da Limit\n10 - Heat\n11 - Ring On His Finger\n12 - Abortions\n13 - Oh Please, Oh Please!\n14 - Slip Slip Slide\n15 - Never Give Up\n16 - I Only Got Game",
       "label": "Seedless Records",
       "labels": [
@@ -6093,9 +6115,11 @@
       "artiste": "Mr. Sandman",
       "titre": "Out Of Time",
       "annee": 1997,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Bad Intentions\n2 - Side Of The Tracks\n3 - Everyday, All Day\n4 - Situationz\n5 - Breakin' Bitchez\n6 - Exposed 2 The Game\n7 - No Sense\n8 - Functioneerz\n9 - Creepin'\n10 - Swerve On\n11 - So Sick",
       "label": "Bay Rider Entertainment",
       "labels": [
@@ -6111,9 +6135,11 @@
       "artiste": "Mr. Sandman",
       "titre": "Quicksand",
       "annee": 2001,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+6
+      ],
       "tracklist": "1 - Intro\n2 - No Strings Attached\n3 - Ghetto Desperados\n4 - 100% Fake\n5 - For The Luv Of What?\n6 - Makin' Moves\n7 - Mob Shit (Tuff Solo)\n8 - The Plan\n9 - Swing My Thang\n10 - It's Nothin?\n11 - Gone Do Fa Me\n12 - False Advertisin?\n13 - 223's Insane\n14 - Times Like These\n15 - G-Blokk Monstaz\n16 - No One",
       "label": "Bay Rider Records",
       "labels": [
@@ -6128,10 +6154,12 @@
       "slug": "1557232-munchie-3-prepare-yourself-",
       "artiste": "Munchie (3)",
       "titre": "Prepare Yourself",
-      "annee": null,
-      "stars": null,
+      "annee": 1996,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Holy War\n2 - Til I Die\n3 - Battle Cries\n4 - When I Cry\n5 - Still Dreaming\n6 - Internal Pain",
       "label": "Cushite Records",
       "labels": [
@@ -6147,9 +6175,11 @@
       "artiste": "Murder Inc. (8)",
       "titre": "Playin' For Keeps",
       "annee": 1995,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - Playin For Keeps\n2 - Silence Me\n3 - Hard Head Cemetery\n4 - Down South (Radio Version)\n5 - Down South (Street)\n6 - Interlude I\n7 - 187 Real\n8 - Interlude II\n9 - Barrel Of A Hard Head\n10 - Mr. President (C. Donly Bonus Track)",
       "label": "Hard Head Records",
       "labels": [
@@ -6165,9 +6195,11 @@
       "artiste": "Murder Inc. (8)",
       "titre": "Let's Die Together ",
       "annee": 1997,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Classroom Skit (Uh Breathers Pledge)\n2 - Barrel Of Uh Hard Head (Remix)\n3 - Rules Of Da Game\n4 - Slugfest\n5 - Scandal-Lies\n6 - Graveyard Skit (The Resurrection)\n7 - Bury Me\n8 - Revengeful Ass Nigga\n9 - Coming 2 Uh End\n10 - Born Uh Sinner\n11 - Finally Freed Me\n12 - Thangs Neva Change\n13 - Murderous Illusions\n14 - Tears Of Sorrow\n15 - Car Scene (Uh Pull Over)\n16 - F**k Friends\n17 - Niggas-X-Spired\n18 - Silence Me (Remix)",
       "label": "Hard Head Records",
       "labels": [
@@ -6183,9 +6215,11 @@
       "artiste": "Murder Inc. (8)",
       "titre": "Let's Die Together",
       "annee": 2017,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Classroom Skit (Uh Breathers Pledge)\n2 - Barrel Of Uh Hard Head (Remix)\n3 - Rules Of Da Game\n4 - Slugfest\n5 - Scandal-Lies\n6 - Graveyard Skit (The Resurrection)\n7 - Bury Me\n8 - Revengeful Ass Nigga\n9 - Coming 2 Uh End\n10 - Born Uh Sinner\n11 - Finally Freed Me\n12 - Thangs Neva Change\n13 - Murderous Illusions\n14 - Tears Of Sorrow\n15 - Car Scene (Uh Pull Over)\n16 - Fuck Friends\n17 - Niggas-X-Spired\n18 - Silence Me (Remix)",
       "label": "Smoke On Records",
       "labels": [
@@ -6201,9 +6235,11 @@
       "artiste": "Murder One Gangster",
       "titre": "Exposed To The Game",
       "annee": 1992,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+9
+      ],
       "tracklist": "1 - Act Nutty\n2 - P.A. Thang\n3 - Thang To Do\n4 - As A Youngsta\n5 - Homicidal Niggas\n6 - Takin' No Shit\n7 - Smoove\n8 - Stop Sweatin' Me\n9 - Peep Game\n10 - Doing My Part\n11 - Wake Up",
       "label": "Murder One Records",
       "labels": [
@@ -6219,9 +6255,11 @@
       "artiste": "Murderous Klick",
       "titre": "Maddness N Evil Wayz",
       "annee": 1996,
-      "stars": 1,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Intro\n2 - Murderous Klick\n3 - War Zone\n4 - Itchin Trigga Finga\n5 - Why Is There Murder?\n6 - Death Follows Me\n7 - 4.2.0. On A Po-Po\n8 - Maddness N Evil Ways\n9 - Last Struggle B-4 Death (Raw '96)\n10 - Last Struggle B-4 Death (Radio '96)\n11 - Outro",
       "label": "MK 420 Records",
       "labels": [
@@ -6239,7 +6277,9 @@
       "annee": 1998,
       "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Is He Ready\n2 - Mother Dearest\n3 - Shake Yo Ass\n4 - Thugstar\n5 - Ghetto Passion\n6 - Ebony\n7 - Whos Da Killa\n8 - Sick Wit It\n9 - Genuine Tast\n10 - One Nite\n11 - Soldier Of Misfortune\n12 - Promise Land\n13 - You Caught Me Slippin\n14 - Big Gamer\n15 - Baby Give It To Me\n16 - Doomsday\n17 - Mushock Interview",
       "label": "Nastyboy Records",
       "labels": [
@@ -6255,9 +6295,11 @@
       "artiste": "MVP (10)",
       "titre": "C.L.O.U.T",
       "annee": 1995,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+10
+      ],
       "tracklist": "1 - Pure Erb\n2 - Where You From?\n3 - M.E.M.P.H.I.S. (Makin Easy Money Pimpin Hoes In Style)\n4 - 187 Wayz To Die\n5 - Supa G\n6 - Little Som' Som'\n7 - Sleepin In Hell\n8 - 211 To A 187\n9 - No Love\n10 - Cloud Nine\n11 - Nightmare Niggaz\n12 - Clout\n13 - Smoove Sh*t From South Memphis\n14 - Supa G (Flyin' High Remix)",
       "label": "Pure Erb Records",
       "labels": [
@@ -6273,9 +6315,11 @@
       "artiste": "N.A.P. (2)",
       "titre": "Nappy City Heavyweights",
       "annee": 2002,
-      "stars": null,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+6
+      ],
       "tracklist": "1 - Nappy City Heavyweights\n2 - One Tyme\n3 - Freak Tonight\n4 - Crush Pillow Seats\n5 - Foes\n6 - Gett'n By\n7 - They Come With Game\n8 - On Display\n9 - Weekend Ho\n10 - Let's Get This Money$$$\n11 - Summer Tyme\n12 - Huckle Buck\n13 - Never Ending Game\n14 - The Letter\n15 - Who Am I, Who Are You\n16 - Nappy City Heavyweights Remix",
       "label": "Platinum House Entertainment",
       "labels": [
@@ -6327,9 +6371,11 @@
       "artiste": "Nate Dogg",
       "titre": "Music & Me",
       "annee": 2001,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+13
+      ],
       "tracklist": "1 - I Got Love\n2 - Backdoor\n3 - Keep It G.A.N.G.S.T.A.\n4 - I Pledge Allegiance (Intro)\n5 - I Pledge Allegiance\n6 - Your Woman Has Just Been Sighted (Ring The Alarm)\n7 - Your Wife\n8 - Can't Nobody\n9 - Another Short Story\n10 - Concrete Streets\n11 - Real Pimp\n12 - Ditty Dum Ditty Doo\n13 - Music & Me\n14 - I Got Love (Remix)",
       "label": "Elektra",
       "labels": [
@@ -6345,9 +6391,11 @@
       "artiste": "Nationwide Rip Ridaz",
       "titre": "Nationwide Rip Ridaz",
       "annee": 1995,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Throw The C's In The Air\n2 - Nationwide Rip Ridaz\n3 - Swervin' Thru The Eastside\n4 - What We Celieve In\n5 - Crip Keeper\n6 - Everything Gonna C Alright\n7 - Break-A-Slob-Down\n8 - Skits\n9 - Slobs Keep On Slippin'\n10 - Niggaz Don't Want No Problem\n11 - Little Blue Devil\n12 - Compton Nut\n13 - Atlantic Dr Hoo Ride\n14 - Sess In The Daytime, Chronic At Night\n15 - Roll Call\n16 - Bullets Don't Have No Name",
       "label": "Dangerous Records / Pump Records",
       "labels": [
@@ -6364,9 +6412,11 @@
       "artiste": "Nationwide Rip Ridaz",
       "titre": "Nationwide Rip Ridaz II Betrayed (Can't Trust Nobody)",
       "annee": 1999,
-      "stars": null,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+17
+      ],
       "tracklist": "1 - Kick'n' Knowledge\n2 - Gangsta Boogie\n3 - Niggas Don't Bang Like They Used To\n4 - Days Of Old\n5 - Crip Crazy\n6 - Betrayed\n7 - I'll Ride For You\n8 - C's In The Air\n9 - Lost & Sherm'ed Out\n10 - Take It Personal\n11 - Crip: No Transformers\n12 - Crip Loc\n13 - Between Heaven Or Hell\n14 - Crip Card\n15 - Watts Niggas Quick To Pop Niggas\n16 - Drama\n17 - Payin' Dues\n18 - No One Can Save You\n19 - Till I Die",
       "label": "Dangerous Records / Warlock Records",
       "labels": [
@@ -6385,7 +6435,9 @@
       "annee": 1994,
       "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+6
+      ],
       "tracklist": "1 - Intro\n2 - Gangsta Funk\n3 - Plain And Simple\n4 - Raisin' Cain\n5 - Everyday Lifestyle\n6 - Fonky And Creative\n7 - Good Times\n8 - Loaded Dice\n9 - Dirty Work\n10 - Hold On",
       "label": "Comin' Up Records",
       "labels": [
@@ -6403,7 +6455,9 @@
       "annee": 1996,
       "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+7
+      ],
       "tracklist": "1 - Fade'Em All\n2 - 1996\n3 - Recognize\n4 - Revelation\n5 - How You Like Me Now\n6 - Last Year\n7 - Keep On Surviving\n8 - Players Anthem\n9 - Native Soul Party\n10 - Peer Pressure\n11 - Resurrect\n12 - The Mourning After\n13 - Radio Edit 1996",
       "label": "Comin' Up Records",
       "labels": [
@@ -6437,9 +6491,11 @@
       "artiste": "New Breed Of Hustlas",
       "titre": "Streets Got Me Gone",
       "annee": 1995,
-      "stars": null,
+      "stars": 5,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+13
+      ],
       "tracklist": "1 - Intro: Mobstyle\n2 - City Of Thugstas\n3 - No Luv\n4 - Whoo Ryde?\n5 - G A Day\n6 - 800 Vs Ides\n7 - B G Thang\n8 - Streetz Got Me Gone\n9 - Suspect Unidentified\n10 - All Da Bitches\n11 - Locs Dye 2\n12 - Boone Docks\n13 - Long Live Da Hustlas\n14 - Outro",
       "label": "Mobstyle Records",
       "labels": [
@@ -6602,9 +6658,11 @@
       "artiste": "One Grand",
       "titre": "Grand Opening",
       "annee": 1995,
-      "stars": 1,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+10
+      ],
       "tracklist": "1 - Intro\n2 - Loving Every Minute Of It\n3 - My Hit Is Tight\n4 - Doin' It With Ease\n5 - Control\n6 - First Blood\n7 - Ghetto Name (Screwed)\n8 - Back On My Feet\n9 - This Is Whats Happening\n10 - Mystery\n11 - Ghetto Nam\n12 - Turds Of Funk\n13 - First Blood (Screwed)\n14 - I'm Going 2 Give It 2 You\n15 - Serious / Outro",
       "label": "S.L.A.V.E. Records",
       "labels": [
@@ -6694,7 +6752,9 @@
       "annee": 1994,
       "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Prelude\n2 - It's Real\n3 - One Time Fo' Ya Mind\n4 - Guerrilla Funk\n5 - Blacks & Blues\n6 - Bring It To Ya\n7 - Outta My Life\n8 - Whatcha See?\n9 - 40 Ounces And A Fool\n10 - Back In The Days\n11 - Guerrilla Funk (Deep Fo' Real Mix)\n12 - It's Real (Extended Movement Mix)\n13 - Shots Out",
       "label": "Virgin / Priority Records",
       "labels": [
@@ -6711,9 +6771,11 @@
       "artiste": "Pho Balo",
       "titre": "The Chosen Few",
       "annee": 1997,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Intro\n2 - Real Niggaz\n3 - Tint Of My Shades\n4 - Late Night Shift\n5 - Thankx To The Grind\n6 - Strapped\n7 - Drastic Time\n8 - I’m A Make It\n9 - Stay Real\n10 - Trapped\n11 - Phobalo Funk\n12 - U.R.\n13 - I Think Of The Past\n14 - A Chosen Few\n15 - Dank & Alize\n16 - Dogz & Catz\n17 - Cold World\n18 - Strapped (Remix)",
       "label": "Pho Balo Records",
       "labels": [
@@ -6729,9 +6791,11 @@
       "artiste": "Pho Balo",
       "titre": "NA-PALM",
       "annee": 2002,
-      "stars": null,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+16
+      ],
       "tracklist": "1 - Intro\n2 - Gotta Deal Wit It\n3 - House Party\n4 - Shake, Rattle & Roll\n5 - Don’t Wanna Hurt U\n6 - Luv My Niggas\n7 - It Was A Plot\n8 - It’s All Good\n9 - Irene\n10 - I Ain’t In Love Wit Her\n11 - Get Cha Grind On\n12 - I Ain’t Ballin Yet\n13 - My Niggas On The Block\n14 - We Legit Now\n15 - It’s All A Game\n16 - Skrilla\n17 - Born To Die\n18 - All Day\n19 - I Know",
       "label": "Big Nest Records",
       "labels": [
@@ -6783,10 +6847,12 @@
       "slug": "4214147-playa-g-pimp-sh-t-",
       "artiste": "Playa G",
       "titre": "Pimp Sh*t",
-      "annee": null,
-      "stars": null,
+      "annee": 1996,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - Murderer\n2 - Fake Ass Bustas\n3 - Fuck The Trunk\n4 - Drink A Yak\n5 - Pimpin' Ain't Easy\n6 - Chillen Wit My Niggaz\n7 - Pimp Shit\n8 - Same Ol' Game\n9 - Something To Ride To\n10 - Late Nite\n11 - Livin' In Memphis\n12 - I'm So High",
       "label": "East Wood Recordings (2)",
       "labels": [
@@ -6802,9 +6868,11 @@
       "artiste": "Playa G",
       "titre": "U Not My Lady",
       "annee": 1998,
-      "stars": 4,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - U Not My Lady\n2 - Ghetto Warfare\n3 - Jail Break\n4 - Get Crunk\n5 - Those Who B Slippin\n6 - My Life\n7 - Ph Balanced\n8 - I Got 2 Have It\n9 - Where U At\n10 - Ho From The Club\n11 - Menaje Twa\n12 - Time Is Money\n13 - Soldier Til I Die\n14 - Beauty Pagent\n15 - Cloud 9",
       "label": "East Wood Recordings",
       "labels": [
@@ -6875,9 +6943,11 @@
       "artiste": "Pooh-Man",
       "titre": "The State V.S. Poohman: Straight From San Quentin State Prison",
       "annee": 1997,
-      "stars": 3,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Intro\n2 - Sentenced To Five\n3 - God Forgive Me\n4 - Don't F$@k Wit My Money\n5 - Bad Dreams\n6 - Just Another Day\n7 - Mama Used Ta Say\n8 - Day 2 Day Slang\n9 - Use Ta Be My Homie!!\n10 - Baby\n11 - When I Come Home\n12 - Herm Outro",
       "label": "In-A-Minute Records",
       "labels": [
@@ -6893,9 +6963,11 @@
       "artiste": "Potna Deuce",
       "titre": "Heron Soup",
       "annee": 1996,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Intro\n2 - Off Tha Hook\n3 - Hennessey\n4 - Game 1\n5 - No Playa Hatin'\n6 - Dungeon\n7 - Had Ta Do\n8 - Super Bad\n9 - Platinum Hits\n10 - Night Of Tha Playas\n11 - Yao\n12 - To My Niggaz\n13 - Get High\n14 - Outro",
       "label": "High Powered Entertainment",
       "labels": [
@@ -6911,9 +6983,11 @@
       "artiste": "Primo (2)",
       "titre": "Stickin' To The Script",
       "annee": 1996,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Pump Ya Fist\n2 - Young Thug Life\n3 - They Jealousy\n4 - Why You Wanna\n5 - Money Gets Everything\n6 - Killa\n7 - All Day Everyday\n8 - City Of Da Playas\n9 - My Beeper\n10 - Stay\n11 - Three OG's\n12 - Bring Them Come\n13 - Creepin Through The Fog",
       "label": "Black Power Productions",
       "labels": [
@@ -6931,7 +7005,9 @@
       "annee": 1995,
       "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Stories Of Tha Jack\n2 - Taken Fishes Out The Water\n3 - How To Survive\n4 - Gangsta Hotline\n5 - Guess It's A Young Thang\n6 - Punk Hoes\n7 - In Tha County\n8 - Danksta Danksta\n9 - What's Going On (Radio Edit)\n10 - Servin' It (Radio Edit)",
       "label": "Rat-Ta-Tat Records",
       "labels": [
@@ -6949,7 +7025,9 @@
       "annee": 1997,
       "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - Intro\n2 - How Can Yah\n3 - Gone Off The Hen\n4 - Rollin' In My Chev\n5 - Reality\n6 - About My Money\n7 - Don't Cry\n8 - How To Survive\n9 - Straight Mackin'\n10 - Step On Up\n11 - Hustlin'\n12 - Outro",
       "label": "Rat-Ta-Tat Records",
       "labels": [
@@ -6964,10 +7042,12 @@
       "slug": "6186532-r-m-c-3-double-trouble-2x-da-funk-2011",
       "artiste": "R.M.C. (3)",
       "titre": "Double Trouble 2x Da Funk",
-      "annee": 2011,
-      "stars": null,
+      "annee": 1995,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+7
+      ],
       "tracklist": "1 - Prelude\n2 - Break Yo Self\n3 - Gettin High As I Ride\n4 - Buck Em Down\n5 - Aint No Luv In My Hood\n6 - Whats Dat Gee Like\n7 - Everyday In Tha MS\n8 - Another Side Of Me\n9 - Call It How I See It\n10 - Recognize A Gee\n11 - Much 2 Young 2 Be A Killa\n12 - Comin To Getcha\n13 - Player Hater\n14 - Double Trouble\n15 - Gettin High As I Ride (Radio Version)",
       "label": "Twin Boyz Records",
       "labels": [
@@ -6983,9 +7063,11 @@
       "artiste": "R.O.A.",
       "titre": "G 4 Life",
       "annee": 1996,
-      "stars": null,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Intro\n2 - Giggiddy Bang\n3 - Laws On My Back\n4 - Kill Or Be Kill\n5 - Paranoid\n6 - Deep Shit\n7 - Sing Nina\n8 - Lord Be With Me\n9 - Killing Spree\n10 - G 4 Life",
       "label": "Creepstyle Records",
       "labels": [
@@ -7001,9 +7083,11 @@
       "artiste": "Ramsey Da 4 Rilla",
       "titre": "Ramsey Da 4 Rilla",
       "annee": 1999,
-      "stars": 5,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+9
+      ],
       "tracklist": "1 - Da 4 Rilla\n2 - Give It Up\n3 - Envious\n4 - Make Way\n5 - True Or Lie\n6 - Do Tha Damn Thang\n7 - Heartless\n8 - Tell Me What You Want (Dime Lo Que Quieres)\n9 - Fly Away\n10 - Sometimes\n11 - What's That\n12 - Humiliation\n13 - The Virus",
       "label": "Hit Em Up Entertainment",
       "labels": [
@@ -7113,9 +7197,11 @@
       "artiste": "Rappin' Ron & Ant Diddley Dog",
       "titre": "Bad N-Fluenz",
       "annee": 1995,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+10
+      ],
       "tracklist": "1.1 - Intro\n1.2 - All Rapped Up\n2 - How The Gangsters Do It\n3 - The Bomb\n4 - Buster Free\n5 - Ruff Like Pavement\n6 - P.H. Balance\n7 - You Ain't Heard Shit Yet\n8 - Dirty Work\n9 - Maniac Mind\n10 - Smoke Season\n11 - I'm A Bad N-Fluenz\n12 - Torcher Chamber\n13 - Pulls Out My Flamer",
       "label": "Cell Block Records",
       "labels": [
@@ -7131,9 +7217,11 @@
       "artiste": "Rashid (10)",
       "titre": "The Game",
       "annee": 1997,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+7
+      ],
       "tracklist": "1 - Intro\n2 - The Game\n3 - H-Town Way\n4 - Mo Funk I\n5 - Parlay\n6 - Hope's And Dream's\n7 - Parlay\n8 - Mo Funk II\n9 - Another Statistic\n10 - Every Minute\n11 - Outro",
       "label": "E&R Records",
       "labels": [
@@ -7187,7 +7275,9 @@
       "annee": 1995,
       "stars": 5,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+6
+      ],
       "tracklist": "1 - Intro\n2 - Forever Hustlin'\n3 - Tha Factor\n4 - Bubble\n5 - In The Game\n6 - Keep Ya Mask On\n7 - I'd Rather Be A Pimp\n8 - Definition Of Ah Hustla'\n9 - We Do This Everyday\n10 - Ride Wit The Luvva Man\n11 - 24K\n12 - What U In It 4\n13 - Still Smokin' Indo\n14 - Stormy Weather\n15 - Luv From Ah \"G\"\n16 - Last Nite\n17 - Cage Bird",
       "label": "Young Black Brotha Records / Atlantic",
       "labels": [
@@ -7260,9 +7350,11 @@
       "artiste": "Realite",
       "titre": "Realite",
       "annee": 1996,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - Intro\n2 - Factor 2 The Game\n3 - Big Balla\n4 - Havin' It All\n5 - Straight G\n6 - Smokin' & Chokin'\n7 - All I Dreamed\n8 - Gangsta Gangsta\n9 - Goin' Down\n10 - Bangin' & Slangin'\n11 - The Weed\n12 - Ghetto Soldier\n13 - Jail Bird\n14 - P_ P_ Killa",
       "label": "Epitome Entertainment",
       "labels": [
@@ -7278,9 +7370,11 @@
       "artiste": "Red Money",
       "titre": "II Much Red",
       "annee": 1995,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+4
+      ],
       "tracklist": "1 - Intro\n2 - On Yo Azz\n3 - 6-15'z\n4 - Flex'n\n5 - Who U Be\n6 - Kut It Up Red\n7 - Kik-A-Lil-Sum'n\n8 - South Koast Drop\n9 - 808 Style\n10 - Da West End\n11 - Pimpin' 202\n12 - Luv-4-U\n13 - Red'z Theme\n14 - Ain't No Thang\n15 - Ruger\n16 - Too Much Red\n17 - What's Up!",
       "label": "Arvis LGP Records",
       "labels": [
@@ -7295,10 +7389,12 @@
       "slug": "4649121-redrum-23-livin-da-life-of-a-hustla-",
       "artiste": "Redrum (23)",
       "titre": "Livin' Da Life Of A Hustla",
-      "annee": null,
-      "stars": null,
+      "annee": 1995,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+11
+      ],
       "tracklist": "1 - Intro\n2 - Strickly Fo My Mayo\n3 - Mugs On Mean\n4 - Livin' Da Life Of A Hustla\n5 - M.O.N.E.Y. Breeds Gees\n6 - City Streets\n7 - Insert\n8 - Trying To Get A Meal\n9 - Dial 1 For Murder\n10 - Desert Storm\n11 - Young & The Restless\n12 - Fallen Soldiers\n13 - Outro\n14 - Livin' Da Life Of A Hustla (Remix)\n15 - City Streets (Remix)",
       "label": "Guillotine Records (3)",
       "labels": [
@@ -7314,9 +7410,11 @@
       "artiste": "Rodney D",
       "titre": "A Moment Of Silence",
       "annee": 1995,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - The Day The World Blew Up (Intro)\n2 - Ashes II Dust\n3 - When Daddy's Home\n4 - A Moment Of Silence\n5 - No Love In The Ghetto\n6 - Can I Come Inside\n7 - Indonesia\n8 - Life Sentence\n9 - Linny's Funky Groove\n10 - Can I Come Inside (Remix)\n11 - Playtimez Over",
       "label": "Black Jack Records (3)",
       "labels": [
@@ -7332,9 +7430,11 @@
       "artiste": "Ron C",
       "titre": "Raw 4 Life",
       "annee": 1996,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Ain't No Doubt\n2 - Strapped\n3 - It's Going Down\n4 - Raw 4 Life\n5 - Freak Of Da Week\n6 - Bitches Ain't Shit\n7 - Late Nite Fuckin\n8 - You Can Be My Bitch 2Nite\n9 - Mo Hoes\n10 - Pager\n11 - Smokin Dat Chronic\n12 - Be Fo Da \"Show\"",
       "label": "Midwest Records",
       "labels": [
@@ -7352,7 +7452,9 @@
       "annee": 1994,
       "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+14
+      ],
       "tracklist": "1 - Mr. & Mrs. Abuser\n2 - Hit Em' Up\n3 - Low Down & Dirty\n4 - Badge Wearing Bitch In Blue\n5 - Pussy Hound\n6 - Chilli'n On The Set (Reprise)\n7 - No Justice No Peace\n8 - Turn It Ova\n9 - The Game\n10 - Born To Die (Remix)\n11 - Stay Out My Mix\n12 - 666 Is My Code\n13 - Bacon & Grits\n14 - Grave Digger\n15 - Trouble Out",
       "label": "High Power Records (5)",
       "labels": [
@@ -7385,7 +7487,7 @@
       "slug": "4448014-ruhkuss-mobb-mobb-zone-2011",
       "artiste": "Ruhkuss Mobb",
       "titre": "Mobb Zone",
-      "annee": 2011,
+      "annee": 1995,
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -7403,14 +7505,16 @@
       "slug": "28072675-ruthless-til-death-the-day-i-wanted-to-die-2023",
       "artiste": "Ruthless Til Death",
       "titre": "The Day I Wanted To Die",
-      "annee": 2023,
-      "stars": null,
+      "annee": 1994,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+4
+      ],
       "tracklist": "1 - Intro: A New Beginning\n2 - Rollin 187\n3 - Jack Move\n4 - The Day I Wanted II Die\n5 - It's All About Reality\n6 - Frisco Homicide\n7 - It Gets Harder Everyday\n8 - Unknown Part Of Town\n9 - Westmob Kickin' It\n10 - The Day I Wanted II Die (Remix)\n11 - Outro: Dead End",
-      "label": "NorthCyde Vinyl",
+      "label": "Untouchable Records (2)",
       "labels": [
-        "NorthCyde Vinyl"
+        "Untouchable Records (2)"
       ],
       "discogsLink": "https://www.discogs.com/release/28072675",
       "release_id": "28072675",
@@ -7710,6 +7814,25 @@
       "cover_image": "https://i.discogs.com/uD5MUpy7wpBWH3L3H0BrOFNxE9yoiPrfVZN6yNjdniU/rs:fit/g:sm/q:90/h:387/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjIx/MDctMTIxMjkxNjEx/NS5qcGVn.jpeg"
     },
     {
+      "slug": "6927672-slm-comin-out-the-fog-2014",
+      "artiste": "SLM",
+      "titre": "Comin' Out The Fog",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": "1 - City Slicka\n2 - Comin' Out The Fog\n3 - Maculent\n4 - Ghetto Rep\n5 - Comin' Off Sick\n6 - Nod Ya Head",
+      "label": "Git Payed Recordz / Conversion (3)",
+      "labels": [
+        "Git Payed Recordz",
+        "Conversion (3)"
+      ],
+      "discogsLink": "https://www.discogs.com/release/6927672",
+      "release_id": "6927672",
+      "resource_url": "https://api.discogs.com/releases/6927672",
+      "cover_image": "https://i.discogs.com/g3D8l7b6vzWigP9V8hHUmZrhNUCg1ZVjJm_hXC-BiFI/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5Mjc2/NzItMTQyOTcwMTI5/MS0xODE0LmpwZWc.jpeg"
+    },
+    {
       "slug": "slm-comin-out-the-fog-1995-5505767",
       "artiste": "SLM",
       "titre": "Comin' Out The Fog",
@@ -7726,25 +7849,6 @@
       "release_id": "5505767",
       "resource_url": "https://api.discogs.com/releases/5505767",
       "cover_image": "https://i.discogs.com/0DXHK0-ixmAHrJ_J7jyjA8-FKqc50Z4GkkF8tyj1QLA/rs:fit/g:sm/q:90/h:299/w:308/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1MDU3/NjctMTM5NTExMzcz/Ny0yNTI4LmpwZWc.jpeg"
-    },
-    {
-      "slug": "6927672-slm-comin-out-the-fog-2014",
-      "artiste": "SLM",
-      "titre": "Comin' Out The Fog",
-      "annee": 2014,
-      "stars": null,
-      "favorite": false,
-      "favTracks": [],
-      "tracklist": "1 - City Slicka\n2 - Comin' Out The Fog\n3 - Maculent\n4 - Ghetto Rep\n5 - Comin' Off Sick\n6 - Nod Ya Head",
-      "label": "Git Payed Recordz / Conversion (3)",
-      "labels": [
-        "Git Payed Recordz",
-        "Conversion (3)"
-      ],
-      "discogsLink": "https://www.discogs.com/release/6927672",
-      "release_id": "6927672",
-      "resource_url": "https://api.discogs.com/releases/6927672",
-      "cover_image": "https://i.discogs.com/g3D8l7b6vzWigP9V8hHUmZrhNUCg1ZVjJm_hXC-BiFI/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5Mjc2/NzItMTQyOTcwMTI5/MS0xODE0LmpwZWc.jpeg"
     },
     {
       "slug": "1770446-smg-5-strawberry-manor-gangstas-2009",
@@ -8062,7 +8166,7 @@
       "slug": "7346479-sub-zero-7-s-m-d-sacramentos-most-dangerous-vol-i-",
       "artiste": "Sub-Zero (7)",
       "titre": "S.M.D. (Sacramento's Most Dangerous) Vol. I",
-      "annee": null,
+      "annee": 1997,
       "stars": null,
       "favorite": false,
       "favTracks": [],
@@ -8595,7 +8699,7 @@
       "slug": "1865660-triple-6-hustlin-4-my-paper-",
       "artiste": "TRIPLE 6",
       "titre": "Hustlin' 4 My Paper",
-      "annee": null,
+      "annee": 1996,
       "stars": 3,
       "favorite": false,
       "favTracks": [],
