@@ -721,8 +721,11 @@ function renderTracklist(tracklist, favTracks) {
         <div class="main">
           <div class="coverBlock">
   <img class="cover"
-       src="${escapeHtml(a.cover_image || "")}"
-       alt="Pochette de ${escapeHtml(a.titre || "")}">
+     src="covers/${a.release_id}.jpg"
+     alt="Pochette de ${escapeHtml(a.titre || "")}"
+     loading="lazy" decoding="async"
+     onerror="this.style.display='none'">
+
 
   ${(() => {
   const arr = Array.isArray(a.labels) ? a.labels : [];
