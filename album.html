@@ -540,6 +540,52 @@ ol.tracks{
     text-align: left;          /* comme la tracklist : lisible */
   }
 }
+/* ===== MOBILE : CENTRAGE DES PISTES ===== */
+@media (max-width:760px){
+
+  /* chaque piste passe en colonne */
+  .track{
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+  }
+
+  /* numéro + titre + étoile */
+  .tleft{
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .tno{
+    text-align: center;
+    min-width: auto;
+  }
+
+  .tname{
+    text-align: center;
+  }
+
+  /* durée en dessous */
+  .tdur{
+    margin-top: 2px;
+    text-align: center;
+    font-size: 13px;
+  }
+}
+.track.fav{
+  animation: favGlow 2.4s ease-in-out infinite;
+}
+
+@keyframes favGlow{
+  0%,100%{
+    box-shadow: 0 0 10px rgba(255,211,107,.25);
+  }
+  50%{
+    box-shadow: 0 0 22px rgba(255,211,107,.45);
+  }
+}
 
 </style>
 </head>

@@ -316,10 +316,12 @@ d.className = 'card' + (Number(a.stars) === 5 ? ' fiveStars' : '');
         d.innerHTML = `
           <div class="coverWrap">
             <img class="cover"
-     src="${a.cover_image || ''}"
+     src="covers/${a.release_id}.jpg"
      alt="${a.titre || ''} - ${a.artiste || ''}"
      loading="lazy"
-     decoding="async">
+     decoding="async"
+     onerror="this.style.display='none'">
+
 
 
             <div class="shine"></div>
@@ -356,9 +358,12 @@ function appendNext(){
   d.innerHTML = `
     <div class="coverWrap">
       <img class="cover"
-           src="${a.cover_image || ''}"
-           alt="${a.titre || ''} - ${artistClean}"
-           loading="lazy" decoding="async">
+     src="covers/${a.release_id}.jpg"
+     alt="${a.titre || ''} - ${artistClean}"
+     loading="lazy" decoding="async"
+     onerror="this.style.display='none'">
+
+
       <div class="shine"></div>
     </div>
     <div class="meta">
@@ -407,7 +412,8 @@ function applyFilters(){
       String(a.annee ?? '').includes(text);
 
     const s = Number(a.stars || 0); // non noté => 0
-    const okStars = !minStars || s >= minStars;
+const okStars = !minStars || s === minStars;
+
 
     return okText && okStars;
   });

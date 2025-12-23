@@ -320,12 +320,12 @@ console.log(items[0]);
      list.innerHTML = items.map(a => `
   <div class="row">
     <div class="year">${a.annee ?? ''}</div>
+<img class="cover"
+     src="covers/${a.release_id}.jpg"
+     alt="Pochette de ${escapeHtml(a.titre || "")}"
+     onerror="this.style.display='none'">
 
-    <img class="thumb"
-         src="${a.cover_image || ''}"
-         alt="${escapeHtml(a.titre || '')}"
-         loading="lazy" decoding="async"
-         onerror="this.style.display='none'">
+
 
     <div class="maincol">
       <a class="title" href="album.html?slug=${encodeURIComponent(a.slug)}">
