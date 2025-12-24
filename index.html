@@ -248,6 +248,146 @@
   50%{ opacity:.95; }
 
 }
+@media (hover: hover){
+
+  .title{
+    transition: color .15s ease, text-shadow .15s ease;
+  }
+
+  .title:hover{
+    color: #cfd6ff;
+    text-shadow: 0 0 8px rgba(143,162,255,.25);
+  }
+
+  .artistLink{
+    transition: color .15s ease;
+  }
+
+  .artistLink:hover{
+    color: var(--text);
+  }
+
+}
+.title{
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+.artistLink,
+.artist{
+  color: var(--muted);
+  font-weight: 400;
+}
+.year{
+  font-variant-numeric: tabular-nums;
+  opacity: .75;
+}
+@media (hover: hover){
+
+  .title{
+    transition: color .15s ease, text-shadow .15s ease;
+  }
+
+  .title:hover{
+    color: #cfd6ff;
+    text-shadow: 0 0 8px rgba(143,162,255,.25);
+  }
+
+  .artistLink{
+    transition: color .15s ease;
+  }
+
+  .artistLink:hover{
+    color: var(--text);
+  }
+
+}
+select option{
+  background: #0b0b0f;
+  color: rgba(255,255,255,.45);
+}
+
+select option:checked{
+  color: rgba(255,211,107,.95);
+  font-weight: 600;
+}
+
+select option:hover{
+  color: rgba(255,255,255,.85);
+}
+select option{
+  font-family: 'Montserrat', system-ui, sans-serif;
+  letter-spacing: 1px;
+}
+/* ===== Filtre étoiles : rendu doré lisible ===== */
+#starsFilter {
+  color: #ffd36b;
+  font-weight: 600;
+}
+
+/* Options (menu déroulé) */
+#starsFilter option {
+  color: #ffd36b;
+  background-color: #0b0d12;
+}
+
+/* Option ALL un peu plus neutre */
+#starsFilter option[value="all"] {
+  color: #e9edf5;
+}
+#starsFilter option {
+  color: #ffd36b;
+  background-color: #0b0d12;
+}
+
+/* Le caractère ☆ est naturellement plus fin → suffisant */
+#starsFilter {
+  letter-spacing: 2px;
+}
+/* Dropdown étoiles (custom) */
+.starsSelect{ margin-top:8px; position:relative; }
+
+.starsSelectBtn{
+  width:100%;
+  display:flex; align-items:center; justify-content:space-between;
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid var(--stroke);
+  background:rgba(255,255,255,.03);
+  color:var(--text);
+  cursor:pointer;
+}
+
+.starsMenu{
+  position:absolute; left:0; right:0; top:calc(100% + 8px);
+  border-radius:14px;
+  border:1px solid var(--stroke);
+  background:#0b0b0f;
+  box-shadow:0 18px 40px rgba(0,0,0,.55);
+  overflow:hidden;
+  z-index:20;
+}
+
+.starsItem{
+  width:100%;
+  display:flex; justify-content:flex-start; align-items:center;
+  gap:10px;
+  padding:10px 12px;
+  border:0;
+  background:transparent;
+  color:var(--text);
+  cursor:pointer;
+}
+
+.starsItem:hover{ background:rgba(255,255,255,.06); }
+
+.starsItem .stars{
+  margin:0;           /* reprend ton rendu */
+  font-size:18px;
+  letter-spacing:2px;
+}
+
+/* libellés ALL / Non noté */
+.starsItem .lbl{ color:rgba(255,255,255,.85); font-size:13px; }
 
   </style>
 </head>
@@ -258,14 +398,31 @@
     <div class="badge" id="count">…</div>
   </div>
   <input id="q" placeholder="Rechercher artiste, titre, année…" />
-  <select id="starsFilter">
-  <option value="">Toutes les notes</option>
-  <option value="5">★★★★★</option>
-  <option value="4">★★★★☆ et +</option>
-  <option value="3">★★★☆☆ et +</option>
-  <option value="2">★★☆☆☆ et +</option>
-  <option value="1">★☆☆☆☆ et +</option>
-</select>
+  <div class="starsSelect" id="starsSelect">
+  <button class="starsSelectBtn" id="starsSelectBtn" type="button">
+    <span class="lbl">ALL — toutes les notes</span>
+    <span class="chev">▾</span>
+  </button>
+
+  <div class="starsMenu" id="starsMenu" hidden>
+    <button type="button" class="starsItem" data-value="">
+      <span class="lbl">ALL — toutes les notes</span>
+    </button>
+
+    <button type="button" class="starsItem" data-value="5">${starsHtml(5)}</button>
+    <button type="button" class="starsItem" data-value="4">${starsHtml(4)}</button>
+    <button type="button" class="starsItem" data-value="3">${starsHtml(3)}</button>
+    <button type="button" class="starsItem" data-value="2">${starsHtml(2)}</button>
+    <button type="button" class="starsItem" data-value="1">${starsHtml(1)}</button>
+
+    <button type="button" class="starsItem" data-value="null">
+      <span class="lbl">Non noté</span>
+    </button>
+  </div>
+</div>
+
+
+
 
 </header>
 
@@ -299,6 +456,8 @@ fetch('data/export.json?v=' + Date.now())
     const items = data.items || [];
     const grid = document.getElementById('grid');
     const q = document.getElementById('q');
+    let starsValue = ""; // "" = ALL | "1".."5" | "null" (non noté)
+
     const count = document.getElementById('count');
     count.textContent = `${items.length} albums`;
 
@@ -399,32 +558,67 @@ const io = new IntersectionObserver((entries) => {
 
 io.observe(sentinel);
 
-const starsFilter = document.getElementById('starsFilter');
+
 
 function applyFilters(){
   const text = q.value.trim().toLowerCase();
-  const minStars = Number(starsFilter.value || 0);
 
   filtered = items.filter(a => {
-    const okText = !text ||
+    const okText =
+      !text ||
       (a.artiste || '').toLowerCase().includes(text) ||
       (a.titre || '').toLowerCase().includes(text) ||
       String(a.annee ?? '').includes(text);
 
-    const s = Number(a.stars || 0); // non noté => 0
-const okStars = !minStars || s === minStars;
-
+    const okStars =
+      (starsValue === "") || // ALL
+      (starsValue === "null" && (a.stars === null || a.stars === undefined || a.stars === "")) ||
+      (Number(a.stars) === Number(starsValue));
 
     return okText && okStars;
   });
 
   resetAndRender();
+
 }
+q.addEventListener('input', applyFilters);
+// Remplit les boutons 1..5 avec le rendu ★ doré / ☆ grisé
+document.querySelectorAll('.starsItem[data-value]').forEach(btn => {
+  const v = btn.dataset.value;
+  if (v && v !== "null") btn.innerHTML = starsHtml(Number(v));
+});
 
-q.oninput = applyFilters;
-starsFilter.onchange = applyFilters;
+// Ouvre/ferme
+const starsSelectBtn = document.getElementById('starsSelectBtn');
+const starsMenu = document.getElementById('starsMenu');
 
-  resetAndRender();
+starsSelectBtn.addEventListener('click', () => {
+  starsMenu.toggleAttribute('hidden');
+});
+
+// Choix d’une valeur
+starsMenu.addEventListener('click', (e) => {
+  const b = e.target.closest('.starsItem');
+  if (!b) return;
+
+  starsValue = b.dataset.value ?? "";
+
+  // libellé du bouton
+  const lbl = starsSelectBtn.querySelector('.lbl');
+  if (starsValue === "") lbl.textContent = "ALL — toutes les notes";
+  else if (starsValue === "null") lbl.textContent = "Non noté";
+  else lbl.innerHTML = starsHtml(Number(starsValue));
+
+  starsMenu.setAttribute('hidden', '');
+  applyFilters();
+});
+
+// click dehors = ferme
+document.addEventListener('click', (e) => {
+  if (e.target.closest('#starsSelect')) return;
+  starsMenu.setAttribute('hidden', '');
+});
+
 
   });
 </script>

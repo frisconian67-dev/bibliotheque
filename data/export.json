@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-23T22:38:43.845Z",
+  "generatedAt": "2025-12-24T10:24:58.945Z",
   "count": 504,
   "items": [
     {
@@ -376,9 +376,7 @@
       "annee": 1996,
       "stars": 5,
       "favorite": false,
-      "favTracks": [
-10
-      ],
+      "favTracks": [],
       "tracklist": "1-01 - Ambitionz Az A Ridah\n1-02 - All Bout U\n1-03 - Skandalouz\n1-04 - Got My Mind Made Up\n1-05 - How Do U Want It\n1-06 - 2 Of Amerikaz Most Wanted\n1-07 - No More Pain\n1-08 - Heartz Of Men\n1-09 - Life Goes On\n1-10 - Only God Can Judge Me\n1-11 - Tradin War Stories\n1-12 - California Love (Remix)\n1-13 - I Ain't Mad At Cha\n1-14 - What'z Ya Phone #\n2-01 - Can't C Me\n2-02 - Shorty Wanna Be A Thug\n2-03 - Holla At Me\n2-04 - Wonda Why They Call U Bytch\n2-05 - When We Ride\n2-06 - Thug Passion\n2-07 - Picture Me Rollin'\n2-08 - Check Out Time\n2-09 - Ratha Be Ya Nigga\n2-10 - All Eyez On Me\n2-11 - Run Tha Streetz\n2-12 - Ain't Hard 2 Find\n2-13 - Heaven Ain't Hard 2 Find",
       "label": "Interscope Records / Death Row Records (2)",
       "labels": [
@@ -3441,9 +3439,11 @@
       "artiste": "G-Smoov",
       "titre": "Zu-Made",
       "annee": 1995,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+1
+      ],
       "tracklist": "1 - Gimme Props\n2 - Back Against Da Wall\n3 - Palm Of My Hand\n4 - Roll Wit Da Punches\n5 - If Ya Had Yo Gat\n6 - Feel Me\n7 - Watcha Wanna Do\n8 - Rollin' Wit Da Sniper Unit\n9 - Zu Da Funk\n10 - Stereo\n11 - Shady\n12 - Zu Been Good",
       "label": "Bumrush Records",
       "labels": [
@@ -5775,7 +5775,7 @@
       "artiste": "Master P",
       "titre": "The Ghettos Tryin To Kill Me! (Limited Collector's Edition)",
       "annee": 1997,
-      "stars": 5,
+      "stars": 4,
       "favorite": false,
       "favTracks": [
 3
@@ -6332,7 +6332,7 @@
       "artiste": "Nate Dogg",
       "titre": "Music & Me",
       "annee": 2001,
-      "stars": 4,
+      "stars": 3,
       "favorite": false,
       "favTracks": [
 13
@@ -7674,9 +7674,11 @@
       "artiste": "Sin Loc",
       "titre": "Smell Tha Smoke & See The Fire",
       "annee": 1999,
-      "stars": null,
+      "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - Intro : Everybody Wanna Know\n2 - They Wonder If I’m Still Rollin'\n3 - Treadin' Water\n4 - 4 Yo Hat\n5 - Smell Tha Smoke See The Fire\n6 - What’s Up Wit It\n7 - Chedder\n8 - Run Da Ball\n9 - I Just Bounce\n10 - Win Lose or Draw\n11 - God Is Everything\n12 - Dead On They Ass\n13 - House Party\n14 - Snorin'\n15 - Super Rhymes\n16 - Straight From The Heart\n17 - On The Move\n18 - What It Iz\n19 - Outro: Rollin' Out\n20 - Treadin' Water (Remix)",
       "label": "Not On Label",
       "labels": [
@@ -7749,7 +7751,7 @@
       "artiste": "Skanless",
       "titre": "The Book Of Skanless",
       "annee": 1996,
-      "stars": 5,
+      "stars": 4,
       "favorite": false,
       "favTracks": [
 3
