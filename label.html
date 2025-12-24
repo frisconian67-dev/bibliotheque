@@ -80,11 +80,12 @@
     }
 .row{
   display: grid;
-  grid-template-columns: 64px 1fr 1fr; /* année | artiste | album */
+  grid-template-columns: 64px 1fr; /* année | contenu */
   align-items: center;
-  padding: 12px 16px;
+  padding: 14px 18px;
   border-bottom: 1px solid rgba(255,255,255,.06);
 }
+
 .row:last-child{border-bottom:0;}
 
 
@@ -384,6 +385,105 @@
   font-variant-numeric: tabular-nums;
   opacity: .75;
 }
+/* ===== Liens dorés (album / label / artiste) ===== */
+a {
+  color: #ffd36b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffe39a;
+  text-decoration: underline;
+}
+/* ===== Forçage doré des liens internes ===== */
+a,
+.title a,
+.row a,
+.panel a {
+  color: #ffd36b !important;
+  text-decoration: none;
+}
+
+a:hover,
+.title a:hover,
+.row a:hover,
+.panel a:hover {
+  color: #ffe39a !important;
+  text-decoration: underline;
+}
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap:14px;
+  padding:16px;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.card{
+  position:relative;
+  border-radius:18px;
+  overflow:hidden;
+  border:2px solid #ffffff;
+  transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+}
+.card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(255, 211, 107, 0.6);
+  border-color:#ffd36b;
+}
+
+.coverWrap{ position:relative; }
+.cover{
+  width:100%;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  display:block;
+  background:#0e1220;
+}
+.shine{
+  position:absolute; inset:0;
+  background: radial-gradient(600px 260px at 20% 0%, rgba(255,255,255,.10), transparent 55%);
+  pointer-events:none;
+}
+
+.meta{ padding:12px 12px 14px; text-align:center; }
+.meta .artist{ display:block; font-size:16px; font-weight:700; margin-bottom:6px; color:var(--text); }
+.separator{ width:70px; height:1px; background:#ffd36b; margin:8px auto; border-radius:2px; }
+.meta .title{ font-weight:800; font-size:15px; line-height:1.2; margin:0 0 6px; }
+.meta .year{ display:block; margin-top:6px; font-size:13px; color:var(--muted); }
+
+.stars{ font-size:20px; letter-spacing:2px; margin-top:8px; text-align:center; }
+.stars .on{ color:#ffd36b; text-shadow:1px 1px 2px #000; }
+.stars .off{ color:rgba(255,255,255,.25); text-shadow:1px 1px 2px #000; }
+/* LABEL cards : ne pas tronquer brutalement les titres */
+.card .meta .title{
+  white-space: normal !important;
+  overflow: hidden !important;
+  text-overflow: clip !important;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* WebKit (Chrome, Safari) */
+
+  line-clamp: 2;        /* standard (warning résolu) */
+}
+/* Cartes label : année centrée */
+.card .meta .year{
+  display: block;
+  text-align: center;
+  margin-top: 6px;
+}
+/* Cartes label : titre en blanc */
+.card .meta .title{
+  color: var(--text) !important;
+}
+
+.card .meta .title:hover{
+  color: #e9edf5 !important;
+  text-decoration: underline;
+}
+
 
   </style>
 </head>
@@ -399,7 +499,8 @@
     </div>
 
     <div class="sub" id="count"></div>
-    <div class="panel" id="list"></div>
+    <div class="grid" id="grid"></div>
+
   </div>
 
   <script>
@@ -413,12 +514,18 @@
     }
 
     function starsHtml(n){
-      if (n === null || n === undefined || n === "") return "";
-      const v = Math.max(0, Math.min(5, Number(n)));
-      let s = "";
-      for (let i = 1; i <= 5; i++) s += (i <= v) ? "★" : "☆";
-      return s;
-    }
+  if (n === null || n === undefined || n === "") return ""; // non noté → rien
+
+  const v = Math.max(0, Math.min(5, Number(n)));
+  let s = '';
+  for (let i = 1; i <= 5; i++){
+    s += i <= v
+      ? `<span class="on">★</span>`
+      : `<span class="off">☆</span>`;
+  }
+  return `<div class="stars">${s}</div>`;
+}
+
 
     // normalisation label (évite les différences d’espaces / casse)
     function normLabel(s){
@@ -481,35 +588,38 @@ const items = (data.items || [])
           return;
         }
 
-        list.innerHTML = items.map(a => `
-  <div class="row">
-    <div class="year">${a.annee ?? ''}</div>
+       const grid = document.getElementById('grid');
+grid.innerHTML = '';
 
-    <div class="artistCenter">
-      <a class="artistLink"
-         href="artiste.html?name=${encodeURIComponent(cleanArtist(a.artiste || ''))}">
-        ${escapeHtml(cleanArtist(a.artiste || ''))}
-      </a>
+items.forEach(a => {
+  const d = document.createElement('div');
+  d.className = 'card';
+  d.onclick = () => location.href = `album.html?slug=${encodeURIComponent(a.slug)}`;
+
+  const artistClean = cleanArtist(a.artiste || '');
+
+  d.innerHTML = `
+    <div class="coverWrap">
+      <img class="cover"
+        src="covers/${a.release_id}.jpg"
+        alt="${escapeHtml(a.titre || '')} - ${escapeHtml(artistClean)}"
+        loading="lazy" decoding="async"
+        onerror="this.style.display='none'">
+      <div class="shine"></div>
     </div>
 
-    <img class="thumb"
-     src="covers/${a.release_id}.jpg"
-     alt="${escapeHtml(a.titre || '')}"
-     loading="lazy" decoding="async"
-     onerror="this.style.display='none'">
-
-
-      <div class="textcol">
-        <a class="title" href="album.html?slug=${encodeURIComponent(a.slug)}">
-          ${escapeHtml(a.titre || '')}
-        </a>
-        ${a.stars === null || a.stars === undefined || a.stars === "" ? "" : `
-          <div class="stars">${starsHtml(a.stars)}</div>
-        `}
-      </div>
+    <div class="meta">
+      <span class="artist">${escapeHtml(artistClean)}</span>
+      <div class="separator"></div>
+      <p class="title">${escapeHtml(a.titre || '')}</p>
+      <span class="year">${a.annee ?? ''}</span>
+      ${starsHtml(a.stars)}
     </div>
-  </div>
-`).join('');
+  `;
+
+  grid.appendChild(d);
+});
+
 
 
       });

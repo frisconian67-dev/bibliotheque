@@ -388,6 +388,32 @@ select option{
 
 /* libellés ALL / Non noté */
 .starsItem .lbl{ color:rgba(255,255,255,.85); font-size:13px; }
+.albumLine{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  min-width:0;
+}
+
+.metaCol{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  min-width:0;
+}
+
+.title{
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+
+.artistLink{
+  color: var(--muted);
+  font-size: 13.5px;
+  text-decoration: none;
+}
+.artistLink:hover{ text-decoration: underline; }
 
   </style>
 </head>
@@ -458,6 +484,7 @@ fetch('data/export.json?v=' + Date.now())
     const q = document.getElementById('q');
     let starsValue = ""; // "" = ALL | "1".."5" | "null" (non noté)
 
+    
     const count = document.getElementById('count');
     count.textContent = `${items.length} albums`;
 
@@ -579,7 +606,6 @@ function applyFilters(){
   });
 
   resetAndRender();
-
 }
 q.addEventListener('input', applyFilters);
 // Remplit les boutons 1..5 avec le rendu ★ doré / ☆ grisé

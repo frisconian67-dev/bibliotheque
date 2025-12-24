@@ -279,6 +279,32 @@ h1{margin:6px 0 6px;font-size:34px;letter-spacing:.2px;}
   font-variant-numeric: tabular-nums;
   opacity: .75;
 }
+/* ===== Liens dorés (album / label / artiste) ===== */
+a {
+  color: #ffd36b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffe39a;
+  text-decoration: underline;
+}
+/* ===== Forçage doré des liens internes ===== */
+a,
+.title a,
+.row a,
+.panel a {
+  color: #ffd36b !important;
+  text-decoration: none;
+}
+
+a:hover,
+.title a:hover,
+.row a:hover,
+.panel a:hover {
+  color: #ffe39a !important;
+  text-decoration: underline;
+}
 
   </style>
 </head>
