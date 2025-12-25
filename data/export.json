@@ -1,27 +1,7 @@
 {
-  "generatedAt": "2025-12-24T10:24:58.945Z",
-  "count": 504,
+  "generatedAt": "2025-12-25T20:59:05.544Z",
+  "count": 508,
   "items": [
-    {
-      "slug": "2432922-q-2-the-man-with-the-plan-1995",
-      "artiste": "\"Q\" (2)",
-      "titre": "The Man With The Plan",
-      "annee": 1995,
-      "stars": 3,
-      "favorite": false,
-      "favTracks": [
-10
-      ],
-      "tracklist": "1 - \"Q\"\n2 - My Conscience\n3 - Murder In The 1st Degree\n4 - Go On Whicha Games\n5 - Das How It Is In The Ghetto\n6 - Who Said A Nigga Can't Flow\n7 - That Is Real\n8 - Summer Time\n9 - That Is Real (Dope-Mix)\n10 - My Conscience (The Funk Anthem)",
-      "label": "Funkstreet Records",
-      "labels": [
-        "Funkstreet Records"
-      ],
-      "discogsLink": "https://www.discogs.com/release/2432922",
-      "release_id": "2432922",
-      "resource_url": "https://api.discogs.com/releases/2432922",
-      "cover_image": "https://i.discogs.com/E5QT51me-xkyIvheAp0qbdPLFhGiU55YK0DZsPsqrR4/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzI5/MjItMTU2MTk4Nzg2/NS0xNDE3LmpwZWc.jpeg"
-    },
     {
       "slug": "3758096-1-gud-cide-look-what-the-streets-made-1995",
       "artiste": "1 Gud Cide",
@@ -109,7 +89,7 @@
       "artiste": "11/5",
       "titre": "Fiendin' 4 Tha Funk: Radio Edits",
       "annee": 1995,
-      "stars": 5,
+      "stars": null,
       "favorite": false,
       "favTracks": [
 3
@@ -414,9 +394,7 @@
       "annee": 1997,
       "stars": 5,
       "favorite": false,
-      "favTracks": [
-3
-      ],
+      "favTracks": [],
       "tracklist": "1-01 - Redemption\n1-02 - Open Fire\n1-03 - R U Still Down? (Remember Me)\n1-04 - Hellrazor\n1-05 - Thug Style\n1-06 - Where Do We Go From Here (Interlude)\n1-07 - I Wonder If Heaven Got A Ghetto\n1-08 - Nothing To Lose\n1-09 - I'm Gettin Money\n1-10 - Lie To Kick It\n1-11 - Fuck All Y'all\n1-12 - Let Them Thangs Go\n1-13 - Definition Of A Thug Nigga\n2-01 - Ready 4 Whatever\n2-02 - When I Get Free\n2-03 - Hold On Be Strong\n2-04 - I'm Losin It\n2-05 - Fake Ass Bitches\n2-06 - Do For Love\n2-07 - Enemies With Me\n2-08 - Nothin But Love\n2-09 - 16 On Death Row\n2-10 - I Wonder If Heaven Got A Ghetto (Hip-Hop Version)\n2-11 - When I Get Free II\n2-12 - Black Starry Night (Interlude)\n2-13 - Only Fear Of Death",
       "label": "Jive / Amaru Records (2)",
       "labels": [
@@ -435,9 +413,7 @@
       "annee": 1999,
       "stars": 5,
       "favorite": false,
-      "favTracks": [
-6
-      ],
+      "favTracks": [],
       "tracklist": "1 - Letter To The President\n2 - Still I Rise\n3 - Secretz Of War\n4 - Baby Don't Cry (Keep Ya Head Up II)\n5 - As The World Turns\n6 - Black Jesuz\n7 - Homeboyz\n8 - Hell 4 A Hustler\n9 - High Speed\n10 - The Good Die Young\n11 - Killuminati\n12 - Teardrops And Closed Caskets\n13 - Tattoo Tears\n14 - U Can Be Touched\n15 - Y'All Don't Know Us",
       "label": "Interscope Records",
       "labels": [
@@ -477,9 +453,7 @@
       "annee": 2002,
       "stars": 4,
       "favorite": false,
-      "favTracks": [
-3
-      ],
+      "favTracks": [],
       "tracklist": "1-1 - Intro\n1-2 - Still Ballin (Nitty Remix)\n1-3 - When We Ride On Our Enemies (Briss Remix)\n1-4 - Changed Man (Jazze Pha Remix)\n1-5 - F*** Em All\n1-6 - Never B Peace (Nitty Remix)\n1-7 - Mama's Just A Little Girl (KP Remix)\n1-8 - Street Fame (Briss Remix)\n1-9 - Whatcha Gonna Do\n1-10 - Fair Xchange (Jazze Pha Remix)\n1-11 - Late Night\n1-12 - Ghetto Star\n1-13 - Thugz Mansion (Nas Acoustic)\n2-1 - My Block (Nitty Remix)\n2-2 - Thugz Mansion (7 Remix)\n2-3 - Never Call U B**** Again\n2-4 - Better Dayz\n2-5 - U Can Call (Jazze Pha Remix)\n2-6 - Military Minds\n2-7 - Fame\n2-8 - Fair Xchange (Mya Remix)\n2-9 - Catchin' Feelins\n2-10 - There U Go\n2-11 - This Life I Lead\n2-12 - Who Do U Believe In\n2-13 - They Don't Give A F*** About Us\n2-14 - Untitled",
       "label": "Interscope Records / Amaru Entertainment / Tha Row Records",
       "labels": [
@@ -497,7 +471,7 @@
       "artiste": "2Pac",
       "titre": "Live At The House Of Blues",
       "annee": 2005,
-      "stars": 5,
+      "stars": 4,
       "favorite": false,
       "favTracks": [
 5
@@ -2452,9 +2426,11 @@
       "artiste": "DaFunk$hun",
       "titre": "The Album",
       "annee": 1996,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+15
+      ],
       "tracklist": "1 - Roll Wit' Dat (Intro)\n2 - You Ain't Neva Lied\n3 - Honey\n4 - Tonight\n5 - Murder May I\n6 - If I Live...\n7 - Cherry Box (Interlude)\n8 - Mac Letta\n9 - Bet It Loose Ya\n10 - Talk 4 The Money\n11 - Life On The Razor\n12 - Bendas\n13 - Dividends\n14 - Slide Through And Chill\n15 - Tired, Tact Back",
       "label": "Black Jam",
       "labels": [
@@ -7000,6 +6976,26 @@
       "cover_image": "https://i.discogs.com/obD72kHFAfTFnrNq521C7ts6g4meH-EHEQH5RSD1sgw/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NjQy/NzItMTYxMzc3NTk0/NS05MTIyLmpwZWc.jpeg"
     },
     {
+      "slug": "2432922-q-2-the-man-with-the-plan-1995",
+      "artiste": "Q",
+      "titre": "The Man With The Plan",
+      "annee": 1995,
+      "stars": 3,
+      "favorite": false,
+      "favTracks": [
+10
+      ],
+      "tracklist": "1 - \"Q\"\n2 - My Conscience\n3 - Murder In The 1st Degree\n4 - Go On Whicha Games\n5 - Das How It Is In The Ghetto\n6 - Who Said A Nigga Can't Flow\n7 - That Is Real\n8 - Summer Time\n9 - That Is Real (Dope-Mix)\n10 - My Conscience (The Funk Anthem)",
+      "label": "Funkstreet Records",
+      "labels": [
+        "Funkstreet Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/2432922",
+      "release_id": "2432922",
+      "resource_url": "https://api.discogs.com/releases/2432922",
+      "cover_image": "https://i.discogs.com/E5QT51me-xkyIvheAp0qbdPLFhGiU55YK0DZsPsqrR4/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzI5/MjItMTU2MTk4Nzg2/NS0xNDE3LmpwZWc.jpeg"
+    },
+    {
       "slug": "6186532-r-m-c-3-double-trouble-2x-da-funk-2011",
       "artiste": "R.M.C. (3)",
       "titre": "Double Trouble 2x Da Funk",
@@ -7847,9 +7843,11 @@
       "artiste": "Smooth 7",
       "titre": "T.H.U.G. Poetry",
       "annee": 1998,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Soldier Fallin\n2 - Heat\n3 - Havin Thangs\n4 - A T.H.U.G.'s Story\n5 - Bout Dat Money\n6 - Danjah\n7 - Don't Cry\n8 - The Life",
       "label": "Afterlife Recordz / Rothchild Ent.",
       "labels": [
@@ -9504,6 +9502,26 @@
       "cover_image": "https://i.discogs.com/1Yw-z0Eri8lyortXalSPaxyCIWQFjeYlSnqF1fzElEg/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzM1/NDktMTYzNjQ0NzUw/MS05NzkyLmpwZWc.jpeg"
     },
     {
+      "slug": "2032397-streets-of-compton-1993",
+      "artiste": "YGM Geez",
+      "titre": "Streets Of Compton",
+      "annee": 1993,
+      "stars": 3,
+      "favorite": false,
+      "favTracks": [
+2
+      ],
+      "tracklist": "1 - Streets Of Compton (Radio)\n2 - Streets Of Compton",
+      "label": "Ghetto Brains Records",
+      "labels": [
+        "Ghetto Brains Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/2032397",
+      "release_id": "2032397",
+      "resource_url": "",
+      "cover_image": ""
+    },
+    {
       "slug": "yo-yo-black-pearl-1992-307992",
       "artiste": "Yo-Yo",
       "titre": "Black Pearl",
@@ -9594,6 +9612,46 @@
       "release_id": "475557",
       "resource_url": "https://api.discogs.com/releases/475557",
       "cover_image": "https://i.discogs.com/A_tHNPPQy71Nj2w1TqquE_0vbDRW1uQ2tCqmoOlqi_I/rs:fit/g:sm/q:90/h:491/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3NTU1/Ny0xMjE0MjYxMTk5/LmpwZWc.jpeg"
+    },
+    {
+      "slug": "3033459-looking-death-in-the-face-1999",
+      "artiste": "Young Bo",
+      "titre": "Looking Death In The Face",
+      "annee": 1999,
+      "stars": 3,
+      "favorite": false,
+      "favTracks": [
+7
+      ],
+      "tracklist": "1 - Intro\n2 - Don't Give A Fuck\n3 - Looking Death In The Face\n4 - Everyday Thang\n5 - Killerism\n6 - Padlocks On The Pussy\n7 - By Myself\n8 - On My Way To Being Major\n9 - Staying On My Toes\n10 - Hardheaded 10 Year Old",
+      "label": "Money Mobb Records",
+      "labels": [
+        "Money Mobb Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/3033459",
+      "release_id": "3033459",
+      "resource_url": "",
+      "cover_image": ""
+    },
+    {
+      "slug": "3222955-hated-by-many-1997",
+      "artiste": "Young Dre",
+      "titre": "Hated By Many",
+      "annee": 1997,
+      "stars": 4,
+      "favorite": false,
+      "favTracks": [
+12
+      ],
+      "tracklist": "1 - Game Tight\n2 - Money Can’t Buy You Love\n3 - How Real Can It Get\n4 - Put That On Something\n5 - 40 Got My Mind\n6 - Synanamous\n7 - Hitin Corners\n8 - Hustlers And Busters\n9 - Did You Hear Me Right\n10 - Me And Mines\n11 - Guilty Concious\n12 - Too Swift On My Toes\n13 - Jealousy\n14 - A Whole Different World\n15 - Dance With The Devil",
+      "label": "KC3 Records",
+      "labels": [
+        "KC3 Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/3222955",
+      "release_id": "3222955",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "young-joker-who-s-laughin-at-cha-1994-1888702",
@@ -9712,6 +9770,26 @@
       "release_id": "610126",
       "resource_url": "https://api.discogs.com/releases/610126",
       "cover_image": "https://i.discogs.com/4v_ZAQRGUmTUzxzQZUd2Xi72pySoNebKP0ObcNjA_fY/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMDEy/Ni0xNzA4NzYxMzUw/LTM3NzkuanBlZw.jpeg"
+    },
+    {
+      "slug": "7850235-the-war-is-on-1997",
+      "artiste": "Young Rome",
+      "titre": "The War Is On",
+      "annee": 1997,
+      "stars": 3,
+      "favorite": false,
+      "favTracks": [
+10
+      ],
+      "tracklist": "1 - Intro\n2 - The War Is On\n3 - Gangstafied\n4 - Motorboat\n5 - Playground\n6 - On The Eastside\n7 - Black Man White Man Part 1\n8 - Hot Like\n9 - Mad Kaper\n10 - You Can Fool The Rest\n11 - Animosity\n12 - Black Man White Man",
+      "label": "Barr 9 Records",
+      "labels": [
+        "Barr 9 Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/7850235",
+      "release_id": "7850235",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "7408647-zeno-vellie-the-missin-link-of-the-game-1999",

@@ -609,7 +609,12 @@ items.forEach(a => {
     </div>
 
     <div class="meta">
-      <span class="artist">${escapeHtml(artistClean)}</span>
+      <a class="artistLink"
+   href="artiste.html?name=${encodeURIComponent(artistClean)}"
+   onclick="event.stopPropagation()">
+  ${escapeHtml(artistClean)}
+</a>
+
       <div class="separator"></div>
       <p class="title">${escapeHtml(a.titre || '')}</p>
       <span class="year">${a.annee ?? ''}</span>

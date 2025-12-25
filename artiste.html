@@ -305,6 +305,87 @@ a:hover,
   color: #ffe39a !important;
   text-decoration: underline;
 }
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap:14px;
+  padding:16px;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.card{
+  position:relative;
+  border-radius:18px;
+  overflow:hidden;
+  border:2px solid #ffffff;
+  transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+  cursor:pointer;
+}
+.card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(255, 211, 107, 0.6);
+  border-color:#ffd36b;
+}
+
+.coverWrap{ position:relative; }
+.cover{
+  width:100%;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  display:block;
+  background:#0e1220;
+}
+.shine{
+  position:absolute; inset:0;
+  background: radial-gradient(600px 260px at 20% 0%, rgba(255,255,255,.10), transparent 55%);
+  pointer-events:none;
+}
+
+.meta{ padding:12px 12px 14px; text-align:center; }
+.separator{ width:70px; height:1px; background:#ffd36b; margin:8px auto; border-radius:2px; }
+.meta .title{ font-weight:800; font-size:15px; line-height:1.2; margin:0 0 6px; }
+.meta .year{ display:block; margin-top:6px; font-size:13px; color:var(--muted); }
+
+.stars{ font-size:20px; letter-spacing:2px; margin-top:8px; text-align:center; }
+.stars .on{ color:#ffd36b; text-shadow:1px 1px 2px #000; }
+.stars .off{ color:rgba(255,255,255,.25); text-shadow:1px 1px 2px #000; }
+
+/* option : label sous l'année */
+.meta .labelLine{
+  margin-top:6px;
+  font-size:13px;
+  color:var(--muted);
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.meta .labelLine a{ color:var(--muted) !important; }
+.meta .labelLine a:hover{ color:var(--text) !important; text-decoration:underline; }
+
+/* mobile : grille plus dense (comme index) */
+@media (max-width: 600px){
+  .grid{
+    gap:10px;
+    padding:10px;
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+  }
+  .stars{ font-size:16px; letter-spacing:1px; }
+  .card{ border-width:1px; }
+}
+/* ===== Cartes artiste : titre album ===== */
+
+.card .meta .title{
+  color: var(--text);          /* blanc cohérent avec le reste du site */
+  white-space: normal;         /* PAS de ligne unique */
+  overflow: visible;           /* pas de coupe */
+  text-overflow: unset;        /* supprime "..." */
+  display: block;
+
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 6px 0 4px;
+}
 
   </style>
 </head>
@@ -319,7 +400,8 @@ a:hover,
 </div>
 
 <div class="sub" id="count"></div>
-<div class="panel" id="list"></div>
+<div class="grid" id="grid"></div>
+
 
 
 <script>
@@ -356,29 +438,38 @@ a:hover,
       }
 console.log(items[0]);
 
-     list.innerHTML = items.map(a => `
-  <div class="row">
-    <div class="year">${a.annee ?? ''}</div>
-<img class="cover"
-     src="covers/${a.release_id}.jpg"
-     alt="Pochette de ${escapeHtml(a.titre || "")}"
-     onerror="this.style.display='none'">
-
-
-
-    <div class="maincol">
-      <a class="title" href="album.html?slug=${encodeURIComponent(a.slug)}">
-        ${escapeHtml(a.titre || '')}
-      </a>
-      <span class="stars">${starsHtml(a.stars)}</span>
+    const grid = document.getElementById('grid'); // <— IMPORTANT (voir note HTML)
+grid.innerHTML = items.map(a => `
+  <div class="card" onclick="location.href='album.html?slug=${encodeURIComponent(a.slug)}'">
+    <div class="coverWrap">
+      <img class="cover"
+           src="covers/${a.release_id}.jpg"
+           alt="Pochette de ${escapeHtml(a.titre || "")}"
+           loading="lazy" decoding="async"
+           onerror="this.style.display='none'">
+      <div class="shine"></div>
     </div>
 
-    <div class="label" title="${escapeHtml(a.label || '')}">
-  ${a.label ? `<a class="labelLink" href="label.html?name=${encodeURIComponent(a.label)}">${escapeHtml(a.label)}</a>` : ``}
-</div>
+    <div class="meta">
+      <div class="separator"></div>
 
+      <p class="title">${escapeHtml(a.titre || '')}</p>
+      <span class="year">${a.annee ?? ''}</span>
+
+      ${a.label ? `
+        <div class="labelLine">
+          <a class="labelLink" href="label.html?name=${encodeURIComponent(a.label)}" onclick="event.stopPropagation()">
+            ${escapeHtml(a.label)}
+          </a>
+        </div>
+      ` : ``}
+
+      <div class="stars">${starsHtml(a.stars)}</div>
+    </div>
   </div>
 `).join('');
+
+
 
 
     });
