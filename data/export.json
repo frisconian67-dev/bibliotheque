@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-12-25T20:59:05.544Z",
-  "count": 508,
+  "generatedAt": "2025-12-29T11:20:52.221Z",
+  "count": 509,
   "items": [
     {
       "slug": "3758096-1-gud-cide-look-what-the-streets-made-1995",
@@ -373,9 +373,11 @@
       "artiste": "2Pac",
       "titre": "The Don Killuminati (The 7 Day Theory)",
       "annee": 1996,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Intro / Bomb First (My Second Reply)\n2 - Hail Mary\n3 - Toss It Up\n4 - To Live And Die In L.A.\n5 - Blasphemy\n6 - Life Of An Outlaw\n7 - Just Like Daddy\n8 - Krazy\n9 - White Man'z World\n10 - Me And My Girlfriend\n11 - Hold Ya Head\n12 - Against All Odds",
       "label": "Death Row Records / Interscope Records",
       "labels": [
@@ -940,9 +942,11 @@
       "artiste": "AGG (2)",
       "titre": "Really Real",
       "annee": 1997,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+10
+      ],
       "tracklist": "1 - Immortal\n2 - I'm That Nigga\n3 - Really Real\n4 - Alone In The Dark\n5 - Now That's Love\n6 - Cold Blue Steel\n7 - Real Love\n8 - Tonite's The Night\n9 - Who Could It Be\n10 - Much Luv 4 The Hood\n11 - For All Them Gangstas\n12 - Hood Heroes\n13 - B-Real 4 U\n14 - Now That's Love (Mosexmomoneymodrama Remix)",
       "label": "L Entertainment",
       "labels": [
@@ -2487,9 +2491,11 @@
       "artiste": "Darkside (4)",
       "titre": "Darkside",
       "annee": 1996,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Intro\n2 - Let Me Introduce Myself\n3 - Busta Ass Nigga#\n4 - What That Smell?\n5 - Stanky Booty Bitches\n6 - Skillz Make Billz\n7 - Let Me Introduce Myself (Redio Version)\n8 - Up Short\n9 - So Cold\n10 - Dank And Drank\n11 - Do What You Gotta Do\n12 - Shot Outs\n13 - So Cold (Radio Version)",
       "label": "Coast To Coast Entertainment",
       "labels": [
@@ -3208,9 +3214,11 @@
       "artiste": "Foe Loco",
       "titre": "The Bomb Sac",
       "annee": 1998,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Cold Hearted\n2 - Bounce\n3 - The Bomb Sac\n4 - Sensuous Hinas\n5 - Big Pimp Shit\n6 - Game\n7 - How We're Living\n8 - I Think Twice\n9 - Getting Over\n10 - Rider '4' Life\n11 - Suicide Ride\n12 - Killing Me",
       "label": "Immaculacy Records",
       "labels": [
@@ -4359,10 +4367,12 @@
       "artiste": "Jackers",
       "titre": "Down 4 Life",
       "annee": 1996,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
-      "tracklist": "1 - In The Air (Intro)\n2 - Down 4 Life\n3 - Heaven\n4 - In The Air Tonight\n5 - Back To Da Hood\n6 - Thuggin\n7 - Dont Get High\n8 - It's Finna Be On\n9 - I Miss Yo Pussy\n10 - It's Kinda Funky\n11 - 10 Til Midnight\n12 - Broke Niggas\n13 - 10 Til Midnight (Unplugged)",
+      "favTracks": [
+10
+      ],
+      "tracklist": "1 - In The Air (Intro)\n2 - Down 4 Life (feat. Mr. Doctor)\n3 - Bang Bang (feat. Mr. Doctor)\n4 - Heaven (feat. Loonatic)\n5 - In The Air\n6 - Back To The Hood (feat. Ynvee)\n7 - Thuggin\n8 - Dont Get High\n9 - I Miss Your Pussy\n10 - Cant Fix It\n11 - 10 Til Midnifht\n12 - Broke Niggaz (feat. Loonatic)\n13 - Heaven (Remix) (feat. Loonatic)\n14 - 10 Til Midnight (Unplugged)",
       "label": "Immortal Records (3) / Epic",
       "labels": [
         "Immortal Records (3)",
@@ -5234,9 +5244,11 @@
       "artiste": "Lock Down",
       "titre": "What It Be Like",
       "annee": 1998,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+6
+      ],
       "tracklist": "1 - Intro\n2 - 3 Wishes\n3  - Something For The Gs\n4 - Shit Goes Down\n5 - Let's Get High\n6 - What It Be Like\n7 - It's Goin Down (Bomb City)\n8 - Gotta Be A Way Out\n9 - All For The Scratch\n10 - Socializing\n11 - Do Dat\n12 - Take It How You Want\n13 - No Mercy\n14 - Day Dreamin\n15 - Baby Wanna Ride\n16 - Shaddy Situtation\n17 - Two Of The Finest\n18 - Outro",
       "label": "Bomb City Records (2)",
       "labels": [
@@ -8591,6 +8603,28 @@
       "cover_image": "https://i.discogs.com/HNJd4UYbKV0Qsnw5OZn9JPIbsaggA7hLVCe5s417UQ4/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5MDYy/Ny0xNTk4NDU4ODgz/LTE1NjEuanBlZw.jpeg"
     },
     {
+      "slug": "14413216-volume-1-1994",
+      "artiste": "Thug Life",
+      "titre": "Volume 1",
+      "annee": 1994,
+      "stars": 4,
+      "favorite": false,
+      "favTracks": [
+9
+      ],
+      "tracklist": "1 - Bury Me A G\n2 - Don't Get It Twisted\n3 - Shit Don't Stop\n4 - Pour Out A Little Liquor\n5 - Stay True\n6 - How Long Will They Mourn Me?\n7 - Under Pressure\n8 - Street Fame\n9 - Cradle To The Grave\n10 - Str8 Ballin'",
+      "label": "Atlantic / Interscope Records / Out Da Gutta Records",
+      "labels": [
+        "Atlantic",
+        "Interscope Records",
+        "Out Da Gutta Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/14413216",
+      "release_id": "14413216",
+      "resource_url": "",
+      "cover_image": ""
+    },
+    {
       "slug": "too-short-get-in-where-you-fit-in-1993-3400257",
       "artiste": "Too Short",
       "titre": "Get In Where You Fit In",
@@ -8791,9 +8825,11 @@
       "artiste": "Twista",
       "titre": "Adrenaline Rush",
       "annee": 1997,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Intro\n2 - Adrenaline Rush\n3 - Death Before Dishonor\n4 - It Feels So Good\n5 - Overdose\n6 - Mobster's Anthem\n7 - Get Her In Tha Mood\n8 - Emotions\n9 - Unsolved Mystery\n10 - Korrupt World\n11 - Get It Wet\n12 - No Remorse\n13 - Emotions (Remix)",
       "label": "Creator's Way Associated Labels / Big Beat / Atlantic",
       "labels": [
@@ -8851,9 +8887,11 @@
       "artiste": "U.D.I.",
       "titre": "The Hangover",
       "annee": 2003,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Intro\n2 - Blow Blow\n3 - The Return (K.A.H.)\n4 - All Year Round\n5 - Eyes On My Ride\n6 - This Is How We Do It\n7 - This Is For.........\n8 - Thug Thang\n9 - Who Ya Wit\n10 - V.I.P.s\n11 - Letter To Da Grave\n12 - Smoke Wit Me\n13 - Big Ant (Drunk & Freestylin)\n14 - Freak In You\n15 - Big Face Bills\n16 - The Getaway *skit*\n17 - Ridin Thru The Bay",
       "label": "D.N.A. Entertainment",
       "labels": [

@@ -644,6 +644,80 @@ a:hover,
   color: #ffe39a !important;
   text-decoration: underline;
 }
+/* ===== Autres albums : mini cartes ===== */
+.relatedGrid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap:12px;
+}
+
+.relCard{
+  display:block;
+  text-decoration:none;
+  color:inherit;
+  border-radius:14px;
+  overflow:hidden;
+
+  /* encadrement doré */
+  border:1px solid rgba(255,211,107,.45);
+
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
+  box-shadow:
+    inset 0 0 0 1px rgba(255,211,107,.15),
+    0 10px 24px rgba(0,0,0,.45);
+
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    border-color 160ms ease;
+}
+
+
+.relCard:hover{
+  transform: translateY(-2px);
+  border-color: rgba(255,211,107,.35);
+  box-shadow: 0 0 18px rgba(255,211,107,.10), 0 12px 26px rgba(0,0,0,.55);
+}
+
+.relCoverWrap{ position:relative; }
+.relCover{
+  width:100%;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  display:block;
+  background:#0e1220;
+}
+.relShine{
+  position:absolute; inset:0;
+  background: radial-gradient(420px 200px at 20% 0%, rgba(255,255,255,.08), transparent 55%);
+  pointer-events:none;
+}
+
+.relMeta{ padding:10px 10px 12px; text-align:center; }
+.relTitle{
+  margin:0;
+  font-weight:800;
+  font-size:13px;
+  line-height:1.15;
+  overflow:hidden;
+  display:-webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.relYear{
+  display:block;
+  margin-top:6px;
+  font-size:12px;
+  color: rgba(255,255,255,.62);
+}
+
+/* mobile : encore plus compact */
+@media (max-width:760px){
+  .relatedGrid{ grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap:10px; }
+  .relMeta{ padding:9px 9px 11px; }
+  .relTitle{ font-size:12.5px; }
+  .relYear{ font-size:11.5px; }
+}
 
 </style>
 </head>
@@ -843,14 +917,27 @@ function renderTracklist(tracklist, favTracks) {
 
     }
 
-    box.innerHTML = others.map(x => `
-  <div class="row">
-    <span class="year">${x.annee ?? ""}</span>
-    <a class="title" href="album.html?slug=${encodeURIComponent(x.slug)}">
-      ${escapeHtml(x.titre || "")}
-    </a>
+   box.innerHTML = `
+  <div class="relatedGrid">
+    ${others.map(x => `
+      <a class="relCard" href="album.html?slug=${encodeURIComponent(x.slug)}" aria-label="${escapeHtml(x.titre || "")}">
+        <div class="relCoverWrap">
+          <img class="relCover"
+               src="covers/${x.release_id}.jpg"
+               alt="Pochette de ${escapeHtml(x.titre || "")}"
+               loading="lazy" decoding="async"
+               onerror="this.style.display='none'">
+          <div class="relShine"></div>
+        </div>
+        <div class="relMeta">
+          <p class="relTitle">${escapeHtml(x.titre || "")}</p>
+          <span class="relYear">${escapeHtml(x.annee ? String(x.annee) : "")}</span>
+        </div>
+      </a>
+    `).join("")}
   </div>
-    `).join("");
+`;
+
   });
 
     });
