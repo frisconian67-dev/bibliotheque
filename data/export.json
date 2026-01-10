@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2025-12-29T11:20:52.221Z",
-  "count": 509,
+  "generatedAt": "2026-01-10T11:07:37.074Z",
+  "count": 513,
   "items": [
+    {
+      "slug": "7327960-prayer-of-a-lunatic-1995",
+      "artiste": " 1 Way Anc",
+      "titre": " Prayer Of A Lunatic",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": "1 - Big Dogg\n2 - Face To Face\n3 - One Way Ass Niggaz\n4 - Hoodrat Hoe's\n5 - Prayer Of A Lunatic\n6 - Peep This\n7 - Steady Killin'\n8 - Raised In The Ghetto\n9 - 2 To The Dome\n10 - Ghetto",
+      "label": "Down Stroke Records",
+      "labels": [
+        "Down Stroke Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/7327960",
+      "release_id": "7327960",
+      "resource_url": "",
+      "cover_image": ""
+    },
     {
       "slug": "3758096-1-gud-cide-look-what-the-streets-made-1995",
       "artiste": "1 Gud Cide",
@@ -599,7 +617,7 @@
       "stars": 4,
       "favorite": false,
       "favTracks": [
-12
+11
       ],
       "tracklist": "1 - Intro\n2 - In My Hood\n3 - This Is 50\n4 - I'm Supposed To Die Tonight\n5 - Piggy Bank\n6 - Gatman And Robbin\n7 - Candy Shop\n8 - Outta Control (Remix)\n9 - Get In My Car\n10 - Ski Mask Way\n11 - A Baltimore Love Thing\n12 - Ryder Music\n13 - Disco Inferno\n14 - Just A Lil Bit\n15 - Gunz Come Out\n16 - My Toy Soldier\n17 - Position Of Power\n18 - Build You Up\n19 - God Gave Me Style\n20 - So Amazing\n21 - I Don't Need 'Em",
       "label": "Shady Records / Aftermath Entertainment / Interscope Records / Violator Management / G Unit",
@@ -1844,9 +1862,11 @@
       "artiste": "C.I.N.",
       "titre": "Richmond Roulette",
       "annee": 1996,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - Jocin My Team\n2 - Blind Side\n3 - Inside A Morgue\n4 - So Much Dirt\n5 - P.H. Balance\n6 - Chemical Green (Session 2)\n7 - Shitty Shoes\n8 - Paranoia\n9 - City Streets\n10 - Goin Bad\n11 - Richmond Roulette\n12 - Shout Out",
       "label": "No Face Records (2)",
       "labels": [
@@ -3379,6 +3399,24 @@
       "release_id": "1108111",
       "resource_url": "https://api.discogs.com/releases/1108111",
       "cover_image": "https://i.discogs.com/x2HuqZxhEgjoupWj3N-2JzY9hoGw3ktIMVkUdmkODeE/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMDgx/MTEtMTM5NjE3NTA4/Mi04Mjk2LmpwZWc.jpeg"
+    },
+    {
+      "slug": "29990494-pac-n'-um-up-1995",
+      "artiste": "G-Pac",
+      "titre": "Pac-N' Um Up",
+      "annee": 1995,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": "1 - Droppin Bombs\n2 - Servin Funk\n3 - Pac-N-Um Up\n4 - 24-7\n5 - Ain't No Fak-n\n6 - Genuine Playaz",
+      "label": "GetaGrip Records",
+      "labels": [
+        "GetaGrip Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/29990494",
+      "release_id": "29990494",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "g-side-3-maniac-2010-3330260",
@@ -5033,6 +5071,26 @@
       "cover_image": "https://i.discogs.com/PTSc8A6_3tyyyICHWZYwUr2V3Pt2GJJeDZ2xhxwm37s/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyOTgw/NDQtMTYyMTM3MDA3/OC0xMjI0LmpwZWc.jpeg"
     },
     {
+      "slug": "3350873-the-hogg-in-me-1997",
+      "artiste": "Lil Pigg Penn",
+      "titre": "The Hogg In Me",
+      "annee": 1997,
+      "stars": 3,
+      "favorite": false,
+      "favTracks": [
+3
+      ],
+      "tracklist": "1 - I.N.D.O.O\n2 - Chop Shop\n3 - Pimp To Ho's\n4 - Pimps Shit\n5 - Uncut\n6 - She's Just A Ho\n7 - Bite This Dick\n8 - Drop The Top\n9 - South Side\n10 - Hollows In The Clip\n11 - Lights Out Party Over",
+      "label": "Funk Central Records",
+      "labels": [
+        "Funk Central Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/3350873",
+      "release_id": "3350873",
+      "resource_url": "",
+      "cover_image": ""
+    },
+    {
       "slug": "731867-lil-1-2-dead-the-dead-has-arisen-1994",
       "artiste": "Lil' 1/2 Dead",
       "titre": "The Dead Has Arisen",
@@ -6314,6 +6372,24 @@
       "release_id": "349148",
       "resource_url": "https://api.discogs.com/releases/349148",
       "cover_image": "https://i.discogs.com/NlPj75dox7Y2d1irl7twCXcBzObShpxO1EJIfP-3TWc/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0OTE0/OC0xNTUzMDgwNjUw/LTY4MTUuanBlZw.jpeg"
+    },
+    {
+      "slug": "226916-g-funk-classics-vol.-1-&-2-1998",
+      "artiste": "Nate Dogg",
+      "titre": "G-Funk Classics Vol. 1 & 2",
+      "annee": 1998,
+      "stars": 5,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": "1-01 - Hardest Man In Town\n1-02 - Intro To G-Funk (Comm. 1)\n1-03 - G-Funk\n1-04 - First We Pray\n1-05 - My World\n1-06 - Crazy, Dangerous\n1-07 - These Days\n1-08 - Bag O'Weed\n1-09 - Dirty Hoe's Draws\n1-10 - Scared Of Love\n1-11 - Me & My Homies\n1-12 - Because I Got A Girl\n1-13 - My Money\n1-14 - Never Leave Me Alone\n1-15 - Last Prayer (Comm. 2)\n1-16 - Where Are You Going?\n2-01 - Dedication\n2-02 - Who's Playin' Games\n2-03 - I Don't Wanna Hurt No More\n2-04 - Just Another Day\n2-05 - She's Strange\n2-06 - Almost In Love\n2-07 - No Matter Where I Go\n2-08 - Stone Cold\n2-09 - Friends\n2-10 - Puppy Love\n2-11 - It's Goin' Down Tonight\n2-12 - Nobody Does It Better\n2-13 - Sexy Girl\n2-14 - Dogg Pound Gangstaville\n2-15 - Never Too Late",
+      "label": "Breakaway Entertainment",
+      "labels": [
+        "Breakaway Entertainment"
+      ],
+      "discogsLink": "https://www.discogs.com/release/226916",
+      "release_id": "226916",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "9908072-nate-dogg-music-me-2001",
