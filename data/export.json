@@ -1,15 +1,17 @@
 {
-  "generatedAt": "2026-01-10T11:07:37.074Z",
-  "count": 513,
+  "generatedAt": "2026-01-18T15:24:33.264Z",
+  "count": 514,
   "items": [
     {
-      "slug": "7327960-prayer-of-a-lunatic-1995",
+      "slug": "7327960-prayer-of-a-lunatic-1994",
       "artiste": " 1 Way Anc",
       "titre": " Prayer Of A Lunatic",
-      "annee": 1995,
-      "stars": null,
+      "annee": 1994,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "1 - Big Dogg\n2 - Face To Face\n3 - One Way Ass Niggaz\n4 - Hoodrat Hoe's\n5 - Prayer Of A Lunatic\n6 - Peep This\n7 - Steady Killin'\n8 - Raised In The Ghetto\n9 - 2 To The Dome\n10 - Ghetto",
       "label": "Down Stroke Records",
       "labels": [
@@ -593,9 +595,11 @@
       "artiste": "50 Cent",
       "titre": "Get Rich Or Die Tryin'",
       "annee": 2003,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+8
+      ],
       "tracklist": "1 - Intro\n2 - What Up Gangsta\n3 - Patiently Waiting\n4 - Many Men (Wish Death)\n5 - In Da Club\n6 - High All The Time\n7 - Heat\n8 - If I Can't\n9 - Blood Hound\n10 - Back Down\n11 - P.I.M.P.\n12 - Like My Style\n13 - Poor Lil Rich\n14 - 21 Questions\n15 - Don't Push Me\n16 - Gotta Make It To Heaven\nBonus Cuts\n17 - Wanksta\n18 - U Not Like Me\n19 - Life's On The Line",
       "label": "Shady Records / Aftermath Entertainment / Interscope Records / G Unit",
       "labels": [
@@ -614,10 +618,10 @@
       "artiste": "50 Cent",
       "titre": "The Massacre",
       "annee": 2005,
-      "stars": 4,
+      "stars": 3,
       "favorite": false,
       "favTracks": [
-11
+10
       ],
       "tracklist": "1 - Intro\n2 - In My Hood\n3 - This Is 50\n4 - I'm Supposed To Die Tonight\n5 - Piggy Bank\n6 - Gatman And Robbin\n7 - Candy Shop\n8 - Outta Control (Remix)\n9 - Get In My Car\n10 - Ski Mask Way\n11 - A Baltimore Love Thing\n12 - Ryder Music\n13 - Disco Inferno\n14 - Just A Lil Bit\n15 - Gunz Come Out\n16 - My Toy Soldier\n17 - Position Of Power\n18 - Build You Up\n19 - God Gave Me Style\n20 - So Amazing\n21 - I Don't Need 'Em",
       "label": "Shady Records / Aftermath Entertainment / Interscope Records / Violator Management / G Unit",
@@ -3254,9 +3258,11 @@
       "artiste": "Foesum",
       "titre": "Perfection",
       "annee": 1996,
-      "stars": null,
+      "stars": 5,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+6
+      ],
       "tracklist": "1 - Introduction\n2 - The Ultimate Collaboration\n3 - In The Wind (What Goes Around)\n4 - Lil' Somethin' Somethin'\n5 - Who Got Game\n6 - Runnin' Game\n7 - Whowouldofeveathought?\n8 - G-Skit\n9 - Just Get On Down (G-Shit)\n10 - Listen To The Sound\n11 - Don't Get It Twisted\n12 - Come Take A Ride\n13 - Who Got Your Back\n14 - Some Things Never Change",
       "label": "Penalty Recordings / Big Beat",
       "labels": [
@@ -4060,6 +4066,26 @@
       "cover_image": "https://i.discogs.com/lJq9gk1Nla5pir0ZivJ1Bmg8ozeFENEtn5ko5kZrFc0/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTc4/NzctMTU4MDI3NDQ2/MC01NTQ4LmpwZWc.jpeg"
     },
     {
+      "slug": "21689905-ifa-nuthin-but-family-1996",
+      "artiste": "I,F,A",
+      "titre": "Nuthin' But Family",
+      "annee": 1996,
+      "stars": 4,
+      "favorite": false,
+      "favTracks": [
+7
+      ],
+      "tracklist": "1 - G. Bump\n2 - Make It Hurt\n3 - Player's Bounce\n4 - IFA Slam\n5 - Let's Get It Up\n6 - No Games\n7 - Rollin'\n8 - Back In The Day\n9 - 6 In The Mornin'\n10 - Nuthin' But Family \n11 - I Wanna Go Back 2",
+      "label": "Most Wanted Records (12)",
+      "labels": [
+        "Most Wanted Records (12)"
+      ],
+      "discogsLink": "https://www.discogs.com/release/21689905",
+      "release_id": "21689905",
+      "resource_url": "",
+      "cover_image": ""
+    },
+    {
       "slug": "i-m-p-back-in-the-days-1993-566019",
       "artiste": "I.M.P.",
       "titre": "Back In The Days",
@@ -4197,9 +4223,11 @@
       "artiste": "IFA (2)",
       "titre": "International Family Affair",
       "annee": 1997,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+11
+      ],
       "tracklist": "1 - Rollin\n2 - Throw Ya Hands Up\n3 - Gee's Get Lonely 2\n4 - Do U Wanna Ride\n5 - Bustas\n6 - I Like\n7 - Off Da Hook\n8 - You Need A \"G\"\n9 - Slide\n10 - Game Over Dosed\n11 - OG Funk\n12 - Family Affair",
       "label": "Rollin Record Enterprises",
       "labels": [
@@ -5516,7 +5544,9 @@
       "annee": 1995,
       "stars": null,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+7
+      ],
       "tracklist": "1 - Players Only\n2 - Out My Lack\n3 - Out Of Pocket B*tch\n4 - Player IV Life\n5 - The Pit\n6 - Yellow Tape\n7 - Hurt\n8 - Turn 'Em Out\n9 - Never Trust A Hoe\n10 - Dank-N-Drunk\n11 - F*cked Up & Faded\n12 - Baby\n13 - Hard 2 Talk 2\n14 - Nasty On The Trigger\n15 - Down Low Life\n16 - Shout Outs",
       "label": "Relativity / Concern Records (2)",
       "labels": [
