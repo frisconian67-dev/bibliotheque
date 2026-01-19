@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-19T14:06:52.194Z",
+  "generatedAt": "2026-01-19T17:25:30.265Z",
   "count": 515,
   "items": [
     {
@@ -578,7 +578,7 @@
       "stars": 3,
       "favorite": false,
       "favTracks": [
-5
+9
       ],
       "tracklist": "1 - Locked Up Tied Down\n2 - Year Of Tha Jackah\n3 - Giant Size Nigga\n4 - Nina-Ace-Eighta-Skate\n5 - Risen Out Tha Ghetto\n6 - We Comin Off\n7 - This Is 4 You\n8 - Clique Life\n9 - Mind Of A 44\n10 - Mo' 44 Shit\n11 - Nuthin But Murda\n12 - Don't Fuck Wit Dat 44\n13 - Cappeela",
       "label": "Cappeela Records",
@@ -1075,9 +1075,11 @@
       "artiste": "Aztec Tribe",
       "titre": "Straight From Tha Zone",
       "annee": 1996,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+8
+      ],
       "tracklist": "1 - Tribal Ceremony\n2 - Commin' In Stalkin'\n3 - Everybody Bounce\n4 - Something For The Homies\n5 - Madman Interlude\n6 - Step Into The Hood\n7 - Straight From Tha Zone\n8 - Rollin' In My Ride\n9 - Do You Wanna Funk\n10 - T.R.I.B.E. (It's A Tribe Thang)\n11 - Caught Slippin' (G Funk Remix)\n12 - Outro (Tribal Shouts)",
       "label": "Barrio Boy Records",
       "labels": [
@@ -1392,7 +1394,7 @@
       "stars": null,
       "favorite": false,
       "favTracks": [],
-      "tracklist": "A1 - The Intro\nA2 - Let The Chevolet Slyde\nA3 - Gs, Pimps & Players\nA4 - High From The Chronic\nA5 - Microphone Check 12\nA6 - Living In The Country\nA7 - Crooked Azz Cops\nB1 - It's Gonna Be Alright\nB2 - Free From All This Pressure\nB3 - Southside Ride\nB4 - Anotha Day\nB5 - Recognize (Southside's In The House)",
+      "tracklist": "1 - The Intro\n2 - Let The Chevolet Slyde\n3 - Gs, Pimps & Players\n4 - High From The Chronic\n5 - Microphone Check 12\n6 - Living In The Country\n7 - Crooked Azz Cops\n8 - It's Gonna Be Alright\n9 - Free From All This Pressure\n10 - Southside Ride\n11 - Anotha Day\n12 - Recognize (Southside's In The House)",
       "label": "Bigtyme Records",
       "labels": [
         "Bigtyme Records"
@@ -1773,9 +1775,11 @@
       "artiste": "C-Bo",
       "titre": "The Autopsy",
       "annee": 1994,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+6
+      ],
       "tracklist": "1 - The Autopsy\n2 - Murder Man\n3 - Americas Nightmare\n4 - Groovin' On A Sunday\n5 - Stompin' In My Street\n6 - Ghetto Flight",
       "label": "AWOL Records (3) / On The Run Distribution",
       "labels": [
@@ -1792,9 +1796,11 @@
       "artiste": "C-Bo",
       "titre": "Tales From The Crypt",
       "annee": 1995,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+4
+      ],
       "tracklist": "1 - Jackin' And Assassin'\n2 - Murder That He Ritt\n3 - Free Style\n4 - Hard Core\n5 - Want To Be A \"G\"\n6 - Stompin' In My Steel Toes\n7 - Birds In The Kitchen\n8 - 187 Dance\n9 - Groovin' On A Sunday (Radio)\n10 - Who Ride\n11 - Take It How You Want Too\n12 - Ain't No Sunshine",
       "label": "AWOL Records (3)",
       "labels": [
@@ -2783,9 +2789,11 @@
       "artiste": "Dr. Dre",
       "titre": "2001",
       "annee": 1999,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+11
+      ],
       "tracklist": "1 - Lolo (Intro)\n2 - The Watcher\n3 - Fuck You\n4 - Still D.R.E.\n5 - Big Ego's\n6 - Xxplosive\n7 - What's The Difference\n8 - Bar One\n9 - Light Speed\n10 - Forgot About Dre\n11 - The Next Episode\n12 - Let's Get High\n13 - Bitch Niggaz\n14 - The Car Bomb\n15 - Murder Ink.\n16 - Ed-Ucation\n17 - Some L.A. Niggaz\n18 - Pause 4 Porno\n19 - Housewife\n20 - Ackrite\n21 - Bang Bang\n22 - The Message",
       "label": "Aftermath Entertainment / Interscope Records",
       "labels": [
@@ -3036,9 +3044,11 @@
       "artiste": "Eastside (2)",
       "titre": "The Battlefield",
       "annee": 1998,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+7
+      ],
       "tracklist": "1 - Intro\n2 - Southern Funk\n3 - Dogs Barkin'\n4 - Masta Plan\n5 - Battlefield\n6 - Cloud 9\n7 - Lady G\n8 - Perfectionist\n9 - Problematic\n10 - Summertime\n11 - City\n12 - Stay Up\n13 - Outro",
       "label": "B B A Records",
       "labels": [
@@ -3375,7 +3385,7 @@
       "artiste": "G-Lo",
       "titre": "Still A 'G",
       "annee": 1998,
-      "stars": 1,
+      "stars": 2,
       "favorite": false,
       "favTracks": [
 5
@@ -3417,9 +3427,11 @@
       "artiste": "G-Pac",
       "titre": "Pac-N' Um Up",
       "annee": 1995,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Droppin Bombs\n2 - Servin Funk\n3 - Pac-N-Um Up\n4 - 24-7\n5 - Ain't No Fak-n\n6 - Genuine Playaz",
       "label": "GetaGrip Records",
       "labels": [
@@ -3647,7 +3659,9 @@
       "annee": 2001,
       "stars": null,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+14
+      ],
       "tracklist": "1 - Intro\n2 - Eyes On The Prize\n3 - Ready Made Nigga\n4 - The Bounce\n5 - All Odds\n6 - Lets Play House\n7 - Ride Or Die\n8 - A Special Lady\n9 - Smoke Session\n10 - Call Me Daddy\n11 - Coming Wrong\n12 - Thug Shot\n13 - Now They Wanna Know\n14 - No One Can Save Me\n15 - Make That Money\n16 - Q&A\n17 - One Day",
       "label": "Armed & Dangerous Records",
       "labels": [
@@ -4155,9 +4169,11 @@
       "artiste": "Ice Cube",
       "titre": "War & Peace Vol. 1 (The War Disc)",
       "annee": 1998,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+7
+      ],
       "tracklist": "1 - Ask About Me\n2 - Pushin' Weight\n3 - Dr. Frankenstein\n4 - Fuck Dying\n5 - War & Peace\n6 - Ghetto Vet\n7 - Greed\n8 - MP\n9 - Cash Over Ass\n10 - The Curse Of Money\n11 - The Peckin' Order\n12 - Limos, Demos & Bimbos\n13 - Once Upon A Time In The Projects 2\n14 - If I Was Fuckin' You\n15 - X-Bitches\n16 - Extradition\n17 - 3 Strikes You In\n18 - Penitentiary",
       "label": "Priority Records / Virgin",
       "labels": [
@@ -5781,9 +5797,11 @@
       "artiste": "Marvaless",
       "titre": "Ghetto Blues",
       "annee": 1994,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+3
+      ],
       "tracklist": "1 - Ghetto Blues\n2 - Niggaz & Hoes\n3 - Smokin' Da Bomb\n4 - It's About Time\n5 - Kill The Disrespect\n6 - Can't Stand The Heat\n7 - Don't Cross Me\n8 - Another Dead Nigga\n9 - Female Assassin\n10 - Shouts Out",
       "label": "AWOL Records (3)",
       "labels": [
@@ -5799,9 +5817,11 @@
       "artiste": "Marvaless",
       "titre": "Just Marvaless",
       "annee": 1995,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+4
+      ],
       "tracklist": "1 - Just Marvaless\n2 - That's How We Creep\n3 - Ride With Me\n4 - Hard Core\n5 - Jelous Bitches",
       "label": "AWOL Records (3) / SMG Solar Music Group",
       "labels": [
@@ -6668,7 +6688,7 @@
       "artiste": "Notorious B.I.G.",
       "titre": "Life After Death",
       "annee": 1997,
-      "stars": null,
+      "stars": 5,
       "favorite": false,
       "favTracks": [],
       "tracklist": "1-1 - Life After Death Intro\n1-2 - Somebody's Gotta Die\n1-3 - Hypnotize\n1-4 - Kick In The Door\n1-5 - Fuck You Tonight\n1-6 - Last Day\n1-7 - I Love The Dough\n1-8 - What's Beef?\n1-9 - B.I.G. Interlude\n1-10 - Mo Money Mo Problems\n1-11 - Niggas Bleed\n1-12 - I Got A Story To Tell\n2-1 - Notorious Thugs\n2-2 - Miss U\n2-3 - Another\n2-4 - Going Back To Cali\n2-5 - Ten Crack Commandments\n2-6 - Playa Hater\n2-7 - Nasty Boy\n2-8 - Sky's The Limit\n2-9 - The World Is Filled...\n2-10 - My Downfall\n2-11 - Long Kiss Goodnight\n2-12 - You're Nobody (Til Somebody Kills You)",
@@ -6723,9 +6743,11 @@
       "artiste": "On Ice E (17)",
       "titre": "Smooth Playa Shot (S%#T!)",
       "annee": 1996,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+2
+      ],
       "tracklist": "1 - Prelude (\"Hustlers' Convention\")\n2 - It's On\n3 - Ain't Runnin' Nathan\n4 - Make Ya Mark\n5 - Don't Let Da 'Hood Take U Under\n6 - Playa Dave's Joint\n7 - Smooth Playa Shot (S%#T)\n8 - SWL (Strapped Wit' Lovin')\n9 - Fake From The Real\n10 - Everynite Is Halloween\n11 - Lady's Choice\n12 - 5 Starz Honey",
       "label": "An Insight Production Records",
       "labels": [
@@ -6779,9 +6801,11 @@
       "artiste": "Ova-Tone / K.B. Da Kidnappa",
       "titre": "Deep N Tha Mind",
       "annee": 1994,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+8
+      ],
       "tracklist": "1 - Amp Rocks\n2 - Thug Life\n3 - G-Song (I Want Da' De')\n4 - Deep N Tha Mind\n5 - Restricted 4 Cruzin Only\n6 - C-My Name Is K B\n7 - Ain't Na Nigga Gon Fuc With Me\n8 - Getto Life\n9 - A Skit (My Ma Ma)",
       "label": "AMP Records (5)",
       "labels": [
@@ -6894,9 +6918,11 @@
       "artiste": "Pimpsta",
       "titre": "Dickies & House-shoes",
       "annee": 1995,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+1
+      ],
       "tracklist": "1 - Rolling On Them Thangz ('95 3 Wheel Mix)\n2 - Dickies & House-shoes\n3 - Don't Worry About A Thang\n4 - Diary Of The Old School\n5 - Knocking On Heavens Door\n6 - Lord Have Mercy\n7 - Straight Balling\n8 - Pass Tha M.F. Blunt\n9 - Trendy Ass Niggaz\n10 - You Ain't No Pimp No Mo\n11 - Rollin On Them Thangs (O.G. Mix)\n12 - All About Them Playas\n13 - Pimp And Hoboss",
       "label": "Albatross Records / Rrush Records",
       "labels": [
@@ -8705,7 +8731,9 @@
       "annee": 1996,
       "stars": 1,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+7
+      ],
       "tracklist": "1 - Intro\n2 - Pilgrims On Planet Rock\n3 - Rocky Jr. Memorial Service\n4 - F***ed Up World\n5 - Rock And Get Yo Roll On\n6 - Aqua Nay-Nay Interlude\n7 - Aqua Nay-Nay\n8 - Twisted Ride\n9 - Lo-Jack On Demo\n10 - Bomb Be Me\n11 - Sometimes\n12 - Say Goodbye\n13 - School Interlude\n14 - What Goes Around\n15 - Wedding Interlude\n16 - Where?\n17 - Prayer",
       "label": "Not On Label",
       "labels": [
