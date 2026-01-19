@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-01-18T15:24:33.264Z",
-  "count": 514,
+  "generatedAt": "2026-01-19T14:06:52.194Z",
+  "count": 515,
   "items": [
     {
       "slug": "7327960-prayer-of-a-lunatic-1994",
@@ -1329,9 +1329,11 @@
       "artiste": "Big Love (2)",
       "titre": "Representin' Real",
       "annee": 1997,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+11
+      ],
       "tracklist": "1 - Pimp In\n2 - Hatas Too\n3 - Screwed\n4 - Killa 4 Reala\n5 - Thug\n6 - Playa\n7 - What A Playa Won't Do...\n8 - Pimp\n9 - Who Is Dis Aggin?\n10 - Barrin' None\n11 - Everyday\n12 - Knock 'Em Out Da Box\n13 - Ghetto Love\n14 - Representin' Real\n15 - Radio Station WULI\n16 - Pimp Out",
       "label": "Unlimited Records (5) / Boxx-1 Productions, Inc.",
       "labels": [
@@ -1944,9 +1946,11 @@
       "artiste": "Cali Life Style",
       "titre": "Mexican Invasion",
       "annee": 1996,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+4
+      ],
       "tracklist": "1 - Ordinary Day\n2 - Time To Glide\n3 - Down From The Get Go\n4 - Freakin'\n5 - Coastin'\n6 - Down For My Crown\n7 - Sucka Free\n8 - Very Next Day\n9 - Float On\n10 - Lost",
       "label": "Underworld 805 Records",
       "labels": [
@@ -1962,9 +1966,11 @@
       "artiste": "Cali Life Style",
       "titre": "Tell It Like It Is",
       "annee": 2002,
-      "stars": null,
+      "stars": 3,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+1
+      ],
       "tracklist": "1 - Get Higher\n2 - Below Zero\n3 - The Night Is Right\n4 - Southern Cali\n5 - Backstreets\n6 - What's Up Girl\n7 - Too Smooth\n8 - Puttin' In Work\n9 - Just Another Night\n10 - My Vision\n11 - Between The Streets\n12 - Are You Ready",
       "label": "Underworld 805 Records",
       "labels": [
@@ -3826,9 +3832,11 @@
       "artiste": "H.O.H.",
       "titre": "Livin In A Casket",
       "annee": 1995,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+5
+      ],
       "tracklist": "A1 - Intro\nA2 - L.I.C. (Livin In A Casket)\nA3 - Ghetto Heat\nA4 - Blow It Out\nA5 - Straight Like Dat (Underground)\nB1 - Creepin\nB2 - Raised In Da Hood\nB3 - Niggaz Can't Hold Me Down\nB4 - Whoot Ridin\nB5 - Outro\nB6 - Straight Like Dat (Radio)",
       "label": "Unlimited Funk Records",
       "labels": [
@@ -4066,26 +4074,6 @@
       "cover_image": "https://i.discogs.com/lJq9gk1Nla5pir0ZivJ1Bmg8ozeFENEtn5ko5kZrFc0/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTc4/NzctMTU4MDI3NDQ2/MC01NTQ4LmpwZWc.jpeg"
     },
     {
-      "slug": "21689905-ifa-nuthin-but-family-1996",
-      "artiste": "I,F,A",
-      "titre": "Nuthin' But Family",
-      "annee": 1996,
-      "stars": 4,
-      "favorite": false,
-      "favTracks": [
-7
-      ],
-      "tracklist": "1 - G. Bump\n2 - Make It Hurt\n3 - Player's Bounce\n4 - IFA Slam\n5 - Let's Get It Up\n6 - No Games\n7 - Rollin'\n8 - Back In The Day\n9 - 6 In The Mornin'\n10 - Nuthin' But Family \n11 - I Wanna Go Back 2",
-      "label": "Most Wanted Records (12)",
-      "labels": [
-        "Most Wanted Records (12)"
-      ],
-      "discogsLink": "https://www.discogs.com/release/21689905",
-      "release_id": "21689905",
-      "resource_url": "",
-      "cover_image": ""
-    },
-    {
       "slug": "i-m-p-back-in-the-days-1993-566019",
       "artiste": "I.M.P.",
       "titre": "Back In The Days",
@@ -4217,6 +4205,26 @@
       "release_id": "4801393",
       "resource_url": "https://api.discogs.com/releases/4801393",
       "cover_image": "https://i.discogs.com/q-q2bQF6uclm7IGL7WszZqFopjY_oLskw6zKjucwAnM/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MDEz/OTMtMTM4OTQ3MzA5/OS0xMDg1LmpwZWc.jpeg"
+    },
+    {
+      "slug": "21689905-nuthin-but-family-1995",
+      "artiste": "IFA",
+      "titre": "Nuthin' But Family",
+      "annee": 1995,
+      "stars": 4,
+      "favorite": false,
+      "favTracks": [
+3
+      ],
+      "tracklist": "1 - G. Bump\n2 - Make It Hurt\n3 - Player's Bounce\n4 - IFA Slam\n5 - Let's Get It Up\n6 - No Games\n7 - Rollin'\n8 - Back In The Day\n9 - 6 In The Mornin'\n10 - Nuthin' But Family \n11 - I Wanna Go Back 2",
+      "label": "Most Wanted Records (12)",
+      "labels": [
+        "Most Wanted Records (12)"
+      ],
+      "discogsLink": "https://www.discogs.com/release/21689905",
+      "release_id": "21689905",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "ifa-2-international-family-affair-1997-1092860",
@@ -4842,9 +4850,11 @@
       "artiste": "Kottonmouth",
       "titre": "100% Kottonmouth",
       "annee": 1995,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
+      "favTracks": [
+6
+      ],
       "tracklist": "1 - One Time\n2 - Kottonmouth\n3 - I'm Satisfied\n4 - Murder Afta Murder (Remix)\n5 - Who-Ride\n6 - 2 In Ya Chess\n7 - G-N-Me\n8 - Gangsta Hip Hop\n9 - Jus Anotha Victim\n10 - Lifez A Bitch\n11 - Murder Scene\n12 - Hard As It Comes\n13 - Kottonmouth (Remix)",
       "label": "Youngsta Records",
       "labels": [
@@ -5115,6 +5125,24 @@
       ],
       "discogsLink": "https://www.discogs.com/release/3350873",
       "release_id": "3350873",
+      "resource_url": "",
+      "cover_image": ""
+    },
+    {
+      "slug": "10821993-for-the-fellas-1994",
+      "artiste": "Lil Whit",
+      "titre": "For The Fellas",
+      "annee": 1994,
+      "stars": null,
+      "favorite": false,
+      "favTracks": [],
+      "tracklist": "1 - For The Fellas\n2 - So Let Me Get Down\n3 - We Don't Stop\n4 - Jus Gid Up G\n5 - Black People\n6 - Show Me State\n7 - Put 'Em In Check\n8 - To Be A Man\n9 - Once Again It's On\n10 - Servin' Dope Fiends Crack\n11 - My Hommies\n12 - Non Stop Flowin'\n13 - Shots Out",
+      "label": "City Street Records",
+      "labels": [
+        "City Street Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/10821993",
+      "release_id": "10821993",
       "resource_url": "",
       "cover_image": ""
     },
@@ -9405,10 +9433,12 @@
       "artiste": "VMF",
       "titre": "Pledge a Groovallegiance",
       "annee": 1998,
-      "stars": null,
+      "stars": 2,
       "favorite": false,
-      "favTracks": [],
-      "tracklist": "1 - Pledge A Groovallegiance\n2 - Pledge A Groovallegiance (Remix)\n3 - Barely Alive (Steve Austin PT.1)*\n4 - Pandoraz Box*\n5 - Transformation*\n6 - The Enemies I Created*\n7 - To Be Continued*\n8 - Thug Luv'n*",
+      "favTracks": [
+7
+      ],
+      "tracklist": "1 - Pledge A Groovallegiance\n2 - Pledge A Groovallegiance (Remix)\n3 - Barely Alive (Steve Austin PT.1)\n4 - Pandoraz Box\n5 - Transformation\n6 - The Enemies I Created\n7 - To Be Continued\n8 - Thug Luv'n",
       "label": "Westhouse Music Group",
       "labels": [
         "Westhouse Music Group"
