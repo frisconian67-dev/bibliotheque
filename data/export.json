@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-01-23T12:47:55.892Z",
-  "count": 516,
+  "generatedAt": "2026-01-23T19:50:08.192Z",
+  "count": 518,
   "items": [
     {
       "slug": "7327960-prayer-of-a-lunatic-1994",
@@ -2053,6 +2053,26 @@
       "release_id": "5829496",
       "resource_url": "https://api.discogs.com/releases/5829496",
       "cover_image": "https://i.discogs.com/bF4rtwCHCh3Ff0_IklkGViRgsHFC_H_Hw-odBDekEgY/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU4Mjk0/OTYtMTU3ODE2NDM5/MS04MTAxLmpwZWc.jpeg"
+    },
+    {
+      "slug": "481104-mr,-predicter-1995",
+      "artiste": "Cellski",
+      "titre": "Mr, Predicter",
+      "annee": 1995,
+      "stars": 3,
+      "favorite": false,
+      "favTracks": [
+17
+      ],
+      "tracklist": "1 – Its On\n2 – Never Be Right\n3 – On The Grind\n4 – Peep Game\n5 – The Inner City\n6 – Deep In The Game\n7 – Stressed Out\n8 – Fogtown Shots\n9 – Young Niggas\n10 – Brain Dead\n11 – Retaliation\n12 – Do You Feel Me\n13 – Livin N The Bay\n14 – Who Is These Niggas\n15 – Funk\n16 – Its Like That\n17 – The Last Song",
+      "label": "Inner City Records",
+      "labels": [
+        "Inner City Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/481104",
+      "release_id": "481104",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "celly-cel-killa-kali-1996-3765562",
@@ -7050,6 +7070,27 @@
       "release_id": "5115964",
       "resource_url": "https://api.discogs.com/releases/5115964",
       "cover_image": "https://i.discogs.com/KJJ_0Db69pQH1PtM_HJWos8FQyujhRJAQhUnbMtJ9w4/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMTU5/NjQtMTczNDUyOTgy/OS00MzE0LmpwZWc.jpeg"
+    },
+    {
+      "slug": "834563-all-frames-off-the-game-1996",
+      "artiste": "Playaz Tryna Strive",
+      "titre": "All Frames Of The Game",
+      "annee": 1996,
+      "stars": 3,
+      "favorite": false,
+      "favTracks": [
+3
+      ],
+      "tracklist": "1 – Dime A Dozen\n2 – Feel Ness Real (Radio)\n3 – Throw Up The Dubb\n4 – Big Pimpin' (Interlude)\n5 – Alkahal & Dozanique\n6 – Haterism\n7 – W.C. Playaz\n8 – Money Hungry (Interlude)\n9 – They Say Y.D.L.L.\n10 – 9 Sexual (Interlude)\n11 – Let's Ride\n12 – Land Of Fonk\n13 – Feel Ness Real (Interlude)\n14 – Hoe Shit\n15 – All Frames Of The Game\n16 – Shady\n17 – E.S.P.\n18 – Feel Ness Real (Street)",
+      "label": "Sick Wid' It Records / Jive",
+      "labels": [
+        "Sick Wid' It Records",
+        "Jive"
+      ],
+      "discogsLink": "https://www.discogs.com/release/834563",
+      "release_id": "834563",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "pluto-18-players-like-us-takin-over-1995-1491164",
