@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-01-23T19:50:08.192Z",
-  "count": 518,
+  "generatedAt": "2026-02-01T19:39:17.650Z",
+  "count": 521,
   "items": [
     {
       "slug": "7327960-prayer-of-a-lunatic-1994",
@@ -27,10 +27,10 @@
       "artiste": "1 Gud Cide",
       "titre": "Look What The Streets Made",
       "annee": 1995,
-      "stars": 3,
+      "stars": 4,
       "favorite": false,
       "favTracks": [
-2
+4
       ],
       "tracklist": "1 - Intro\n2 - Time To Be A Man\n3 - Convictin It\n4 - Makin It Right\n5 - Game Of Life\n6 - Mama Told Me\n7 - Remember Me\n8 - Skitt\n9 - Years Ago\n10 - Loco Vs State\n11 - Let Them Colors Go\n12 - Brothers\n13 - Going Crazy\n14 - Where Do I Go",
       "label": "Scarred For Life Records",
@@ -41,27 +41,6 @@
       "release_id": "3758096",
       "resource_url": "https://api.discogs.com/releases/3758096",
       "cover_image": "https://i.discogs.com/1Dqlvn4yRsoZh936TjycVHrq3pKuCOab6LNLaVxggYA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTgw/OTYtMTQ5MTA3MDQ2/Ny04OTI4LmpwZWc.jpeg"
-    },
-    {
-      "slug": "1207192-1-gud-cide-look-what-the-streets-made-1996",
-      "artiste": "1 Gud Cide",
-      "titre": "Look What The Streets Made",
-      "annee": 1996,
-      "stars": 3,
-      "favorite": false,
-      "favTracks": [
-4
-      ],
-      "tracklist": "1 - Intro\n2 - Time To Be A Man\n3 - Convictin It\n4 - Makin It Right\n5 - Game Of Life\n6 - Mama Told Me\n7 - Remember Me\n8 - Skitt\n9 - Years Ago\n10 - Loco Vs State\n11 - Let Them Colors Go\n12 - Brothers\n13 - Going Crazy\n14 - Where Do I Go\n15 - Terror In The Gulf Coast (Bonus Track)",
-      "label": "Scarred For Life Records / P.H.B.M.",
-      "labels": [
-        "Scarred For Life Records",
-        "P.H.B.M."
-      ],
-      "discogsLink": "https://www.discogs.com/release/1207192",
-      "release_id": "1207192",
-      "resource_url": "https://api.discogs.com/releases/1207192",
-      "cover_image": "https://i.discogs.com/s4J1zOi9W9LMVoSjgTVc1Uf2YY1eekDUhn-bY1Z5qXA/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDcx/OTItMTYzODQ0ODQy/OC03Njk3LmpwZWc.jpeg"
     },
     {
       "slug": "3758104-1-gud-cide-contradictions-1997",
@@ -1780,6 +1759,26 @@
       "cover_image": ""
     },
     {
+      "slug": "11424554-million-dollar-dreams-1997",
+      "artiste": "Brothers-N-Business",
+      "titre": "Million Dollar Dreams",
+      "annee": 1997,
+      "stars": 2,
+      "favorite": false,
+      "favTracks": [
+1
+      ],
+      "tracklist": "1 - Don't Try\n2 - G Until Infinity\n3 - Hoochi Mama\n4 - Broke By Myself\n5 - Million Dollar Dream\n6 - Roll Wit Me\n7 - Handle Yo Biz\n8 - Blowing Wigs Back\n9 - Do Yo' Thang\n10 - Baby Mama's A Trip\n11 - Thug Mind (Remix)\n12 - Big Girls\n13 - No Re-Runs\n14 - Roll Wit Me (Instrumental)\n15 - Not To Be\n16 - Rough, Ruggit, And Raw",
+      "label": "Big Boss Records",
+      "labels": [
+        "Big Boss Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/11424554",
+      "release_id": "11424554",
+      "resource_url": "",
+      "cover_image": ""
+    },
+    {
       "slug": "btaka-indian-funk-1995-15781986",
       "artiste": "Btaka",
       "titre": "Indian Funk",
@@ -2071,6 +2070,26 @@
       ],
       "discogsLink": "https://www.discogs.com/release/481104",
       "release_id": "481104",
+      "resource_url": "",
+      "cover_image": ""
+    },
+    {
+      "slug": "841568-canadian-bacon-&-hash-browns-1998",
+      "artiste": "Cellski",
+      "titre": "Canadian Bacon & Hash Browns",
+      "annee": 1998,
+      "stars": 2,
+      "favorite": false,
+      "favTracks": [
+2
+      ],
+      "tracklist": "1 - On The Run\n2 - Big Mafia\n3 - Cali\n4 - Doin' Thangs\n5 - Back Streets\n6 - West Bay 'G'\n7 - Life Is A Gamble\n8 - Deeper\n9 - The Biggie\n10 - Chedda\n11 - Coffee Beans\n12 - Straight Game\n13 - Young Rydas\n14 - Same A-- Ni--as\n15 - M.M.M.\n16 - Hoestories\n17 - Savages\n18 - Fast Life Livin'",
+      "label": "Inner City Records",
+      "labels": [
+        "Inner City Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/841568",
+      "release_id": "841568",
       "resource_url": "",
       "cover_image": ""
     },
@@ -3278,25 +3297,6 @@
       "cover_image": "https://i.discogs.com/1ru08OJZGseejJXZc61yX7Cgcw8C8c2EndYipdE_hL4/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTk5/NjItMTYzNTEzNjM3/Ni0yNDgyLmpwZWc.jpeg"
     },
     {
-      "slug": "25326163-fly-nate-tha-banksta-nothin-but-the-money-2022",
-      "artiste": "Fly Nate Tha Banksta",
-      "titre": "Nothin' But The Money",
-      "annee": 2022,
-      "stars": 4,
-      "favorite": false,
-      "favTracks": [],
-      "tracklist": "1-1 - Intro\n1-2 - Tha Banksta (Remix)\n1-3 - Frisconian\n1-4 - Nothin' But Tha Money (Remix)\n1-5 - 4 Fifty 5\n1-6 - Message To The Woodz\n1-7 - Bring The Flava\n1-8 - Fly Till I Die\n1-9 - Comin Up As A Youngsta\n1-10 - Life Of A Playa\n1-11 - We Get Wicked\n1-12 - For The G's\n1-13 - What Should I Do\n1-14 - Kill A P.O.\n1-15 - Bay Area Hustlaz\n1-16 - Nothin' But Tha Money\n1-17 - Tha Sniper\n1-18 - Banksta\n2-1 - Tha Banksta (2006 Remix)\n2-2 - Hustle & Ball\n2-3 - Mr. H.P.\n2-4 - Hyphy & Pimpin'\n2-5 - Lay Low\n2-6 - Dem Boyz\n2-7 - You Can't See Da Banksta\n2-8 - No Respect\n2-9 - Flame Spitta\n2-10 - I Don't Need A Hook\n2-11 - Da Bay In Diz Bitch\n2-12 - Want Me Gone\n2-13 - Playa Haters Hotline (Skit)\n2-14 - All On A Hoe\n2-15 - Banksta Shit\n2-16 - We Do It Sucka Free\n2-17 - Killa Cali\n2-18 - City By The Water",
-      "label": "Hella Dope Records / Off The Hook Records (2)",
-      "labels": [
-        "Hella Dope Records",
-        "Off The Hook Records (2)"
-      ],
-      "discogsLink": "https://www.discogs.com/release/25326163",
-      "release_id": "25326163",
-      "resource_url": "https://api.discogs.com/releases/25326163",
-      "cover_image": "https://i.discogs.com/h6vDZoHodisHxjsxRNAkErZq-f8xkB3_vcllm31BnWY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MzI2/MTYzLTE2NzcyODMw/MDQtMjQ0MS5qcGVn.jpeg"
-    },
-    {
       "slug": "3107051-fo-clips-eclipse-just-be-thankful-1996",
       "artiste": "Fo' Clips Eclipse",
       "titre": "Just Be Thankful",
@@ -3605,6 +3605,26 @@
       "release_id": "2201790",
       "resource_url": "https://api.discogs.com/releases/2201790",
       "cover_image": "https://i.discogs.com/9Ng745bulTRDdDQXK7KR2KtQfPuO-IEhHNQoxeMke_g/rs:fit/g:sm/q:90/h:524/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyMDE3/OTAtMTYxNzU0MDUw/My01NzYzLnBuZw.jpeg"
+    },
+    {
+      "slug": "15939167-just-what-u-been-waitin'-for-1998",
+      "artiste": "Game Clinic",
+      "titre": "Just What U Been Waitin' For",
+      "annee": 1997,
+      "stars": 2,
+      "favorite": false,
+      "favTracks": [
+3
+      ],
+      "tracklist": "1 - Just What U Been Watin' For\n2 - Ridin'\n3 - Big Hempin'\n4 - Tonight's The Night\n5 - Study Wrong\n6 - The Feddy\n7 - Break Me Down\n8 - Just What U Been Watin' For (Remix)\n9 - Big Hempin' (Drum Mix)\n10 - Just What U Been Watin' For (Drum Mix)\n11 - Front To Back (Previously Unreleased)\n12 - Superfly (Previously Unreleased)",
+      "label": "Scratchmade Entertainment",
+      "labels": [
+        "Scratchmade Entertainment"
+      ],
+      "discogsLink": "https://www.discogs.com/release/15939167",
+      "release_id": "15939167",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "2535678-gangsta-2-wanted-1995",
@@ -6707,10 +6727,12 @@
       "artiste": "Nonfiktion",
       "titre": "Creative Differences",
       "annee": 1996,
-      "stars": null,
+      "stars": 4,
       "favorite": false,
-      "favTracks": [],
-      "tracklist": "A1 - Willfully And Unlawfully\nA2 - Raw Game\nA3 - Burgandy Day\nA4 - Soldier\nA5 - Puttin It Down\nA6 - Highway Music\nB1 - Life Gets Hard\nB2 - East/West Party\nB3 - Murder Pays\nB4 - My Joint\nB5 - Smoke Out",
+      "favTracks": [
+9
+      ],
+      "tracklist": "1 - Willfully And Unlawfully\n2 - Raw Game\n3 - Burgandy Day\n4 - Soldier\n5 - Puttin It Down\n6 - Highway Music\n7 - Life Gets Hard\n8 - East/West Party\n9 - Murder Pays\n10 - My Joint\n11 - Smoke Out",
       "label": "RUG Records (2)",
       "labels": [
         "RUG Records (2)"
@@ -7111,6 +7133,26 @@
       "release_id": "1491164",
       "resource_url": "https://api.discogs.com/releases/1491164",
       "cover_image": "https://i.discogs.com/3pVd9ht5Qw1xDlP3V7AOkt7MZjlURi6Ub4NCKjvHg18/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0OTEx/NjQtMTUxNjkwMDYx/OC03NzQwLmpwZWc.jpeg"
+    },
+    {
+      "slug": "4628823-naked-truth-1998",
+      "artiste": "Polar Bear",
+      "titre": "Naked Truth",
+      "annee": 1998,
+      "stars": 1,
+      "favorite": false,
+      "favTracks": [
+12
+      ],
+      "tracklist": "1 - Intro\n2 - 4-Time Loser\n3 - Game Took Me Down\n4 - Family\n5 - Youngsta Life\n6 - Polar Angle\n7 - Quiet In The Jungle\n8 - Interlude\n9 - Y'all Ain't Real\n10 - Dreary\n11 - This Life\n12 - Wize Words\n13 - Nothin'\n14 - Why You Lie\n15 - Y'all Ain't Real Inst.",
+      "label": "Platinum Faith Records",
+      "labels": [
+        "Platinum Faith Records"
+      ],
+      "discogsLink": "https://www.discogs.com/release/4628823",
+      "release_id": "4628823",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "pooh-man-run-brotha-run-1993-872304",
@@ -9563,6 +9605,26 @@
       "release_id": "3768219",
       "resource_url": "https://api.discogs.com/releases/3768219",
       "cover_image": "https://i.discogs.com/Wo0OqN4Ko5rq1HD1jhpfWFdeO53u68CS-PqEjYIbFJI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njgy/MTktMTM2MTAzMzUw/OC00NDM0LmpwZWc.jpeg"
+    },
+    {
+      "slug": "3068870-mobb-life-1996",
+      "artiste": "Villin Mobb",
+      "titre": "Mobb Life",
+      "annee": 1996,
+      "stars": 3,
+      "favorite": false,
+      "favTracks": [
+7
+      ],
+      "tracklist": "1 - Mobb Life\n2 - Life Styles\n3 - Feel So Real\n4 - Reela Killa's & Thugs\n5 - Homies\n6 - Villin Mobb Got My Back\n7 - Killin State\n8 - ✓ Your Pulse\n9 - Edge Of Time\n10 - 9.1.6.\n11 - Outro",
+      "label": "Villin Mobb Production",
+      "labels": [
+        "Villin Mobb Production"
+      ],
+      "discogsLink": "https://www.discogs.com/release/3068870",
+      "release_id": "3068870",
+      "resource_url": "",
+      "cover_image": ""
     },
     {
       "slug": "vmf-pledge-a-groovallegiance-1998-14505478",
