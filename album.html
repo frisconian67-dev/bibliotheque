@@ -34,6 +34,74 @@ body{
     linear-gradient(180deg, #0b0b0f, #14141a);
 }
 
+/* bouton retour */
+.backBtn{
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 100;
+  padding: 9px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(11,11,15,.72);
+  backdrop-filter: blur(8px);
+  color: var(--text);
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: border-color 150ms ease, background 150ms ease;
+}
+.backBtn:hover{
+  border-color: rgba(255,211,107,.55);
+  background: rgba(11,11,15,.88);
+  color: var(--text);
+  text-decoration: none;
+}
+
+/* placeholder cover manquante */
+.coverBlock.no-cover img.cover{ display:none; }
+.coverBlock.no-cover::after{
+  content:"";
+  display:block;
+  width:100%;
+  max-width:420px;
+  aspect-ratio:1/1;
+  border-radius:14px;
+  border:1px solid rgba(255,211,107,.28);
+  background:
+    radial-gradient(60% 60% at 50% 42%, rgba(255,211,107,.07), transparent 70%),
+    #0e1220;
+  background-image:
+    radial-gradient(60% 60% at 50% 42%, rgba(255,211,107,.07), transparent 70%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 24 24' fill='none' stroke='rgba(255%2C211%2C107%2C.22)' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto, 96px 96px;
+}
+
+/* placeholder mini cartes "autres albums" */
+.relCoverWrap.no-cover .relCover{ display:none; }
+.relCoverWrap.no-cover::after{
+  content:"";
+  display:block;
+  width:100%;
+  aspect-ratio:1/1;
+  background:
+    radial-gradient(60% 60% at 50% 42%, rgba(255,211,107,.05), transparent 70%),
+    #0e1220;
+  background-image:
+    radial-gradient(60% 60% at 50% 42%, rgba(255,211,107,.05), transparent 70%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='rgba(255%2C211%2C107%2C.15)' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto, 48px 48px;
+}
+
 /* grain */
 .bg-noise{
   position:fixed;
@@ -302,6 +370,16 @@ ol.tracks{
   margin-top: 48px;
   padding-top: 24px;
   border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.relatedTitle{
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 18px;
+  text-align: left;
 }
 .related .panel {
   max-width: 900px;   /* même logique que ta page */
@@ -724,6 +802,7 @@ a:hover,
 
 <body>
   <div class="bg-noise"></div>
+  <a class="backBtn" href="index.html">← Retour</a>
   <div id="app"></div>
 
   <script>
@@ -840,6 +919,8 @@ function renderTracklist(tracklist, favTracks) {
     const artistClean = cleanArtist(a.artiste || "");
     const currentSlug = String(a.slug || "");
 
+    document.title = `${a.titre || "Album"} — ${artistClean} | OG Collection`;
+
     app.innerHTML = `
       <div class="page">
         <div class="header">
@@ -860,7 +941,7 @@ function renderTracklist(tracklist, favTracks) {
          src="covers/${a.release_id}.jpg"
          alt="Pochette de ${escapeHtml(a.titre || "")}"
          loading="lazy" decoding="async"
-         onerror="this.style.display='none'">
+         onerror="this.closest('.coverBlock,.relCoverWrap').classList.add('no-cover')">
 
     ${(() => {
       const arr = Array.isArray(a.labels) ? a.labels : [];
@@ -918,6 +999,7 @@ function renderTracklist(tracklist, favTracks) {
     }
 
    box.innerHTML = `
+  <p class="relatedTitle">Autres albums de ${escapeHtml(artistClean)}</p>
   <div class="relatedGrid">
     ${others.map(x => `
       <a class="relCard" href="album.html?slug=${encodeURIComponent(x.slug)}" aria-label="${escapeHtml(x.titre || "")}">
@@ -926,7 +1008,7 @@ function renderTracklist(tracklist, favTracks) {
                src="covers/${x.release_id}.jpg"
                alt="Pochette de ${escapeHtml(x.titre || "")}"
                loading="lazy" decoding="async"
-               onerror="this.style.display='none'">
+               onerror="this.closest('.coverBlock,.relCoverWrap').classList.add('no-cover')">
           <div class="relShine"></div>
         </div>
         <div class="relMeta">
