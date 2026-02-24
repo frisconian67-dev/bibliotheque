@@ -504,6 +504,21 @@ a:hover,
   text-decoration: underline;
 }
 
+/* ===== GRID CARDS : mobile (identique index.html) ===== */
+@media(max-width:600px){
+  .grid{
+    gap:10px;
+    padding:10px;
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+  }
+  .meta{ padding:10px 10px 12px; }
+  .meta .artist{ font-size:13px; margin-bottom:4px; }
+  .separator{ width:54px; margin:6px auto; }
+  .meta .title{ font-size:13px; margin:0 0 4px; }
+  .meta .year{ font-size:12px; margin-top:4px; }
+  .stars{ font-size:16px; margin-top:6px; letter-spacing:1px; }
+  .card{ border-width:1px; }
+}
 
   </style>
 </head>
