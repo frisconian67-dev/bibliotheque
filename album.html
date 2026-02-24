@@ -722,79 +722,106 @@ a:hover,
   color: #ffe39a !important;
   text-decoration: underline;
 }
-/* ===== Autres albums : mini cartes ===== */
-.relatedGrid{
-  display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap:12px;
+/* ===== Carousel autres albums ===== */
+.carouselWrap{
+  position: relative;
 }
 
+/* flèches desktop */
+.carBtn{
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,211,107,.35);
+  background: rgba(11,11,15,.88);
+  backdrop-filter: blur(6px);
+  color: rgba(255,211,107,.9);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 150ms ease, border-color 150ms ease;
+  padding: 0;
+}
+.carBtn--prev{ left: -18px; }
+.carBtn--next{ right: -18px; }
+.carBtn:disabled{ opacity: .18; pointer-events: none; }
+.carBtn:not(:disabled):hover{ border-color: rgba(255,211,107,.7); }
+
+/* piste de défilement */
+.relCarousel{
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 4px 4px 14px;
+}
+.relCarousel::-webkit-scrollbar{ display: none; }
+
+/* carte fixe */
 .relCard{
-  display:block;
-  text-decoration:none;
-  color:inherit;
-  border-radius:14px;
-  overflow:hidden;
-
-  /* encadrement doré */
-  border:1px solid rgba(255,211,107,.45);
-
-  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
-  box-shadow:
-    inset 0 0 0 1px rgba(255,211,107,.15),
-    0 10px 24px rgba(0,0,0,.45);
-
-  transition:
-    transform 160ms ease,
-    box-shadow 160ms ease,
-    border-color 160ms ease;
+  flex: 0 0 140px;
+  scroll-snap-align: start;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.02);
+  box-shadow: 0 8px 20px rgba(0,0,0,.4);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
 }
-
-
 .relCard:hover{
-  transform: translateY(-2px);
-  border-color: rgba(255,211,107,.35);
-  box-shadow: 0 0 18px rgba(255,211,107,.10), 0 12px 26px rgba(0,0,0,.55);
+  transform: translateY(-3px);
+  border-color: rgba(255,211,107,.6);
+  box-shadow: 0 0 18px rgba(255,211,107,.18), 0 10px 24px rgba(0,0,0,.5);
 }
 
-.relCoverWrap{ position:relative; }
+.relCoverWrap{ position: relative; }
 .relCover{
-  width:100%;
-  aspect-ratio:1/1;
-  object-fit:cover;
-  display:block;
-  background:#0e1220;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  display: block;
+  background: #0e1220;
 }
 .relShine{
-  position:absolute; inset:0;
+  position: absolute; inset: 0;
   background: radial-gradient(420px 200px at 20% 0%, rgba(255,255,255,.08), transparent 55%);
-  pointer-events:none;
+  pointer-events: none;
 }
 
-.relMeta{ padding:10px 10px 12px; text-align:center; }
+.relMeta{ padding: 9px 9px 11px; text-align: center; }
 .relTitle{
-  margin:0;
-  font-weight:800;
-  font-size:13px;
-  line-height:1.15;
-  overflow:hidden;
-  display:-webkit-box;
+  margin: 0;
+  font-weight: 800;
+  font-size: 12.5px;
+  line-height: 1.2;
+  overflow: hidden;
+  display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 .relYear{
-  display:block;
-  margin-top:6px;
-  font-size:12px;
-  color: rgba(255,255,255,.62);
+  display: block;
+  margin-top: 5px;
+  font-size: 11.5px;
+  color: rgba(255,255,255,.55);
 }
 
-/* mobile : encore plus compact */
+/* mobile : pas de flèches, scroll natif suffit */
 @media (max-width:760px){
-  .relatedGrid{ grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap:10px; }
-  .relMeta{ padding:9px 9px 11px; }
-  .relTitle{ font-size:12.5px; }
-  .relYear{ font-size:11.5px; }
+  .carBtn{ display: none; }
+  .relCarousel{ padding-left: 0; padding-right: 0; }
 }
 
 </style>
@@ -1000,25 +1027,49 @@ function renderTracklist(tracklist, favTracks) {
 
    box.innerHTML = `
   <p class="relatedTitle">Autres albums de ${escapeHtml(artistClean)}</p>
-  <div class="relatedGrid">
-    ${others.map(x => `
-      <a class="relCard" href="album.html?slug=${encodeURIComponent(x.slug)}" aria-label="${escapeHtml(x.titre || "")}">
-        <div class="relCoverWrap">
-          <img class="relCover"
-               src="covers/${x.release_id}.jpg"
-               alt="Pochette de ${escapeHtml(x.titre || "")}"
-               loading="lazy" decoding="async"
-               onerror="this.closest('.coverBlock,.relCoverWrap').classList.add('no-cover')">
-          <div class="relShine"></div>
-        </div>
-        <div class="relMeta">
-          <p class="relTitle">${escapeHtml(x.titre || "")}</p>
-          <span class="relYear">${escapeHtml(x.annee ? String(x.annee) : "")}</span>
-        </div>
-      </a>
-    `).join("")}
+  <div class="carouselWrap">
+    <button class="carBtn carBtn--prev" aria-label="Précédent" disabled>&#8249;</button>
+    <div class="relCarousel">
+      ${others.map(x => `
+        <a class="relCard" href="album.html?slug=${encodeURIComponent(x.slug)}" aria-label="${escapeHtml(x.titre || "")}">
+          <div class="relCoverWrap">
+            <img class="relCover"
+                 src="covers/${x.release_id}.jpg"
+                 alt="Pochette de ${escapeHtml(x.titre || "")}"
+                 loading="lazy" decoding="async"
+                 onerror="this.closest('.relCoverWrap').classList.add('no-cover')">
+            <div class="relShine"></div>
+          </div>
+          <div class="relMeta">
+            <p class="relTitle">${escapeHtml(x.titre || "")}</p>
+            <span class="relYear">${escapeHtml(x.annee ? String(x.annee) : "")}</span>
+          </div>
+        </a>
+      `).join("")}
+    </div>
+    <button class="carBtn carBtn--next" aria-label="Suivant">&#8250;</button>
   </div>
 `;
+
+  // Logique des flèches
+  const carousel  = box.querySelector('.relCarousel');
+  const prevBtn   = box.querySelector('.carBtn--prev');
+  const nextBtn   = box.querySelector('.carBtn--next');
+
+  function scrollCarousel(dir){
+    const cardW = (carousel.querySelector('.relCard')?.offsetWidth ?? 140) + 12;
+    carousel.scrollBy({ left: dir * cardW * 3, behavior: 'smooth' });
+  }
+
+  function updateArrows(){
+    prevBtn.disabled = carousel.scrollLeft <= 1;
+    nextBtn.disabled = carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth - 1;
+  }
+
+  prevBtn.addEventListener('click', () => scrollCarousel(-1));
+  nextBtn.addEventListener('click', () => scrollCarousel(1));
+  carousel.addEventListener('scroll', updateArrows, { passive: true });
+  updateArrows();
 
   });
 

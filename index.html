@@ -563,7 +563,10 @@ function appendNext(){
   const d = document.createElement('div');
   d.className = 'card' + (parseInt(a.stars, 10) === 5 ? ' fiveStars' : '');
 
-  d.onclick = () => location.href = `album.html?slug=${encodeURIComponent(a.slug)}`;
+  d.onclick = () => {
+    sessionStorage.setItem('og_scroll', JSON.stringify({ scrollY: window.scrollY, visible }));
+    location.href = `album.html?slug=${encodeURIComponent(a.slug)}`;
+  };
 
   const artistClean = cleanArtist(a.artiste || '');
 
@@ -611,7 +614,18 @@ const io = new IntersectionObserver((entries) => {
 
 io.observe(sentinel);
 
-
+// Restauration position scroll au retour d'une page album
+const _savedRaw = sessionStorage.getItem('og_scroll');
+if (_savedRaw) {
+  try {
+    const { scrollY: _savedY, visible: _savedVis } = JSON.parse(_savedRaw);
+    sessionStorage.removeItem('og_scroll');
+    // Charge suffisamment d'albums pour couvrir la position sauvegardée
+    while (visible < Math.min(_savedVis, filtered.length)) appendNext();
+    // Restaure le scroll après que le DOM ait rendu les cartes
+    requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo({ top: _savedY })));
+  } catch(_) { /* silencieux */ }
+}
 
 function applyFilters(){
   const text = q.value.trim().toLowerCase();

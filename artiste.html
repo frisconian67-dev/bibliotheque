@@ -457,9 +457,8 @@ a:hover,
       if (count) {
         count.textContent = `${items.length} album${items.length > 1 ? 's' : ''}`;
       }
-console.log(items[0]);
 
-    const grid = document.getElementById('grid'); // <— IMPORTANT (voir note HTML)
+    const grid = document.getElementById('grid');
 grid.innerHTML = items.map(a => `
   <div class="card" onclick="location.href='album.html?slug=${encodeURIComponent(a.slug)}'">
     <div class="coverWrap">
@@ -473,19 +472,9 @@ grid.innerHTML = items.map(a => `
 
     <div class="meta">
       <div class="separator"></div>
-
       <p class="title">${escapeHtml(a.titre || '')}</p>
       <span class="year">${a.annee ?? ''}</span>
-
-      ${a.label ? `
-        <div class="labelLine">
-          <a class="labelLink" href="label.html?name=${encodeURIComponent(a.label)}" onclick="event.stopPropagation()">
-            ${escapeHtml(a.label)}
-          </a>
-        </div>
-      ` : ``}
-
-      <div class="stars">${starsHtml(a.stars)}</div>
+      ${starsHtml(a.stars)}
     </div>
   </div>
 `).join('');
@@ -498,8 +487,12 @@ grid.innerHTML = items.map(a => `
   if (n === null || n === undefined || n === "") return "";
   const v = Math.max(0, Math.min(5, Number(n)));
   let s = "";
-  for (let i = 1; i <= 5; i++) s += (i <= v) ? "★" : "☆";
-  return s;
+  for (let i = 1; i <= 5; i++){
+    s += i <= v
+      ? `<span class="on">★</span>`
+      : `<span class="off">☆</span>`;
+  }
+  return `<div class="stars">${s}</div>`;
 }
 
 </script>
