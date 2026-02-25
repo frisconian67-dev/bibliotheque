@@ -324,6 +324,16 @@ ol.tracks{
   margin-top: 28px;   /* plus compact */
 }
 
+.relatedTitle{
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+
 .related .row {
   justify-content: flex-start;
 }
@@ -905,13 +915,13 @@ function renderTracklist(tracklist, favTracks) {
         `}
       `;
     })()}
-  </div>
 
-  ${a.state ? `
-    <div class="stateRow">
-      <span class="stateBadge">${escapeHtml(a.state)}</span>
-    </div>
-  ` : ""}
+    ${a.state ? `
+      <div class="stateRow">
+        <span class="stateBadge">${escapeHtml(a.state)}</span>
+      </div>
+    ` : ""}
+  </div>
 
   ${renderTracklist(a.tracklist, a.favTracks)}
 
@@ -937,12 +947,12 @@ function renderTracklist(tracklist, favTracks) {
       .sort((p, q) => (p.annee ?? 0) - (q.annee ?? 0));
 
     if (!others.length) {
-  box.innerHTML = "";
-  return;
-
+      box.innerHTML = "";
+      return;
     }
 
-   box.innerHTML = `
+    box.innerHTML = `
+  <h3 class="relatedTitle">Autres albums</h3>
   <div class="relatedGrid">
     ${others.map(x => `
       <a class="relCard" href="album.html?slug=${encodeURIComponent(x.slug)}" aria-label="${escapeHtml(x.titre || "")}">
