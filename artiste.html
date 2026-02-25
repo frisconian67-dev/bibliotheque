@@ -387,6 +387,29 @@ a:hover,
   margin: 6px 0 4px;
 }
 
+/* pastille provenance */
+.stateBadge{
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(100,180,255,.30);
+  background: linear-gradient(180deg, rgba(100,180,255,.08), rgba(100,180,255,.02));
+  color: rgba(140,200,255,.88);
+  text-shadow: 0 0 8px rgba(100,180,255,.15);
+  font-size: 11px;
+  letter-spacing: .3px;
+}
+
+/* année sur sa propre ligne, centrée (comme index.html) */
+.card .meta .year{
+  display: block;
+  text-align: center;
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
   </style>
 </head>
 <body>
@@ -465,6 +488,8 @@ grid.innerHTML = items.map(a => `
       ` : ``}
 
       <div class="stars">${starsHtml(a.stars)}</div>
+
+      ${a.state ? `<div><span class="stateBadge">${escapeHtml(a.state)}</span></div>` : ``}
     </div>
   </div>
 `).join('');

@@ -324,6 +324,16 @@ ol.tracks{
   margin-top: 28px;   /* plus compact */
 }
 
+.relatedTitle{
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+
 .related .row {
   justify-content: flex-start;
 }
@@ -442,6 +452,25 @@ ol.tracks{
   border-color: rgba(255,211,107,.55);
   text-decoration: underline;
   opacity: 1;
+}
+
+/* pastille provenance */
+.stateRow{
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.stateBadge{
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(100,180,255,.30);
+  background: linear-gradient(180deg, rgba(100,180,255,.08), rgba(100,180,255,.02));
+  color: rgba(140,200,255,.90);
+  text-shadow: 0 0 10px rgba(100,180,255,.15);
+  font-size: 13px;
+  letter-spacing: .3px;
+  display: inline-block;
 }
 /* ===== FIX MOBILE TRACKLIST SEULEMENT ===== */
 @media (max-width:760px){
@@ -886,6 +915,12 @@ function renderTracklist(tracklist, favTracks) {
         `}
       `;
     })()}
+
+    ${a.state ? `
+      <div class="stateRow">
+        <span class="stateBadge">${escapeHtml(a.state)}</span>
+      </div>
+    ` : ""}
   </div>
 
   ${renderTracklist(a.tracklist, a.favTracks)}
@@ -912,12 +947,12 @@ function renderTracklist(tracklist, favTracks) {
       .sort((p, q) => (p.annee ?? 0) - (q.annee ?? 0));
 
     if (!others.length) {
-  box.innerHTML = "";
-  return;
-
+      box.innerHTML = "";
+      return;
     }
 
-   box.innerHTML = `
+    box.innerHTML = `
+  <h3 class="relatedTitle">Autres albums</h3>
   <div class="relatedGrid">
     ${others.map(x => `
       <a class="relCard" href="album.html?slug=${encodeURIComponent(x.slug)}" aria-label="${escapeHtml(x.titre || "")}">
